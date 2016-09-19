@@ -1,0 +1,183 @@
+@import "variables.less";
+@import "typography.less";
+
+
+//navbar
+#navbar{
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5em;
+    font-size: 1.15em;
+    line-height: 1.8em;
+    color: @paper;
+    background-color: @rustyRed;
+    text-align: center;
+    
+    ul.pages1{
+        display: inline-block;
+        // position: relative;
+        color: @paper;
+        margin-right: 1em;
+        font-family: @abolon, @oswaldBold, sans-serif;
+        font-size: 1.25em;
+        li.page{
+            margin-left: 1em;
+            margin-right: 1em;
+            color: @paper;
+            display: inline-block;
+            a{
+                color: @paper;
+                text-decoration: none;
+            }
+            a:hover{
+                    color: @warmYellow;
+            }
+        }
+    }
+    #nav-logo{
+        position: absolute;
+        left: 50%;
+        vertical-align: middle;
+        z-index: 9999;
+    }
+    ul.pages2{
+        display: inline;
+        color: @paper;
+        margin-left: -1em;
+        font-family: @abolon, @oswaldBold, sans-serif;
+        font-size: 1.25em;
+        li.page{
+            margin-left: 1em;
+            margin-right: 1em;
+            color: @paper;
+            display: inline-block;
+            a{
+                color: @paper;
+                text-decoration: none;
+            }
+            a:hover{
+                color: @warmYellow;
+            }
+        }
+    }
+}
+//temporary container
+.temporary{
+    height: 40em;
+    margin-left: 10em;
+    margin-top: 2em;
+}
+// footer styling
+div#footer-container {
+    height: 15em;
+    background-color: @gunMetal;
+    clear: both;
+    color: @warmYellow;
+    width: 100%;
+
+        #footer-logo {
+            float: left;
+            height: 15em;
+            line-height: 15em;
+
+            img {
+                color: @warmYellow;
+                // font-size: 11em;
+                padding-top: .15em;
+                width: 12em;
+            }
+        }
+
+        .footer-links {
+            ul {
+                padding-top: 1.9em;
+            }
+
+            li {
+                list-style: none;
+                padding-top: .3em;
+                font-size: 1.5em;
+                font-family: @oswaldBold, @abolon, sans-serif;
+                font-weight: 400;
+            }
+
+            a {
+                color: @warmYellow;
+            }
+
+            a:hover {
+                color: @paper;
+                text-decoration: none;
+            }
+        }
+
+        #footer-social {
+            height: 15em;
+            line-height: 15em;
+            float: right;
+
+            a {
+                color: @warmYellow;
+                text-decoration: none;
+                }
+
+            a:hover {
+                color: @paper;
+                }
+
+            .fa-facebook-square {
+                font-size: 5em;
+            }
+
+            .fa-twitter-square {
+                font-size: 5em;
+                padding-left: .3em;
+            }
+        }
+
+
+        #copyright {
+            text-align: center;
+            margin-top: -2em;
+            font-size: 1.2em;
+            // font-family: @oswaldLight;
+            font-family: @abolon, @oswaldLight, sans-serif;
+            font-weight: 300;
+            // font-size: 2em;
+        }
+}
+
+
+// About Us Styling
+div#about-main-container {
+
+#chris-image {
+    img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+// #chris-para {
+//     font-size: 20px;
+// }
+
+#jess-image {
+    img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+// .fa-github {
+//     font-size: 5em;
+// }
+
+// #jess-image {
+//     height: 2em;
+//     width: 2em;
+// }
+
+}

@@ -193,3 +193,45 @@ div#about-main-container #jess-image img {
   width: 300px;
   float: right;
 }
+div#services-main-container {
+  padding-top: 4em;
+  padding-bottom: 5em;
+}
+div#services-main-container h2 {
+  font-family: "Abolon", sans-serif;
+}
+div#services-main-container .services-para {
+  font-family: "Oswald-Light", sans-serif;
+  font-size: 18px;
+}
+div#services-main-container #webdesign-container {
+  width: 75%;
+  margin: auto;
+}
+div#services-main-container #webdesign-container #webdesign-image img {
+  height: 150px;
+  width: 250px;
+  float: left;
+  padding-right: 2em;
+}
+div#services-main-container #seo-container {
+  width: 75%;
+  margin: auto;
+  padding-top: 3em;
+}
+div#services-main-container #seo-image img {
+  height: 150px;
+  width: 250px;
+  float: right;
+}
+div#services-main-container #graphicdesign-container {
+  width: 75%;
+  margin: auto;
+  padding-top: 3em;
+}
+div#services-main-container #graphicdesign-image img {
+  height: 150px;
+  width: 250px;
+  float: left;
+  padding-right: 2em;
+}

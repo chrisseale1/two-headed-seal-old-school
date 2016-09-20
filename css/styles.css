@@ -147,7 +147,7 @@ div.footer-container #copyright {
 }
 div#about-main-container {
   padding-top: 4em;
-  padding-bottom: 5em;
+  padding-bottom: 4em;
 }
 div#about-main-container h2 {
   font-family: "Oswald-Bold", sans-serif;
@@ -194,11 +194,13 @@ div#about-main-container #jess-image img {
   float: right;
 }
 div#services-main-container {
-  padding-top: 4em;
-  padding-bottom: 5em;
+  padding-top: 5em;
+  padding-bottom: 4em;
+  display: inline-block;
 }
 div#services-main-container h2 {
   font-family: "Abolon", sans-serif;
+  margin-top: 0;
 }
 div#services-main-container .services-para {
   font-family: "Oswald-Light", sans-serif;
@@ -214,10 +216,17 @@ div#services-main-container #webdesign-container #webdesign-image img {
   float: left;
   padding-right: 2em;
 }
+div#services-main-container #seo-background {
+  background-color: #e7e9ec;
+  padding-top: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  display: inline-block;
+}
 div#services-main-container #seo-container {
   width: 75%;
   margin: auto;
-  padding-top: 3em;
 }
 div#services-main-container #seo-image img {
   height: 150px;
@@ -227,7 +236,6 @@ div#services-main-container #seo-image img {
 div#services-main-container #graphicdesign-container {
   width: 75%;
   margin: auto;
-  padding-top: 3em;
 }
 div#services-main-container #graphicdesign-image img {
   height: 150px;

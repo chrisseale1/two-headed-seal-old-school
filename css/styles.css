@@ -81,71 +81,115 @@
   margin-left: 10em;
   margin-top: 2em;
 }
-div#footer-container {
+div.footer-container {
   height: 15em;
   background-color: #233237;
   clear: both;
   color: #EAC67A;
   width: 100%;
 }
-div#footer-container #footer-logo {
+div.footer-container #footer-contents {
+  width: 75%;
+  margin: auto;
+}
+div.footer-container #footer-logo {
   float: left;
   height: 15em;
   line-height: 15em;
 }
-div#footer-container #footer-logo img {
+div.footer-container #footer-logo img {
   color: #EAC67A;
   padding-top: .15em;
   width: 12em;
 }
-div#footer-container .footer-links ul {
+div.footer-container .footer-links ul {
   padding-top: 1.9em;
 }
-div#footer-container .footer-links li {
+div.footer-container .footer-links li {
   list-style: none;
   padding-top: .3em;
   font-size: 1.5em;
   font-family: "Oswald-Bold", "Abolon", sans-serif;
   font-weight: 400;
 }
-div#footer-container .footer-links a {
+div.footer-container .footer-links a {
   color: #EAC67A;
 }
-div#footer-container .footer-links a:hover {
+div.footer-container .footer-links a:hover {
   color: #F4F4F4;
   text-decoration: none;
 }
-div#footer-container #footer-social {
+div.footer-container #footer-social {
   height: 15em;
   line-height: 15em;
   float: right;
 }
-div#footer-container #footer-social a {
+div.footer-container #footer-social a {
   color: #EAC67A;
   text-decoration: none;
 }
-div#footer-container #footer-social a:hover {
+div.footer-container #footer-social a:hover {
   color: #F4F4F4;
 }
-div#footer-container #footer-social .fa-facebook-square {
+div.footer-container #footer-social .fa-facebook-square {
   font-size: 5em;
 }
-div#footer-container #footer-social .fa-twitter-square {
+div.footer-container #footer-social .fa-twitter-square {
   font-size: 5em;
   padding-left: .3em;
 }
-div#footer-container #copyright {
+div.footer-container #copyright {
   text-align: center;
   margin-top: -2em;
   font-size: 1.2em;
   font-family: "Abolon", "Oswald-Light", sans-serif;
   font-weight: 300;
 }
-div#about-main-container #chris-image img {
+div#about-main-container {
+  padding-top: 4em;
+  padding-bottom: 5em;
+}
+div#about-main-container h2 {
+  font-family: "Oswald-Bold", sans-serif;
+}
+div#about-main-container h3 {
+  font-family: "Abolon", sans-serif;
+}
+div#about-main-container .about-para {
+  font-family: "Oswald-Light", sans-serif;
+  font-size: 18px;
+}
+div#about-main-container .contact-info {
+  font-family: "Oswald-Regular";
+  font-size: 20px;
+}
+div#about-main-container .contact-info img {
+  width: 5em;
+}
+div#about-main-container .contact-info a {
+  text-decoration: none;
+  color: midnightblue;
+}
+div#about-main-container .contact-info a a:hover {
+  color: #984B43;
+}
+div#about-main-container #chris-container {
+  width: 75%;
+  margin: auto;
+}
+div#about-main-container #chris-container #chris-image img {
   height: 300px;
   width: 300px;
+  float: left;
+  padding-right: 2em;
+}
+div#about-main-container #jess-container {
+  width: 75%;
+  margin: auto;
+  padding-top: 3em;
 }
 div#about-main-container #jess-image img {
   height: 300px;
   width: 300px;
+  float: right;
 }

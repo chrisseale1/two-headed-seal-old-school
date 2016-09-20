@@ -73,12 +73,17 @@
     margin-top: 2em;
 }
 // footer styling
-div#footer-container {
+div.footer-container {
     height: 15em;
     background-color: @gunMetal;
     clear: both;
     color: @warmYellow;
     width: 100%;
+
+    #footer-contents {
+        width: 75%;
+        margin: auto;
+    }
 
         #footer-logo {
             float: left;
@@ -155,32 +160,72 @@ div#footer-container {
 
 // About Us Styling
 div#about-main-container {
+    padding-top: 4em;
+    padding-bottom: 5em;
 
-#chris-image {
-    img {
-        height: 300px;
-        width: 300px;
+    h2 {
+        font-family: @oswaldBold, sans-serif;
     }
-}
 
-// #chris-para {
-//     font-size: 20px;
-// }
-
-#jess-image {
-    img {
-        height: 300px;
-        width: 300px;
+    h3 {
+        font-family: @abolon, sans-serif;
     }
-}
 
-// .fa-github {
-//     font-size: 5em;
-// }
+    .about-para {
+        font-family: @oswaldLight, sans-serif;
+        font-size: 18px;
+    }
 
-// #jess-image {
-//     height: 2em;
-//     width: 2em;
-// }
+    .contact-info {
+
+        font-family: @oswaldRegular;
+        font-size: 20px;
+
+        img {
+            width: 5em;
+        }
+
+        a {
+            text-decoration: none;
+            color: midnightblue;
+
+                a:hover {
+                    color: @rustyRed;
+                }
+        }
+    }
+    
+    // begin chris styling
+
+    #chris-container {
+        width: 75%;
+        margin: auto;
+
+        #chris-image {
+            img {
+                height: 300px;
+                width: 300px;
+                float: left;
+                padding-right: 2em;
+            }
+        }
+        
+    }
+
+// begin jess styling
+
+    #jess-container {
+        width: 75%;
+        margin: auto;
+        padding-top: 3em;
+    }
+
+    #jess-image {
+        img {
+            height: 300px;
+            width: 300px;
+            float: right;
+        }
+    }
 
 }

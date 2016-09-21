@@ -296,32 +296,42 @@ div.services-main-container {
     h1 {
         font-family: @abolon, sans-serif;
         margin-top: 0;
+          overflow: auto;
+
     }
 
     .services-para {
         font-family: @oswaldLight, sans-serif;
         font-size: 18px;
+        display: inline-block;
+          overflow: auto;
+
     }
 
     .title {
         width: 100%;
         display: inline-block;
+          overflow: auto;
+
     }
     
 // WEB DESIGN STYLING
 
     #webdesign-container {
-        width: 75%;
+        width: 80%;
         margin: auto;
 
         #webdesign-image {
             img {
-                height: 150px;
+                height: 11em;
+                // display: inline;
             }
         }
 
         #webdesign-info {
             margin-left: 2em;
+            display: inline-block;
+
         }
             }
 
@@ -334,31 +344,47 @@ div.services-main-container {
         margin-bottom: 2em;
         padding-bottom: 2em;
         display: inline-block;
+        width: 100%;
     }
 
     #seo-container {
-        width: 75%;
+        width: 80%;
         margin: auto;
     
         h1 {
             float: right;
+            // display: inline-block;
+                    // width: 100%;
+
         }
         #seo-image {
+            // float: right;
+            margin-left: 0;
+            position: absolute;
+
             img {
-                height: 150px;
-                float: right;
+                height: 11em;
+                // display: inline-block;
+                //   overflow: auto;
+
             }
         }
         #seo-info {
-                margin-right: 2em;
-                float: right;
+                // margin-right: 2em;
+                // float: right;
+                display: inline-block;
+                position: relative;
+                //   overflow: auto;
+
+
+
         }
     }
 
 // GRAPHIC DESIGN STYLING
 
     #graphicdesign-container {
-        width: 75%;
+        width: 80%;
         margin: auto;    
 
     #graphicdesign-image {
@@ -377,21 +403,20 @@ div.services-main-container {
 // MOBILE SERVICES STYLING
 
     @media only screen 
-        and (min-width : 480px) 
-        and (max-width : 768px)     {
+        and (max-width : 480px)    {
 
         div.services-main-container {
 
             text-align: center;
 
-                .title {
-                    h1 {
-                    font-size: 4em;
-                    }
-                }
+                // .title {
+                //     h1 {
+                //     // font-size: 2em;
+                //     }
+                // }
 
                 .services-para {
-                    font-size: 2.5em;
+                    font-size: 18px;
                 }
 
                 #webdesign-container {
@@ -413,6 +438,14 @@ div.services-main-container {
                         margin: 0 .75em 0 .75em;
                         float: none;
                     }   
+                }
+
+                #graphicdesign-container {
+                    width: 100%;
+
+                    #graphicdesign-info {
+                        margin: 0 .75em 0 .75em;
+                    }
                 }
             }
     }

@@ -243,24 +243,29 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container h1 {
     font-family: "Abolon", sans-serif;
     margin-top: 0;
+    overflow: auto;
   }
   div.services-main-container .services-para {
     font-family: "Oswald-Light", sans-serif;
     font-size: 18px;
+    display: inline-block;
+    overflow: auto;
   }
   div.services-main-container .title {
     width: 100%;
     display: inline-block;
+    overflow: auto;
   }
   div.services-main-container #webdesign-container {
-    width: 75%;
+    width: 80%;
     margin: auto;
   }
   div.services-main-container #webdesign-container #webdesign-image img {
-    height: 150px;
+    height: 11em;
   }
   div.services-main-container #webdesign-container #webdesign-info {
     margin-left: 2em;
+    display: inline-block;
   }
   div.services-main-container #seo-background {
     background-color: #e7e9ec;
@@ -269,24 +274,28 @@ div#about-main-container #jess-container #jess-info {
     margin-bottom: 2em;
     padding-bottom: 2em;
     display: inline-block;
+    width: 100%;
   }
   div.services-main-container #seo-container {
-    width: 75%;
+    width: 80%;
     margin: auto;
   }
   div.services-main-container #seo-container h1 {
     float: right;
   }
+  div.services-main-container #seo-container #seo-image {
+    margin-left: 0;
+    position: absolute;
+  }
   div.services-main-container #seo-container #seo-image img {
-    height: 150px;
-    float: right;
+    height: 11em;
   }
   div.services-main-container #seo-container #seo-info {
-    margin-right: 2em;
-    float: right;
+    display: inline-block;
+    position: relative;
   }
   div.services-main-container #graphicdesign-container {
-    width: 75%;
+    width: 80%;
     margin: auto;
   }
   div.services-main-container #graphicdesign-container #graphicdesign-image img {
@@ -296,15 +305,12 @@ div#about-main-container #jess-container #jess-info {
     margin-left: 2em;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   div.services-main-container {
     text-align: center;
   }
-  div.services-main-container .title h1 {
-    font-size: 4em;
-  }
   div.services-main-container .services-para {
-    font-size: 2.5em;
+    font-size: 18px;
   }
   div.services-main-container #webdesign-container {
     width: 100%;
@@ -321,5 +327,11 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container #seo-container #seo-info {
     margin: 0 .75em 0 .75em;
     float: none;
+  }
+  div.services-main-container #graphicdesign-container {
+    width: 100%;
+  }
+  div.services-main-container #graphicdesign-container #graphicdesign-info {
+    margin: 0 .75em 0 .75em;
   }
 }

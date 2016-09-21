@@ -2,6 +2,11 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website for Two-Headed Seal">
+    <meta name="author" content="Chris Seale and Jessica Larsen">
+    <title>Home</title>
     <title>Two Headed Seal</title>
     <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/ >
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
@@ -16,53 +21,67 @@
 </head>
 
 <body>
-    <header>
-        <div id="navbar">
-            <ul class="pages1">
-                <li class="page"><a href="home.html">HOME</a></li>
-                <li class="page"><a href="services.html">SERVICES</a></li>
-                <li class="page"><a href="aboutus.html">ABOUT</a></li>
-            </ul>
-            <a href="home.html"><img src="images/nav-logo1.png" width="120em"></a>
-            <ul class="pages2">
-                <li class="page"><a href="portfolio.html">PORTFOLIO</a></li>
-                <li class="page"><a href="contact.html">CONTACT</a></li>
-                <li class="page"><a href="sixth.html">SIXTH</a></li>
-            </ul>
+    <header class="navbar navbar-custom navbar-fixed-top bs-docs-nav" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-custom">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <nav class="collapse navbar-collapse navbar-custom-collapse" role="navigation">
+                <ul class="nav navbar-nav pages">
+                    <li class="page"><a href="home.html">Home</a></li>
+                    <li class="page"><a href="services.html">Services</a></li>
+                    <li class="page"><a href="aboutus.html">About</a></li>
+                    <li class="page hidden-xs"><a href="home.html"><img id="nav-brand" src="images/nav-logo1.png" width="120" alt="Two-Headed Seal Logo"></a></li>
+                    <li class="page"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="page"><a href="contact.html">Contact</a></li>
+                    <li class="page"><a href="sixth.html">Sixth</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <!--PAGE CONTENT BEGINS-->
-        <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="row">
+            <div class="col-2-md spacer"></div>
+            <div class="col-4-md jumbo-image-left"></div>
+            <div class="col-4-md jumbo-image-right"></div>
+            <div class="col-2-md spacer"></div>
+        </div>
         <div class="container">
             <h1 class="display-3">Fluid jumbotron</h1>
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
     </div>
     <div class="row">
-            <div class="container">
+        <div class="container">
+            <div class="mini-container">
                 <div class="col-md-4">
                     <h2>Heading</h2>
                     <div class="mini-image"></div>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p>
-                        <a class="btn btn-default" href="#" role="button">View details »</a>
-                    </p>
+                    <a class="btn btn-default" href="#" role="button">Learn More</a>
                 </div>
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <div class="mini-image"></div>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p>
-                    <a class="btn btn-default" href="#" role="button">View details »</a>
-                </p>
             </div>
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <div class="mini-image"></div>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p>
-                    <a class="btn btn-default" href="#" role="button">View details »</a>
-                </p>
+            <div class="mini-container">
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <div class="mini-image"></div>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <a class="btn btn-default" href="#" role="button">Learn More</a>
+                </div>
+            </div>
+            <div class="mini-container">
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <div class="mini-image"></div>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <a class="btn btn-default" href="#" role="button">Learn More</a>   
+                </div>
             </div>
         </div>
     </div>

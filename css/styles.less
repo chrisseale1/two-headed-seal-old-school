@@ -6,30 +6,25 @@
 }
 
 //navbar
-#navbar{
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 5em;
-    font-size: 1.15em;
-    line-height: 1.8em;
+.navbar-custom{
     color: @paper;
     background-color: @rustyRed;
     text-align: center;
+    margin-bottom: 1em;
     
-    ul.pages1{
+    ul.pages{
         display: inline-block;
-        // position: relative;
         color: @paper;
-        margin-right: 1em;
+        height: 3em;
         font-family: @abolon, @oswaldBold, sans-serif;
-        font-size: 1.25em;
+        font-size: 1.45em;
+        line-height: -1em;
+        margin-top: 1em;
         li.page{
             margin-left: 1em;
             margin-right: 1em;
             color: @paper;
-            display: inline-block;
+            display: inline;
             a{
                 color: @paper;
                 text-decoration: none;
@@ -39,38 +34,48 @@
             }
         }
     }
-    #nav-logo{
-        position: absolute;
-        left: 50%;
-        vertical-align: middle;
+    #nav-brand{
+        margin-top: -1.5em;
         z-index: 9999;
     }
-    ul.pages2{
-        display: inline;
-        color: @paper;
-        margin-left: -1em;
-        font-family: @abolon, @oswaldBold, sans-serif;
-        font-size: 1.25em;
-        li.page{
-            margin-left: 1em;
-            margin-right: 1em;
-            color: @paper;
-            display: inline-block;
-            a{
-                color: @paper;
-                text-decoration: none;
-            }
-            a:hover{
-                color: @warmYellow;
-            }
-        }
+    
+}
+//--------------------HOMEPAGE STYLING--------------------
+.jumbotron{
+    margin-top: 5em;
+    .jumbo-image-left{
+        height: 30em;
+        width: 45%;
+        background-color: @rustyRed;
+        display: inline-block;
+    }
+    .jumbo-image-right{
+        height: 30em;
+        width: 45%;
+        background-color: @rustyRed;
+        display: inline-block;
     }
 }
-//temporary container
-.temporary{
-    height: 40em;
-    margin-left: 10em;
-    margin-top: 2em;
+.container{
+    margin-bottom: 3em;
+    text-align: center;
+    h2{
+        font-family: @oswaldBold;
+    }
+    .mini-image{
+        height: 8em;
+        width: 18em;
+        background-color: @rustyRed;
+    }
+    p{
+        font-family: @oswaldLight;
+        text-align: left;
+    }
+    .btn{
+            background-color: @warmYellow;
+            color: @rustyRed;
+            
+        }
 }
 // footer styling
 div.footer-container {
@@ -160,6 +165,7 @@ div.footer-container {
 //-----BEGIN ABOUT US STYLING-----
 
 div#about-main-container {
+    margin-top: 3em;
     padding-top: 4em;
     padding-bottom: 4em;
 

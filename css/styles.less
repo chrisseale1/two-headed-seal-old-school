@@ -274,11 +274,11 @@ div#about-main-container {
 }
 
 //-----BEGIN SERVICES STYLING-----
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1600px) {
 
-
-div#services-main-container {
-
-    // @media only screen and (min-width : 992px) {
+div.services-main-container {
 
     padding-top: 5em;
     padding-bottom: 4em;
@@ -313,8 +313,7 @@ div#services-main-container {
         #webdesign-info {
             margin-left: 2em;
         }
-        
-    }
+            }
 
 // SEO STYLING
 
@@ -331,21 +330,19 @@ div#services-main-container {
         width: 75%;
         margin: auto;
     
-    h1 {
-        float: right;
-    }
-
-    #seo-image {
-        img {
-            height: 150px;
+        h1 {
             float: right;
         }
-    }
-    #seo-info {
-            margin-right: 2em;
-            float: right;
-    }
-
+        #seo-image {
+            img {
+                height: 150px;
+                float: right;
+            }
+        }
+        #seo-info {
+                margin-right: 2em;
+                float: right;
+        }
     }
 
 // GRAPHIC DESIGN STYLING
@@ -364,38 +361,53 @@ div#services-main-container {
             margin-left: 2em;
         }
     }
-// }
+}
+}
 
-// SERVICES MOBILE STYLING
+// MOBILE SERVICES STYLING
 
+    @media only screen 
+        and (min-width : 480px) 
+        and (max-width : 768px)     {
 
-// @media only screen and (min-width : 768px) {}
+        div.services-main-container {
 
+            text-align: center;
 
+                .title {
+                    h1 {
+                    font-size: 4em;
+                    }
+                }
 
-    // MOBILE PHONE
+                .services-para {
+                    font-size: 2.5em;
+                }
 
+                #webdesign-container {
+                    width: 100%;
 
-    // @media only screen and (min-width : 480px) {
-    //     .remove {
-    //         display: none;
-    //     }
+                    #webdesign-info {
+                        margin: 0 .75em 0 .75em;
+                    }
+                }
 
-    //     #services-main-container {
-    //         width: 100%;
-    //     }
+                #seo-container {
+                    width: 100%;
 
-        // #webdesign-container {
-        //     width: 100%;
-        // }
+                    h1 {
+                        float: none;
+                    }
 
-    // }
-
-
-
+                    #seo-info {
+                        margin: 0 .75em 0 .75em;
+                        float: none;
+                    }   
+                }
+            }
     }
-    // TABLET MEDIA QUERY @media only screen and (min-width : 768px) {}
 
+ // TABLET MEDIA QUERY @media only screen and (min-width : 768px) {}
 // DESKTOP MEDIA QUERY @media only screen and (min-width : 992px) {}
 
 

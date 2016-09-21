@@ -221,62 +221,91 @@ div#about-main-container #jess-container #jess-info {
   margin-right: 2em;
   float: right;
 }
-div#services-main-container {
-  padding-top: 5em;
-  padding-bottom: 4em;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {
+  div.services-main-container {
+    padding-top: 5em;
+    padding-bottom: 4em;
+  }
+  div.services-main-container h1 {
+    font-family: "Abolon", sans-serif;
+    margin-top: 0;
+  }
+  div.services-main-container .services-para {
+    font-family: "Oswald-Light", sans-serif;
+    font-size: 18px;
+  }
+  div.services-main-container .title {
+    width: 100%;
+    display: inline-block;
+  }
+  div.services-main-container #webdesign-container {
+    width: 75%;
+    margin: auto;
+  }
+  div.services-main-container #webdesign-container #webdesign-image img {
+    height: 150px;
+  }
+  div.services-main-container #webdesign-container #webdesign-info {
+    margin-left: 2em;
+  }
+  div.services-main-container #seo-background {
+    background-color: #e7e9ec;
+    padding-top: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    display: inline-block;
+  }
+  div.services-main-container #seo-container {
+    width: 75%;
+    margin: auto;
+  }
+  div.services-main-container #seo-container h1 {
+    float: right;
+  }
+  div.services-main-container #seo-container #seo-image img {
+    height: 150px;
+    float: right;
+  }
+  div.services-main-container #seo-container #seo-info {
+    margin-right: 2em;
+    float: right;
+  }
+  div.services-main-container #graphicdesign-container {
+    width: 75%;
+    margin: auto;
+  }
+  div.services-main-container #graphicdesign-container #graphicdesign-image img {
+    height: 150px;
+  }
+  div.services-main-container #graphicdesign-container #graphicdesign-info {
+    margin-left: 2em;
+  }
 }
-div#services-main-container h1 {
-  font-family: "Abolon", sans-serif;
-  margin-top: 0;
-}
-div#services-main-container .services-para {
-  font-family: "Oswald-Light", sans-serif;
-  font-size: 18px;
-}
-div#services-main-container .title {
-  width: 100%;
-  display: inline-block;
-}
-div#services-main-container #webdesign-container {
-  width: 75%;
-  margin: auto;
-}
-div#services-main-container #webdesign-container #webdesign-image img {
-  height: 150px;
-}
-div#services-main-container #webdesign-container #webdesign-info {
-  margin-left: 2em;
-}
-div#services-main-container #seo-background {
-  background-color: #e7e9ec;
-  padding-top: 2em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  padding-bottom: 2em;
-  display: inline-block;
-}
-div#services-main-container #seo-container {
-  width: 75%;
-  margin: auto;
-}
-div#services-main-container #seo-container h1 {
-  float: right;
-}
-div#services-main-container #seo-container #seo-image img {
-  height: 150px;
-  float: right;
-}
-div#services-main-container #seo-container #seo-info {
-  margin-right: 2em;
-  float: right;
-}
-div#services-main-container #graphicdesign-container {
-  width: 75%;
-  margin: auto;
-}
-div#services-main-container #graphicdesign-container #graphicdesign-image img {
-  height: 150px;
-}
-div#services-main-container #graphicdesign-container #graphicdesign-info {
-  margin-left: 2em;
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  div.services-main-container {
+    text-align: center;
+  }
+  div.services-main-container .title h1 {
+    font-size: 4em;
+  }
+  div.services-main-container .services-para {
+    font-size: 2.5em;
+  }
+  div.services-main-container #webdesign-container {
+    width: 100%;
+  }
+  div.services-main-container #webdesign-container #webdesign-info {
+    margin: 0 .75em 0 .75em;
+  }
+  div.services-main-container #seo-container {
+    width: 100%;
+  }
+  div.services-main-container #seo-container h1 {
+    float: none;
+  }
+  div.services-main-container #seo-container #seo-info {
+    margin: 0 .75em 0 .75em;
+    float: none;
+  }
 }

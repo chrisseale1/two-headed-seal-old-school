@@ -76,10 +76,10 @@
 #navbar ul.pages2 li.page a:hover {
   color: #EAC67A;
 }
-div.mini-image {
-  height: 8em;
-  width: 18em;
-  background-color: #984B43;
+.temporary {
+  height: 40em;
+  margin-left: 10em;
+  margin-top: 2em;
 }
 div.footer-container {
   height: 15em;
@@ -147,7 +147,7 @@ div.footer-container #copyright {
 }
 div#about-main-container {
   padding-top: 4em;
-  padding-bottom: 5em;
+  padding-bottom: 4em;
 }
 div#about-main-container h2 {
   font-family: "Oswald-Bold", sans-serif;
@@ -160,13 +160,6 @@ div#about-main-container .about-para {
   font-family: "Oswald-Light", sans-serif;
   font-size: 18px;
 }
-div#about-main-container .contact-info {
-  font-family: "Oswald-Regular";
-  font-size: 20px;
-}
-div#about-main-container .contact-info img {
-  width: 5em;
-}
 div#about-main-container .contact-info a {
   text-decoration: none;
   color: black;
@@ -174,69 +167,60 @@ div#about-main-container .contact-info a {
 div#about-main-container .contact-info a a:hover {
   color: #984B43;
 }
+div#about-main-container .email-address {
+  margin-right: 1em;
+  font-family: "Oswald-Bold";
+  font-size: 2em;
+  vertical-align: middle;
+}
+div#about-main-container .linkedin-logo img {
+  height: 2em;
+}
+div#about-main-container .github-logo img {
+  height: 2.8em;
+  margin-right: 2em;
+}
 div#about-main-container #chris-container {
   width: 75%;
   margin: auto;
 }
+div#about-main-container #chris-container .chris-titles {
+  width: 100%;
+  display: inline-block;
+}
+div#about-main-container #chris-container h3 {
+  margin-top: 0;
+}
 div#about-main-container #chris-container #chris-image img {
   height: 300px;
-  width: 300px;
-  float: left;
-  padding-right: 2em;
+}
+div#about-main-container #chris-container #chris-info {
+  margin-left: 2em;
 }
 div#about-main-container #jess-container {
   width: 75%;
   margin: auto;
   padding-top: 3em;
 }
-div#about-main-container #jess-image img {
+div#about-main-container #jess-container .jess-titles {
+  width: 100%;
+  display: inline-block;
+}
+div#about-main-container #jess-container h2 {
+  float: right;
+}
+div#about-main-container #jess-container h3 {
+  float: right;
+  margin-top: 0;
+}
+div#about-main-container #jess-container #jess-image img {
   height: 300px;
-  width: 300px;
   float: right;
 }
-
-div#services-main-container {
-  padding-top: 4em;
-  padding-bottom: 5em;
-}
-div#services-main-container h2 {
-  font-family: "Abolon", sans-serif;
-}
-div#services-main-container .services-para {
-  font-family: "Oswald-Light", sans-serif;
-  font-size: 18px;
-}
-div#services-main-container #webdesign-container {
-  width: 75%;
-  margin: auto;
-}
-div#services-main-container #webdesign-container #webdesign-image img {
-  height: 150px;
-  width: 250px;
-  float: left;
-  padding-right: 2em;
-}
-div#services-main-container #seo-container {
-  width: 75%;
-  margin: auto;
-  padding-top: 3em;
-}
-div#services-main-container #seo-image img {
-  height: 150px;
-  width: 250px;
+div#about-main-container #jess-container #jess-info {
+  margin-right: 2em;
   float: right;
 }
-div#services-main-container #graphicdesign-container {
-  width: 75%;
-  margin: auto;
-  padding-top: 3em;
-}
-div#services-main-container #graphicdesign-image img {
-  height: 150px;
-  width: 250px;
-  float: left;
-  padding-right: 2em;
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {
   div.services-main-container {
     padding-top: 5em;
@@ -324,5 +308,4 @@ div#services-main-container #graphicdesign-image img {
     margin: 0 .75em 0 .75em;
     float: none;
   }
-
 }

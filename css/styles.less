@@ -46,44 +46,125 @@
 }
 //--------------------HOMEPAGE STYLING--------------------
 .jumbotron{
-    .pic { 
-        float: left;
-        height: 300px;
-        width: 300px;
-        margin: 10px;
-        overflow: hidden; 
-    }
-    .swip{
-        background: url("images/jess.png");
-        background-size: 300px 300px;
-        background-color: @rustyRed;
-        display: inline;
-    }
-    .swip{
+    .constrain-contain{
+        margin-left: 17em;
+    .slide {
+        width: 350px;
+        height:450px;
+        margin:0;
+        margin-right: 0;
+        display:inline-block;
+        vertical-align:top;
+        border: 1px solid lightgrey;
+        color:@warmYellow;
+        text-align:justify;
+        }
 
-        img{
-            margin-left: 0 px;
-            -webkit-transition: margin 2s ease;
-            -moz-transition: margin 2s ease;
-            -o-transition: margin 2s ease;
-            transition: margin 2s ease;
+        .transform {
+        overflow:hidden;
         }
+
+        .transform img {
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        }
+
+    .transform:hover img {
+        transform: translateX(-550px);
     }
-    .swip{
-        img:hover{
-            margin-left: -300px;
+
+    .background,
+    .multi{
+        background-image: url(../images/headshot.png);
+        background-repeat:no-repeat;
+        background-color: @rustyRed;
+        background-size: cover;
+        background-position: top center;
+        -webkit-transition: all 1.5s ease-in-out;
+        -moz-transition: all 1.5s ease-in-out;
+        -o-transition: all 1.5s ease-in-out;
+        -ms-transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out;
+    }
+    .slide2 {
+        width:350px;
+        height:450px;
+        margin:0px;
+        margin-right:0;
+        display:inline-block;
+        vertical-align:top;
+        border: 1px solid lightgrey;
+        color:white;
+        text-align:justify;
         }
+
+        .transform2 {
+        overflow:hidden;
+        }
+
+        .transform2 img {
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        }
+
+    .transform2:hover img {
+        transform: translateX(350px);
+    }
+
+    .background,
+    .multi2{
+        background-image: url(../images/jess.png);
+        background-repeat:no-repeat;
+        background-color: @rustyRed;
+        background-size: cover;
+        background-position: top center;
+        -webkit-transition: all 1.5s ease-in-out;
+        -moz-transition: all 1.5s ease-in-out;
+        -o-transition: all 1.5s ease-in-out;
+        -ms-transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out;
+    }
     }
 }
+
+
+
+
+
+
+
+    
 .container{
     margin-bottom: 3em;
     text-align: center;
     h2{
         font-family: @oswaldBold;
     }
-    .mini-image{
+    .mini-image1{
         height: 10em;
         width: 100%;
+        background-image: url(../images/responsive-design.jpg);
+        background-size: cover;
+        background-color: @rustyRed;
+    }
+    .mini-image2{
+        height: 10em;
+        width: 100%;
+        background-image: url(../images/responsive-design.jpg);
+        background-size: cover;
+        background-color: @rustyRed;
+    }
+    .mini-image3{
+        height: 10em;
+        width: 100%;
+        background-image: url(../images/responsive-design.jpg);
+        background-size: cover;
         background-color: @rustyRed;
     }
     p{

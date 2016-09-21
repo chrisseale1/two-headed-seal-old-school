@@ -46,18 +46,33 @@
 }
 //--------------------HOMEPAGE STYLING--------------------
 .jumbotron{
-    margin-top: 5em;
-    .jumbo-image-left{
-        height: 30em;
-        width: 45%;
-        background-color: @rustyRed;
-        display: inline-block;
+    .pic { 
+        float: left;
+        height: 300px;
+        width: 300px;
+        margin: 10px;
+        overflow: hidden; 
     }
-    .jumbo-image-right{
-        height: 30em;
-        width: 45%;
+    .swip{
+        background: url("images/jess.png");
+        background-size: 300px 300px;
         background-color: @rustyRed;
-        display: inline-block;
+        display: inline;
+    }
+    .swip{
+
+        img{
+            margin-left: 0 px;
+            -webkit-transition: margin 2s ease;
+            -moz-transition: margin 2s ease;
+            -o-transition: margin 2s ease;
+            transition: margin 2s ease;
+        }
+    }
+    .swip{
+        img:hover{
+            margin-left: -300px;
+        }
     }
 }
 .container{

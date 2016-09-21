@@ -50,20 +50,28 @@
   margin-top: -1.5em;
   z-index: 9999;
 }
-.jumbotron {
-  margin-top: 5em;
+.jumbotron .pic {
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  overflow: hidden;
 }
-.jumbotron .jumbo-image-left {
-  height: 30em;
-  width: 45%;
+.jumbotron .swip {
+  background: url("images/jess.png");
+  background-size: 300px 300px;
   background-color: #984B43;
-  display: inline-block;
+  display: inline;
 }
-.jumbotron .jumbo-image-right {
-  height: 30em;
-  width: 45%;
-  background-color: #984B43;
-  display: inline-block;
+.jumbotron .swip img {
+  margin-left: 0 px;
+  -webkit-transition: margin 2s ease;
+  -moz-transition: margin 2s ease;
+  -o-transition: margin 2s ease;
+  transition: margin 2s ease;
+}
+.jumbotron .swip img:hover {
+  margin-left: -300px;
 }
 .container {
   margin-bottom: 3em;

@@ -92,7 +92,6 @@ div.footer-container {
 
             img {
                 color: @warmYellow;
-                // font-size: 11em;
                 padding-top: .15em;
                 width: 12em;
             }
@@ -158,13 +157,15 @@ div.footer-container {
 }
 
 
-// About Us Styling
+//-----BEGIN ABOUT US STYLING-----
+
 div#about-main-container {
     padding-top: 4em;
     padding-bottom: 4em;
 
     h2 {
         font-family: @oswaldBold, sans-serif;
+        margin-top: 0;
     }
 
     h3 {
@@ -178,65 +179,107 @@ div#about-main-container {
 
     .contact-info {
 
-        font-family: @oswaldRegular;
-        font-size: 20px;
-
-        img {
-            width: 5em;
-        }
-
         a {
             text-decoration: none;
-            color: midnightblue;
+            color: black;
 
                 a:hover {
                     color: @rustyRed;
                 }
         }
     }
+
+    .email-address {
+        margin-right: 1em;
+        font-family: @oswaldBold;
+        font-size: 2em;
+        vertical-align: middle;
+    }
+
+    .linkedin-logo {
+            img {
+                height: 2em;
+            }
+    }
+
+    .github-logo {
+            img {
+                height: 2.8em;
+                margin-right: 2em;
+            }
+    }
     
-    // begin chris styling
+//-----CHRIS STYLING-----
 
     #chris-container {
         width: 75%;
         margin: auto;
 
+        .chris-titles {
+            width: 100%;
+            display: inline-block;
+        }
+
+        h3 {
+            margin-top: 0;
+        }
+
         #chris-image {
+
             img {
                 height: 300px;
-                width: 300px;
-                float: left;
-                padding-right: 2em;
             }
         }
-        
+
+        #chris-info {
+            margin-left: 2em;
+        }
+     
     }
 
-// begin jess styling
+//-----JESS STYLING-----
 
     #jess-container {
         width: 75%;
         margin: auto;
         padding-top: 3em;
-    }
+    
+        .jess-titles {
+            width: 100%;
+            display: inline-block;
+        }
+
+        h2 {
+            float: right;
+        }
+
+        h3 {
+            float: right;
+            margin-top: 0;
+        }
 
     #jess-image {
         img {
             height: 300px;
-            width: 300px;
             float: right;
         }
     }
 
+        #jess-info {
+            margin-right: 2em;
+            float: right;
+        }
+
+}
 }
 
-// Services Styling
+//-----BEGIN SERVICES STYLING-----
+
 div#services-main-container {
     padding-top: 5em;
     padding-bottom: 4em;
-    display: inline-block;
 
-    h2 {
+    h1 {
         font-family: @abolon, sans-serif;
         margin-top: 0;
     }
@@ -245,8 +288,13 @@ div#services-main-container {
         font-family: @oswaldLight, sans-serif;
         font-size: 18px;
     }
+
+    .title {
+        width: 100%;
+        display: inline-block;
+    }
     
-    // begin webdesign styling
+//-----WEB DESIGN STYLING-----
 
     #webdesign-container {
         width: 75%;
@@ -255,19 +303,19 @@ div#services-main-container {
         #webdesign-image {
             img {
                 height: 150px;
-                width: 250px;
-                float: left;
-                padding-right: 2em;
             }
+        }
+
+        #webdesign-info {
+            margin-left: 2em;
         }
         
     }
 
-// begin seo styling
+//-----SEO STYLING-----
 
     #seo-background {
         background-color: #e7e9ec;
-        // width: 100%;
         padding-top: 2em;
         margin-top: 2em;
         margin-bottom: 2em;
@@ -278,31 +326,38 @@ div#services-main-container {
     #seo-container {
         width: 75%;
         margin: auto;
+    
+    h1 {
+        float: right;
     }
 
     #seo-image {
         img {
             height: 150px;
-            width: 250px;
             float: right;
         }
     }
+    #seo-info {
+            margin-right: 2em;
+            float: right;
+    }
 
-// begin graphic design styling
+    }
+
+//-----GRAPHIC DESIGN STYLING-----
 
     #graphicdesign-container {
         width: 75%;
-        margin: auto;
-        // margin-top: 4em;
-    }
+        margin: auto;    
 
     #graphicdesign-image {
         img {
             height: 150px;
-            width: 250px;
-            float: left;
-            padding-right: 2em;
         }
     }
 
+        #graphicdesign-info {
+            margin-left: 2em;
+        }
+    }
 }

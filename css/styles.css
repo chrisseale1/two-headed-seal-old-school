@@ -151,6 +151,7 @@ div#about-main-container {
 }
 div#about-main-container h2 {
   font-family: "Oswald-Bold", sans-serif;
+  margin-top: 0;
 }
 div#about-main-container h3 {
   font-family: "Abolon", sans-serif;
@@ -159,46 +160,72 @@ div#about-main-container .about-para {
   font-family: "Oswald-Light", sans-serif;
   font-size: 18px;
 }
-div#about-main-container .contact-info {
-  font-family: "Oswald-Regular";
-  font-size: 20px;
-}
-div#about-main-container .contact-info img {
-  width: 5em;
-}
 div#about-main-container .contact-info a {
   text-decoration: none;
-  color: midnightblue;
+  color: black;
 }
 div#about-main-container .contact-info a a:hover {
   color: #984B43;
+}
+div#about-main-container .email-address {
+  margin-right: 1em;
+  font-family: "Oswald-Bold";
+  font-size: 2em;
+  vertical-align: middle;
+}
+div#about-main-container .linkedin-logo img {
+  height: 2em;
+}
+div#about-main-container .github-logo img {
+  height: 2.8em;
+  margin-right: 2em;
 }
 div#about-main-container #chris-container {
   width: 75%;
   margin: auto;
 }
+div#about-main-container #chris-container .chris-titles {
+  width: 100%;
+  display: inline-block;
+}
+div#about-main-container #chris-container h3 {
+  margin-top: 0;
+}
 div#about-main-container #chris-container #chris-image img {
   height: 300px;
-  width: 300px;
-  float: left;
-  padding-right: 2em;
+}
+div#about-main-container #chris-container #chris-info {
+  margin-left: 2em;
 }
 div#about-main-container #jess-container {
   width: 75%;
   margin: auto;
   padding-top: 3em;
 }
-div#about-main-container #jess-image img {
+div#about-main-container #jess-container .jess-titles {
+  width: 100%;
+  display: inline-block;
+}
+div#about-main-container #jess-container h2 {
+  float: right;
+}
+div#about-main-container #jess-container h3 {
+  float: right;
+  margin-top: 0;
+}
+div#about-main-container #jess-container #jess-image img {
   height: 300px;
-  width: 300px;
+  float: right;
+}
+div#about-main-container #jess-container #jess-info {
+  margin-right: 2em;
   float: right;
 }
 div#services-main-container {
   padding-top: 5em;
   padding-bottom: 4em;
-  display: inline-block;
 }
-div#services-main-container h2 {
+div#services-main-container h1 {
   font-family: "Abolon", sans-serif;
   margin-top: 0;
 }
@@ -206,15 +233,19 @@ div#services-main-container .services-para {
   font-family: "Oswald-Light", sans-serif;
   font-size: 18px;
 }
+div#services-main-container .title {
+  width: 100%;
+  display: inline-block;
+}
 div#services-main-container #webdesign-container {
   width: 75%;
   margin: auto;
 }
 div#services-main-container #webdesign-container #webdesign-image img {
   height: 150px;
-  width: 250px;
-  float: left;
-  padding-right: 2em;
+}
+div#services-main-container #webdesign-container #webdesign-info {
+  margin-left: 2em;
 }
 div#services-main-container #seo-background {
   background-color: #e7e9ec;
@@ -228,18 +259,24 @@ div#services-main-container #seo-container {
   width: 75%;
   margin: auto;
 }
-div#services-main-container #seo-image img {
+div#services-main-container #seo-container h1 {
+  float: right;
+}
+div#services-main-container #seo-container #seo-image img {
   height: 150px;
-  width: 250px;
+  float: right;
+}
+div#services-main-container #seo-container #seo-info {
+  margin-right: 2em;
   float: right;
 }
 div#services-main-container #graphicdesign-container {
   width: 75%;
   margin: auto;
 }
-div#services-main-container #graphicdesign-image img {
+div#services-main-container #graphicdesign-container #graphicdesign-image img {
   height: 150px;
-  width: 250px;
-  float: left;
-  padding-right: 2em;
+}
+div#services-main-container #graphicdesign-container #graphicdesign-info {
+  margin-left: 2em;
 }

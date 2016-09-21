@@ -229,12 +229,28 @@ div#about-main-container {
 
 }
 
+
 // Services Styling
 div#services-main-container {
     padding-top: 4em;
     padding-bottom: 5em;
 
     h2 {
+
+}
+
+//-----BEGIN SERVICES STYLING-----
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1600px) {
+
+div.services-main-container {
+
+    padding-top: 5em;
+    padding-bottom: 4em;
+
+    h1 {
+
         font-family: @abolon, sans-serif;
     }
 
@@ -257,8 +273,16 @@ div#services-main-container {
                 padding-right: 2em;
             }
         }
+
         
     }
+
+
+        #webdesign-info {
+            margin-left: 2em;
+        }
+            }
+
 
 // begin seo styling
 
@@ -274,6 +298,22 @@ div#services-main-container {
             width: 250px;
             float: right;
         }
+
+    
+        h1 {
+            float: right;
+        }
+        #seo-image {
+            img {
+                height: 150px;
+                float: right;
+            }
+        }
+        #seo-info {
+                margin-right: 2em;
+                float: right;
+        }
+
     }
 
 // begin graphic design styling
@@ -293,4 +333,65 @@ div#services-main-container {
         }
     }
 
+
 }
+
+        #graphicdesign-info {
+            margin-left: 2em;
+        }
+    }
+}
+}
+
+// MOBILE SERVICES STYLING
+
+    @media only screen 
+        and (min-width : 480px) 
+        and (max-width : 768px)     {
+
+        div.services-main-container {
+
+            text-align: center;
+
+                .title {
+                    h1 {
+                    font-size: 4em;
+                    }
+                }
+
+                .services-para {
+                    font-size: 2.5em;
+                }
+
+                #webdesign-container {
+                    width: 100%;
+
+                    #webdesign-info {
+                        margin: 0 .75em 0 .75em;
+                    }
+                }
+
+                #seo-container {
+                    width: 100%;
+
+                    h1 {
+                        float: none;
+                    }
+
+                    #seo-info {
+                        margin: 0 .75em 0 .75em;
+                        float: none;
+                    }   
+                }
+            }
+    }
+
+ // TABLET MEDIA QUERY @media only screen and (min-width : 768px) {}
+// DESKTOP MEDIA QUERY @media only screen and (min-width : 992px) {}
+
+
+
+
+
+
+

@@ -173,7 +173,6 @@
   font-family: "Abolon";
 }
 div.footer-container {
-  height: 15em;
   background-color: #233237;
   clear: both;
   color: #EAC67A;
@@ -192,6 +191,13 @@ div.footer-container #footer-logo img {
   color: #EAC67A;
   padding-top: .15em;
   width: 12em;
+}
+@media (max-width: 700px) {
+  div.footer-container #footer-logo {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
 }
 div.footer-container .footer-links ul {
   padding-top: 1.9em;
@@ -229,12 +235,26 @@ div.footer-container #footer-social .fa-twitter-square {
   font-size: 5em;
   padding-left: .3em;
 }
+@media (max-width: 700px) {
+  div.footer-container #footer-social {
+    float: none;
+    text-align: center;
+    line-height: 0em;
+    height: auto;
+  }
+}
 div.footer-container #copyright {
   text-align: center;
   margin-top: -2em;
   font-size: 1.2em;
   font-family: "Abolon", "Oswald-Light", sans-serif;
   font-weight: 300;
+}
+@media (max-width: 700px) {
+  div.footer-container #copyright {
+    margin-top: 0em;
+    bottom: 0;
+  }
 }
 div#about-main-container {
   margin-top: 3em;

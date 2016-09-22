@@ -186,9 +186,8 @@
             font-family: @abolon;
         }
 }
-// footer styling
+//---------- footer styling---------
 div.footer-container {
-    height: 15em;
     background-color: @gunMetal;
     clear: both;
     color: @warmYellow;
@@ -208,6 +207,13 @@ div.footer-container {
                 color: @warmYellow;
                 padding-top: .15em;
                 width: 12em;
+            }
+        }
+        @media (max-width: 700px){
+            #footer-logo{
+                text-align: center;
+                float: none;
+                width: 100%;
             }
         }
 
@@ -257,6 +263,14 @@ div.footer-container {
                 padding-left: .3em;
             }
         }
+        @media (max-width: 700px){
+            #footer-social{
+                float: none;
+                text-align: center;
+                line-height: 0em;
+                height: auto;
+            }
+        }
 
 
         #copyright {
@@ -267,6 +281,12 @@ div.footer-container {
             font-family: @abolon, @oswaldLight, sans-serif;
             font-weight: 300;
             // font-size: 2em;
+        }
+        @media (max-width: 700px){
+            #copyright{
+                margin-top: 0em;
+                bottom: 0;
+            }
         }
 }
 

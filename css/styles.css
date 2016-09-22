@@ -311,9 +311,6 @@ div#about-main-container #jess-container #jess-info {
     padding-top: 5em;
     padding-bottom: 4em;
   }
-  div.services-main-container .clearfix {
-    overflow: auto;
-  }
   div.services-main-container h1 {
     font-family: "Abolon", sans-serif;
     margin-top: 0;
@@ -331,64 +328,83 @@ div#about-main-container #jess-container #jess-info {
     width: 80%;
     margin: auto;
   }
-  div.services-main-container #webdesign-container #webdesign-image img {
+  div.services-main-container #webdesign-container #webdesign-image {
+    background-image: url(../images/web-design-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
     height: 11em;
+    width: 100%;
+    top: 0;
+    left: 0;
   }
   div.services-main-container #webdesign-container #webdesign-info {
-    margin-left: 2em;
     display: inline-block;
   }
-  div.services-main-container #seo-background {
+  div.services-main-container #seo-container {
     background-color: #e7e9ec;
     padding-top: 2em;
     margin-top: 2em;
     margin-bottom: 2em;
     padding-bottom: 2em;
+    padding-left: 10%;
+    padding-right: 10%;
     display: inline-block;
     width: 100%;
-  }
-  div.services-main-container #seo-container {
-    width: 80%;
-    margin: auto;
+    height: 100%;
   }
   div.services-main-container #seo-container h1 {
     float: right;
   }
   div.services-main-container #seo-container #seo-image {
-    float: right;
-  }
-  div.services-main-container #seo-container #seo-image img {
+    background-image: url(../images/seo-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
     height: 11em;
-  }
-  div.services-main-container #seo-container #seo-info {
-    margin-right: 2em;
+    width: 100%;
   }
   div.services-main-container #graphicdesign-container {
     width: 80%;
     margin: auto;
   }
-  div.services-main-container #graphicdesign-container #graphicdesign-image img {
-    height: 150px;
-  }
-  div.services-main-container #graphicdesign-container #graphicdesign-info {
-    margin-left: 2em;
+  div.services-main-container #graphicdesign-container #graphicdesign-image {
+    background-image: url(../images/graphicdesign-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    height: 11em;
+    width: 100%;
+    top: 0;
+    left: 0;
   }
 }
 @media only screen and (max-width: 480px) {
   div.services-main-container {
     text-align: center;
   }
+  div.services-main-container .title h1 {
+    font-family: "Abolon", sans-serif;
+  }
   div.services-main-container .services-para {
-    font-size: 18px;
+    font-size: 16px;
+    font-family: "Oswald-Light", sans-serif;
   }
   div.services-main-container #webdesign-container {
     width: 100%;
+    background-image: url(../images/web-design-services.jpg);
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+  }
+  div.services-main-container #webdesign-container .services-para {
+    font-size: 16px;
+    font-family: "Oswald-Light", sans-serif;
+    z-index: 1;
   }
   div.services-main-container #webdesign-container #webdesign-info {
     margin: 0 .75em 0 .75em;
   }
   div.services-main-container #seo-container {
     width: 100%;
+    background-color: #e7e9ec;
   }
   div.services-main-container #seo-container h1 {
     float: none;
@@ -401,6 +417,6 @@ div#about-main-container #jess-container #jess-info {
     width: 100%;
   }
   div.services-main-container #graphicdesign-container #graphicdesign-info {
-    margin: 0 .75em 0 .75em;
+    margin: 0 .75em 2em .75em;
   }
 }

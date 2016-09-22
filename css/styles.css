@@ -27,15 +27,15 @@
 .navbar-custom ul.pages {
   display: inline-block;
   color: #F4F4F4;
-  height: 1em;
+  height: 0.8em;
   font-family: "Abolon", "Oswald-Bold", sans-serif;
   font-size: 1.45em;
-  line-height: -1em;
   margin-top: 1em;
 }
 .navbar-custom ul.pages li.page {
   margin-left: 1em;
   margin-right: 1em;
+  top: 0.8em;
   color: #F4F4F4;
   display: inline;
 }
@@ -48,13 +48,20 @@
   background-color: transparent;
 }
 .navbar-custom ul.pages #nav-brand {
-  margin-top: -1.5em;
-  z-index: 9999;
+  margin-top: -2.5em;
+  z-index: 999999;
 }
-.jumbotron .constrain-contain {
-  margin-left: 17em;
+.splash {
+  margin-top: 1em;
 }
-.jumbotron .constrain-contain .slide {
+.splash .constrain-contain {
+  margin-top: 2em;
+}
+.splash .constrain-contain .slide-container {
+  display: inline;
+  font-family: "Abolon";
+}
+.splash .constrain-contain .slide-container .slide {
   width: 350px;
   height: 450px;
   margin: 0;
@@ -65,21 +72,21 @@
   color: #EAC67A;
   text-align: justify;
 }
-.jumbotron .constrain-contain .transform {
+.splash .constrain-contain .slide-container .transform {
   overflow: hidden;
 }
-.jumbotron .constrain-contain .transform img {
+.splash .constrain-contain .slide-container .transform img {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-.jumbotron .constrain-contain .transform:hover img {
+.splash .constrain-contain .slide-container .transform:hover img {
   transform: translateX(-550px);
 }
-.jumbotron .constrain-contain .background,
-.jumbotron .constrain-contain .multi {
+.splash .constrain-contain .slide-container .background,
+.splash .constrain-contain .slide-container .multi {
   background-image: url(../images/headshot.png);
   background-repeat: no-repeat;
   background-color: #984B43;
@@ -91,7 +98,7 @@
   -ms-transition: all 1.5s ease-in-out;
   transition: all 1.5s ease-in-out;
 }
-.jumbotron .constrain-contain .slide2 {
+.splash .constrain-contain .slide-container .slide2 {
   width: 350px;
   height: 450px;
   margin: 0px;
@@ -102,21 +109,21 @@
   color: white;
   text-align: justify;
 }
-.jumbotron .constrain-contain .transform2 {
+.splash .constrain-contain .slide-container .transform2 {
   overflow: hidden;
 }
-.jumbotron .constrain-contain .transform2 img {
+.splash .constrain-contain .slide-container .transform2 img {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-.jumbotron .constrain-contain .transform2:hover img {
+.splash .constrain-contain .slide-container .transform2:hover img {
   transform: translateX(350px);
 }
-.jumbotron .constrain-contain .background,
-.jumbotron .constrain-contain .multi2 {
+.splash .constrain-contain .slide-container .background,
+.splash .constrain-contain .slide-container .multi2 {
   background-image: url(../images/jess.png);
   background-repeat: no-repeat;
   background-color: #984B43;

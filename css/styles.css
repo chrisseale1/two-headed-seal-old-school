@@ -45,6 +45,7 @@
 }
 .navbar-custom ul.pages li.page a:hover {
   color: #EAC67A;
+  background-color: transparent;
 }
 .navbar-custom ul.pages #nav-brand {
   margin-top: -1.5em;

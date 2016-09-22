@@ -50,20 +50,82 @@
   margin-top: -1.5em;
   z-index: 9999;
 }
-.jumbotron {
-  margin-top: 5em;
+.jumbotron .constrain-contain {
+  margin-left: 17em;
 }
-.jumbotron .jumbo-image-left {
-  height: 30em;
-  width: 45%;
-  background-color: #984B43;
+.jumbotron .constrain-contain .slide {
+  width: 350px;
+  height: 450px;
+  margin: 0;
+  margin-right: 0;
   display: inline-block;
+  vertical-align: top;
+  border: 1px solid lightgrey;
+  color: #EAC67A;
+  text-align: justify;
 }
-.jumbotron .jumbo-image-right {
-  height: 30em;
-  width: 45%;
+.jumbotron .constrain-contain .transform {
+  overflow: hidden;
+}
+.jumbotron .constrain-contain .transform img {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.jumbotron .constrain-contain .transform:hover img {
+  transform: translateX(-550px);
+}
+.jumbotron .constrain-contain .background,
+.jumbotron .constrain-contain .multi {
+  background-image: url(../images/headshot.png);
+  background-repeat: no-repeat;
   background-color: #984B43;
+  background-size: cover;
+  background-position: top center;
+  -webkit-transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+  -o-transition: all 1.5s ease-in-out;
+  -ms-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+}
+.jumbotron .constrain-contain .slide2 {
+  width: 350px;
+  height: 450px;
+  margin: 0px;
+  margin-right: 0;
   display: inline-block;
+  vertical-align: top;
+  border: 1px solid lightgrey;
+  color: white;
+  text-align: justify;
+}
+.jumbotron .constrain-contain .transform2 {
+  overflow: hidden;
+}
+.jumbotron .constrain-contain .transform2 img {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.jumbotron .constrain-contain .transform2:hover img {
+  transform: translateX(350px);
+}
+.jumbotron .constrain-contain .background,
+.jumbotron .constrain-contain .multi2 {
+  background-image: url(../images/jess.png);
+  background-repeat: no-repeat;
+  background-color: #984B43;
+  background-size: cover;
+  background-position: top center;
+  -webkit-transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+  -o-transition: all 1.5s ease-in-out;
+  -ms-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
 .container {
   margin-bottom: 3em;
@@ -72,9 +134,25 @@
 .container h2 {
   font-family: "Oswald-Bold";
 }
-.container .mini-image {
+.container .mini-image1 {
   height: 10em;
   width: 100%;
+  background-image: url(../images/responsive-design.jpg);
+  background-size: cover;
+  background-color: #984B43;
+}
+.container .mini-image2 {
+  height: 10em;
+  width: 100%;
+  background-image: url(../images/responsive-design.jpg);
+  background-size: cover;
+  background-color: #984B43;
+}
+.container .mini-image3 {
+  height: 10em;
+  width: 100%;
+  background-image: url(../images/responsive-design.jpg);
+  background-size: cover;
   background-color: #984B43;
 }
 .container p {

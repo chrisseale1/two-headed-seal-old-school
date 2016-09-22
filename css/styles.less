@@ -418,30 +418,20 @@ div.services-main-container {
     padding-top: 5em;
     padding-bottom: 4em;
 
-    .clearfix {
-        overflow: auto;
-    }
-
     h1 {
         font-family: @abolon, sans-serif;
         margin-top: 0;
-        //   overflow: auto;
-
     }
 
     .services-para {
         font-family: @oswaldLight, sans-serif;
         font-size: 18px;
         display: inline-block;
-        //   overflow: auto;
-
     }
 
     .title {
         width: 100%;
         display: inline-block;
-        //   overflow: auto;
-
     }
     
 // WEB DESIGN STYLING
@@ -451,65 +441,46 @@ div.services-main-container {
         margin: auto;
 
         #webdesign-image {
-            img {
-                height: 11em;
-                // display: inline;
-            }
+            background-image: url(../images/web-design-services.jpg);
+            background-size: cover;
+            background-color: @rustyRed;
+            height: 11em;
+            width: 100%;
+            top: 0;
+            left: 0;
         }
 
         #webdesign-info {
-            margin-left: 2em;
             display: inline-block;
-
         }
             }
 
 // SEO STYLING
 
-    #seo-background {
+    #seo-container {
         background-color: #e7e9ec;
         padding-top: 2em;
         margin-top: 2em;
         margin-bottom: 2em;
         padding-bottom: 2em;
+        padding-left: 10%;
+        padding-right: 10%;
         display: inline-block;
         width: 100%;
-    }
-
-    #seo-container {
-        width: 80%;
-        margin: auto;
-
-
-    
+        height: 100%;
+ 
         h1 {
             float: right;
-            // display: inline-block;
-                    // width: 100%;
-
         }
+
         #seo-image {
-            float: right;
-            // margin-left: 0;
-            // position: absolute;
-
-            img {
-                height: 11em;
-                // display: inline-block;
-                //   overflow: auto;
-
-            }
+            background-image: url(../images/seo-services.jpg);
+            background-size: cover;
+            background-color: @rustyRed;
+            height: 11em;
+            width: 100%;
         }
-        #seo-info {
-                margin-right: 2em;
-                // float: left;
-                // display: inline-block;
-                // position: relative;
-                //   overflow: auto;
 
-
-
-        }
     }
 
 // GRAPHIC DESIGN STYLING
@@ -518,14 +489,14 @@ div.services-main-container {
         width: 80%;
         margin: auto;    
 
-    #graphicdesign-image {
-        img {
-            height: 150px;
-        }
-    }
-
-        #graphicdesign-info {
-            margin-left: 2em;
+        #graphicdesign-image {
+            background-image: url(../images/graphicdesign-services.jpg);
+            background-size: cover;
+            background-color: @rustyRed;
+            height: 11em;
+            width: 100%;
+            top: 0;
+            left: 0;
         }
     }
 }
@@ -540,18 +511,30 @@ div.services-main-container {
 
             text-align: center;
 
-                // .title {
-                //     h1 {
-                //     // font-size: 2em;
-                //     }
-                // }
+                .title {
+                    h1 {
+                    font-family: @abolon, sans-serif;
+                    }
+                }
 
                 .services-para {
-                    font-size: 18px;
+                    font-size: 16px;
+                    font-family: @oswaldLight, sans-serif;
                 }
 
                 #webdesign-container {
                     width: 100%;
+                    background-image: url(../images/web-design-services.jpg);
+                    background-size: cover;
+                    opacity: 0.4;
+                    z-index: -1;
+
+                    .services-para {
+                    font-size: 16px;
+                    font-family: @oswaldLight, sans-serif;
+                    z-index: 1;
+                    }
+
 
                     #webdesign-info {
                         margin: 0 .75em 0 .75em;
@@ -560,9 +543,12 @@ div.services-main-container {
 
                 #seo-container {
                     width: 100%;
+                    background-color: #e7e9ec;
+
 
                     h1 {
                         float: none;
+                        
                     }
 
                     #seo-info {
@@ -575,7 +561,7 @@ div.services-main-container {
                     width: 100%;
 
                     #graphicdesign-info {
-                        margin: 0 .75em 0 .75em;
+                        margin: 0 .75em 2em .75em;
                     }
                 }
             }

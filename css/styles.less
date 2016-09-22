@@ -15,14 +15,14 @@
     ul.pages{
         display: inline-block;
         color: @paper;
-        height: 1em;
+        height: 0.8em;
         font-family: @abolon, @oswaldBold, sans-serif;
         font-size: 1.45em;
-        line-height: -1em;
         margin-top: 1em;
         li.page{
             margin-left: 1em;
             margin-right: 1em;
+            top: 0.8em;
             color: @paper;
             display: inline;
             a{
@@ -35,8 +35,8 @@
             }
         }
         #nav-brand{
-        margin-top: -1.5em;
-        z-index: 9999;
+        margin-top: -2.5em;
+        z-index: 999999;
         }
         // #nav-brand:hover{
         //     background-color: transparent;
@@ -49,90 +49,95 @@
     
 }
 //--------------------HOMEPAGE STYLING--------------------
-.jumbotron{
+.splash{
+    margin-top: 1em;
     .constrain-contain{
-        margin-left: 17em;
-    .slide {
-        width: 350px;
-        height:450px;
-        margin:0;
-        margin-right: 0;
-        display:inline-block;
-        vertical-align:top;
-        border: 1px solid lightgrey;
-        color:@warmYellow;
-        text-align:justify;
+        margin-top: 2em;
+    .slide-container{
+        display: inline;
+        font-family: @abolon;
+        .slide {
+            width: 350px;
+            height:450px;
+            margin:0;
+            margin-right: 0;
+            display:inline-block;
+            vertical-align:top;
+            border: 1px solid lightgrey;
+            color:@warmYellow;
+            text-align:justify;
+            }
+
+            .transform {
+            overflow:hidden;
+            }
+
+            .transform img {
+            -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            -o-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+            }
+
+        .transform:hover img {
+            transform: translateX(-550px);
         }
 
-        .transform {
-        overflow:hidden;
+        .background,
+        .multi{
+            background-image: url(../images/headshot.png);
+            background-repeat:no-repeat;
+            background-color: @rustyRed;
+            background-size: cover;
+            background-position: top center;
+            -webkit-transition: all 1.5s ease-in-out;
+            -moz-transition: all 1.5s ease-in-out;
+            -o-transition: all 1.5s ease-in-out;
+            -ms-transition: all 1.5s ease-in-out;
+            transition: all 1.5s ease-in-out;
+        }
+        .slide2 {
+            width:350px;
+            height:450px;
+            margin:0px;
+            margin-right:0;
+            display:inline-block;
+            vertical-align:top;
+            border: 1px solid lightgrey;
+            color:white;
+            text-align:justify;
+            }
+
+            .transform2 {
+            overflow:hidden;
+            }
+
+            .transform2 img {
+            -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            -o-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+            }
+
+        .transform2:hover img {
+            transform: translateX(350px);
         }
 
-        .transform img {
-        -webkit-transition: all 1s ease-in-out;
-        -moz-transition: all 1s ease-in-out;
-        -o-transition: all 1s ease-in-out;
-        -ms-transition: all 1s ease-in-out;
-        transition: all 1s ease-in-out;
+        .background,
+        .multi2{
+            background-image: url(../images/jess.png);
+            background-repeat:no-repeat;
+            background-color: @rustyRed;
+            background-size: cover;
+            background-position: top center;
+            -webkit-transition: all 1.5s ease-in-out;
+            -moz-transition: all 1.5s ease-in-out;
+            -o-transition: all 1.5s ease-in-out;
+            -ms-transition: all 1.5s ease-in-out;
+            transition: all 1.5s ease-in-out;
         }
-
-    .transform:hover img {
-        transform: translateX(-550px);
-    }
-
-    .background,
-    .multi{
-        background-image: url(../images/headshot.png);
-        background-repeat:no-repeat;
-        background-color: @rustyRed;
-        background-size: cover;
-        background-position: top center;
-        -webkit-transition: all 1.5s ease-in-out;
-        -moz-transition: all 1.5s ease-in-out;
-        -o-transition: all 1.5s ease-in-out;
-        -ms-transition: all 1.5s ease-in-out;
-        transition: all 1.5s ease-in-out;
-    }
-    .slide2 {
-        width:350px;
-        height:450px;
-        margin:0px;
-        margin-right:0;
-        display:inline-block;
-        vertical-align:top;
-        border: 1px solid lightgrey;
-        color:white;
-        text-align:justify;
-        }
-
-        .transform2 {
-        overflow:hidden;
-        }
-
-        .transform2 img {
-        -webkit-transition: all 1s ease-in-out;
-        -moz-transition: all 1s ease-in-out;
-        -o-transition: all 1s ease-in-out;
-        -ms-transition: all 1s ease-in-out;
-        transition: all 1s ease-in-out;
-        }
-
-    .transform2:hover img {
-        transform: translateX(350px);
-    }
-
-    .background,
-    .multi2{
-        background-image: url(../images/jess.png);
-        background-repeat:no-repeat;
-        background-color: @rustyRed;
-        background-size: cover;
-        background-position: top center;
-        -webkit-transition: all 1.5s ease-in-out;
-        -moz-transition: all 1.5s ease-in-out;
-        -o-transition: all 1.5s ease-in-out;
-        -ms-transition: all 1.5s ease-in-out;
-        transition: all 1.5s ease-in-out;
     }
     }
 }

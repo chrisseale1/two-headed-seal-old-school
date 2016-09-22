@@ -310,21 +310,21 @@ div#about-main-container #jess-container #jess-info {
     padding-top: 5em;
     padding-bottom: 4em;
   }
+  div.services-main-container .clearfix {
+    overflow: auto;
+  }
   div.services-main-container h1 {
     font-family: "Abolon", sans-serif;
     margin-top: 0;
-    overflow: auto;
   }
   div.services-main-container .services-para {
     font-family: "Oswald-Light", sans-serif;
     font-size: 18px;
     display: inline-block;
-    overflow: auto;
   }
   div.services-main-container .title {
     width: 100%;
     display: inline-block;
-    overflow: auto;
   }
   div.services-main-container #webdesign-container {
     width: 80%;
@@ -354,15 +354,13 @@ div#about-main-container #jess-container #jess-info {
     float: right;
   }
   div.services-main-container #seo-container #seo-image {
-    margin-left: 0;
-    position: absolute;
+    float: right;
   }
   div.services-main-container #seo-container #seo-image img {
     height: 11em;
   }
   div.services-main-container #seo-container #seo-info {
-    display: inline-block;
-    position: relative;
+    margin-right: 2em;
   }
   div.services-main-container #graphicdesign-container {
     width: 80%;

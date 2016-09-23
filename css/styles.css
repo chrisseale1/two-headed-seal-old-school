@@ -156,44 +156,47 @@
 .container h2 {
   font-family: "Oswald-Bold";
 }
-.container .mini-image1 {
+.container .mini-container {
+  margin-bottom: 2.8em;
+}
+.container .mini-container .mini-image1 {
   height: 10em;
   width: 100%;
   background-image: url(../images/computer-study.jpg);
   background-size: cover;
   background-color: #984B43;
 }
-.container .mini-image2 {
+.container .mini-container .mini-image2 {
   height: 10em;
   width: 100%;
   background-image: url(../images/responsive-design.jpg);
   background-size: cover;
   background-color: #984B43;
 }
-.container .mini-image3 {
+.container .mini-container .mini-image3 {
   height: 10em;
   width: 100%;
   background-image: url(../images/colors-wheel.jpg);
   background-size: cover;
   background-color: #984B43;
 }
-.container p {
+.container .mini-container p {
   font-family: "Oswald-Light";
   text-align: left;
   font-size: 1.15em;
 }
 @media (max-width: 700px) {
-  .container p {
+  .container .mini-container p {
     font-size: 1.65em;
   }
 }
-.container .btn {
+.container .mini-container .btn {
   background-color: #EAC67A;
   color: #984B43;
   font-family: "Abolon";
 }
 @media (max-width: 700px) {
-  .container .btn {
+  .container .mini-container .btn {
     font-size: 1.5em;
   }
 }

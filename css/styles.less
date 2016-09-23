@@ -169,45 +169,49 @@
     h2{
         font-family: @oswaldBold;
     }
-    .mini-image1{
-        height: 10em;
-        width: 100%;
-        background-image: url(../images/computer-study.jpg);
-        background-size: cover;
-        background-color: @rustyRed;
-    }
-    .mini-image2{
-        height: 10em;
-        width: 100%;
-        background-image: url(../images/responsive-design.jpg);
-        background-size: cover;
-        background-color: @rustyRed;
-    }
-    .mini-image3{
-        height: 10em;
-        width: 100%;
-        background-image: url(../images/colors-wheel.jpg);
-        background-size: cover;
-        background-color: @rustyRed;
-    }
-    p{
-        font-family: @oswaldLight;
-        text-align: left;
-        font-size: 1.15em;
-    }
-    @media (max-width: 700px){
-        p{
-            font-size: 1.65em;
+    .mini-container{
+        margin-bottom: 2.8em;
+    
+        .mini-image1{
+            height: 10em;
+            width: 100%;
+            background-image: url(../images/computer-study.jpg);
+            background-size: cover;
+            background-color: @rustyRed;
         }
-    }
-    .btn{
-            background-color: @warmYellow;
-            color: @rustyRed;
-            font-family: @abolon;
+        .mini-image2{
+            height: 10em;
+            width: 100%;
+            background-image: url(../images/responsive-design.jpg);
+            background-size: cover;
+            background-color: @rustyRed;
+        }
+        .mini-image3{
+            height: 10em;
+            width: 100%;
+            background-image: url(../images/colors-wheel.jpg);
+            background-size: cover;
+            background-color: @rustyRed;
+        }
+        p{
+            font-family: @oswaldLight;
+            text-align: left;
+            font-size: 1.15em;
         }
         @media (max-width: 700px){
-            .btn{
-                font-size: 1.5em;
+            p{
+                font-size: 1.65em;
+            }
+        }
+        .btn{
+                background-color: @warmYellow;
+                color: @rustyRed;
+                font-family: @abolon;
+            }
+            @media (max-width: 700px){
+                .btn{
+                    font-size: 1.5em;
+                }
             }
         }
 }

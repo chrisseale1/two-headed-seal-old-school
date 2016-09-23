@@ -678,6 +678,7 @@ div#about-main-container #jess-container #jess-info {
   }
   div#main-portfolio-container .modal-content {
     display: inline-block;
+    text-align: center;
   }
   div#main-portfolio-container .thumbnail {
     height: 200px;

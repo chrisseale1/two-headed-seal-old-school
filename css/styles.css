@@ -323,7 +323,7 @@ div#about-main-container h3 {
 }
 div#about-main-container .about-para {
   font-family: "Oswald-Light", sans-serif;
-  font-size: 18px;
+  font-size: 1.25em;
 }
 div#about-main-container .contact-info a {
   text-decoration: none;

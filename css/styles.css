@@ -484,6 +484,8 @@ div#about-main-container #jess-container #jess-info {
 @media only screen and (max-width: 480px) {
   div.services-main-container {
     text-align: center;
+    padding-top: 6em;
+    padding-bottom: 2em;
   }
   div.services-main-container .title h1 {
     font-family: "Abolon", sans-serif;
@@ -494,10 +496,6 @@ div#about-main-container #jess-container #jess-info {
   }
   div.services-main-container #webdesign-container {
     width: 100%;
-    background-image: url(../images/web-design-services.jpg);
-    background-size: cover;
-    opacity: 0.4;
-    z-index: -1;
   }
   div.services-main-container #webdesign-container .services-para {
     font-size: 16px;
@@ -510,6 +508,10 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container #seo-container {
     width: 100%;
     background-color: #e7e9ec;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
   div.services-main-container #seo-container h1 {
     float: none;

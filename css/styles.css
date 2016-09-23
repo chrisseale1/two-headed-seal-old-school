@@ -99,6 +99,8 @@
   border: 1px solid lightgrey;
   color: #EAC67A;
   text-align: justify;
+  cursor: pointer;
+  cursor: hand;
 }
 @media (min-width: 540px) and (max-width: 900px) {
   .splash .constrain-contain .slide-container .slide {
@@ -151,6 +153,8 @@
   border: 1px solid lightgrey;
   color: white;
   text-align: justify;
+  cursor: pointer;
+  cursor: hand;
 }
 @media (min-width: 540px) and (max-width: 900px) {
   .splash .constrain-contain .slide-container2 .slide2 {

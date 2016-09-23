@@ -37,15 +37,25 @@
   margin-right: 0.5em;
   top: 0.8em;
   color: #F4F4F4;
-  display: inline-block;
+  display: inline;
 }
 .navbar ul.pages li.page a {
   color: #F4F4F4;
   text-decoration: none;
 }
+@media (max-width: 544px) {
+  .navbar ul.pages li.page a {
+    background-color: #984B43;
+  }
+}
 .navbar ul.pages li.page a:hover {
   color: #EAC67A;
   background-color: transparent;
+}
+@media (max-width: 544px) {
+  .navbar ul.pages li.page a:hover {
+    background-color: #984B43;
+  }
 }
 @media (max-width: 544px) {
   .navbar ul.pages li.page {
@@ -59,6 +69,10 @@
 @media (max-width: 544px) {
   .navbar {
     text-align: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 }
 .splash {
@@ -175,6 +189,11 @@
     margin-left: 2em;
   }
 }
+@media (max-width: 540px) {
+  .splash {
+    margin-top: 5em;
+  }
+}
 .container {
   margin-bottom: 3em;
   text-align: center;
@@ -274,6 +293,12 @@ div.footer-container #footer-social {
   height: 15em;
   line-height: 15em;
   float: right;
+}
+div.footer-container #footer-social .btn {
+  background-color: #EAC67A;
+  color: #233237;
+  border-radius: 0.5em;
+  margin-bottom: 0.5em;
 }
 div.footer-container #footer-social a {
   color: #EAC67A;

@@ -282,7 +282,6 @@ div.footer-container #copyright {
   }
 }
 div#about-main-container {
-  margin-top: 3em;
   padding-top: 4em;
   padding-bottom: 4em;
 }
@@ -473,34 +472,233 @@ div#about-main-container #jess-container #jess-info {
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {
-  #tools-main-container {
-    width: 60%;
-    margin: auto;
-    padding-top: 5em;
+  div#main-portfolio-container {
+    padding-top: 4em;
     padding-bottom: 4em;
   }
-  #tools-main-container #tools-title h1 {
+  div#main-portfolio-container button.web-thumb-one {
+    background-image: url(../images/portfolio-web/web-design-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-two {
+    background-image: url(../images/portfolio-web/web-design-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-three {
+    background-image: url(../images/portfolio-web/web-design-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-four {
+    background-image: url(../images/portfolio-web/web-design-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-five {
+    background-image: url(../images/portfolio-web/web-design-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-six {
+    background-image: url(../images/portfolio-web/web-design-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-seven {
+    background-image: url(../images/web-design-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-eight {
+    background-image: url(../images/portfolio-web/web-design-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.graphic-thumb-one {
+    background-image: url(../images/portfolio-graphic/graphicdesign-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.graphic-thumb-two {
+    background-image: url(../images/portfolio-graphic/graphicdesign-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.graphic-thumb-three {
+    background-image: url(../images/portfolio-graphic/graphicdesign-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.graphic-thumb-four {
+    background-image: url(../images/portfolio-graphic/graphicdesign-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.graphic-thumb-five {
+    background-image: url(../images/portfolio-graphic/graphicdesign-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.graphic-thumb-six {
+    background-image: url(../images/portfolio-graphic/graphicdesign-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.graphic-thumb-seven {
+    background-image: url(../images/portfolio-graphic/graphicdesign-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.graphic-thumb-eight {
+    background-image: url(../images/portfolio-graphic/graphicdesign-services.jpg);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container #modal-label {
+    font-size: 30px;
+    font-family: "Oswald-Bold", sans-serif;
+  }
+  div#main-portfolio-container .close {
+    color: black;
+    opacity: 1;
+  }
+  div#main-portfolio-container img {
+    height: 500px;
+  }
+  div#main-portfolio-container .modal-content {
+    display: inline-block;
+  }
+  div#main-portfolio-container .thumbnail {
+    height: 200px;
+    width: 100%;
+    background-color: #984B43;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container h1 {
+    font-family: "Abolon", sans-serif;
+    margin-top: 0;
+  }
+  div#main-portfolio-container #webdesign-port-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {
+  div#tools-main-container {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 4em;
+    margin-bottom: 4em;
+    display: inline-block;
+  }
+  div#tools-main-container #tools-title h1 {
     font-size: 40px;
     font-family: "Abolon", sans-serif;
     width: 100%;
     display: inline-block;
   }
-  #tools-main-container .tool-list li {
+  div#tools-main-container .tool-list li {
     font-family: "Oswald-Light", sans-serif;
     font-size: 28px;
     list-style: none;
     width: 50%;
   }
-  #tools-main-container .tool-list li.left {
+  div#tools-main-container .tool-list li.left {
     float: left;
   }
-  #tools-main-container .tool-list li.right {
+  div#tools-main-container .tool-list li.right {
     float: right;
   }
 }
 @media only screen and (max-width: 480px) {
   #tools-main-container {
     text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
   #tools-main-container #tools-title h1 {
     font-size: 40px;

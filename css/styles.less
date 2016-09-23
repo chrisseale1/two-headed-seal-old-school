@@ -383,7 +383,9 @@ div.footer-container {
 div#about-main-container {
     padding-top: 4em;
     padding-bottom: 4em;
-
+    #chris-image{
+        text-decoration: none;
+    }
     h2 {
         font-family: @oswaldBold, sans-serif;
         margin-top: 0;
@@ -452,10 +454,23 @@ div#about-main-container {
             }
         }
 
+        @media(max-width: 768px){
+            #chris-image{
+                text-align: center;
+            }
+        }
         #chris-info {
             margin-left: 2em;
         }
+        @media(max-width:950px){
+            #chris-info{
+                margin-left: 4em;
+            }
+        }
      
+    }
+.jess-image-mobile{
+        text-align: center;
     }
 
 //-----JESS STYLING-----
@@ -489,6 +504,11 @@ div#about-main-container {
         #jess-info {
             margin-right: 2em;
             float: right;
+        }
+        @media(max-width:950px){
+            #jess-info{
+                margin-right: 4em;
+            }
         }
 
 }

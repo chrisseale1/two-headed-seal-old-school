@@ -585,6 +585,86 @@ div#about-main-container #jess-container #jess-info {
     width: 100%;
     margin-bottom: 3em;
   }
+  div#main-portfolio-container button.web-thumb-nine {
+    background-image: url(../images/portfolio-web/pet-home-desk.png);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-ten {
+    background-image: url(../images/portfolio-web/pet-search-desk.png);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-eleven {
+    background-image: url(../images/portfolio-web/pet-resources-desk.png);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-twelve {
+    background-image: url(../images/portfolio-web/pet-resources-modal.png);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-thirteen {
+    background-image: url(../images/portfolio-web/pet-resources-mobile.png);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-fourteen {
+    background-image: url(../images/portfolio-web/pet-vetfinder-desk.png);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-fifteen {
+    background-image: url(../images/portfolio-web/pet-namegen-desk.png);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container button.web-thumb-sixteen {
+    background-image: url(../images/portfolio-web/pet-name-gen-mobile.png);
+    background-size: cover;
+    background-color: #984B43;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
   div#main-portfolio-container button.graphic-thumb-one {
     background-image: url(../images/portfolio-graphic/wikitherapy.jpg);
     background-size: cover;

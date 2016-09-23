@@ -18,41 +18,48 @@
 * body {
   background-color: #F4F4F4;
 }
-.navbar-custom {
+.navbar {
   color: #F4F4F4;
   background-color: #984B43;
+  height: 5em;
   text-align: center;
-  margin-bottom: 1em;
-  width: 100%;
-  left: 0;
-  right: 0;
 }
-.navbar-custom ul.pages {
+.navbar ul.pages {
   display: inline-block;
   color: #F4F4F4;
   height: 0.8em;
   font-family: "Abolon", "Oswald-Bold", sans-serif;
   font-size: 1.45em;
-  margin-top: 1em;
+  margin-top: 1.25em;
 }
-.navbar-custom ul.pages li.page {
-  margin-left: 1em;
-  margin-right: 1em;
+.navbar ul.pages li.page {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   top: 0.8em;
   color: #F4F4F4;
   display: inline-block;
 }
-.navbar-custom ul.pages li.page a {
+.navbar ul.pages li.page a {
   color: #F4F4F4;
   text-decoration: none;
 }
-.navbar-custom ul.pages li.page a:hover {
+.navbar ul.pages li.page a:hover {
   color: #EAC67A;
   background-color: transparent;
 }
-.navbar-custom ul.pages #nav-brand {
-  margin-top: -2.5em;
+@media (max-width: 544px) {
+  .navbar ul.pages li.page {
+    color: #984B43;
+  }
+}
+.navbar ul.pages #nav-brand {
+  margin-top: -1.5em;
   z-index: 999999;
+}
+@media (max-width: 544px) {
+  .navbar {
+    text-align: right;
+  }
 }
 .splash {
   margin-top: 1.5em;

@@ -8,8 +8,8 @@
     <meta name="author" content="Chris Seale and Jessica Larsen">
     <title>Two Headed Seal</title>
     <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/ >
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
@@ -20,29 +20,39 @@
 </head>
 
 <body>
-    <header class="navbar navbar-custom bs-docs-nav" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <nav class="collapse navbar-collapse" role="navigation">
-                <ul class="nav navbar-nav pages">
-                    <li class="page"><a href="home.html">Home</a></li>
-                    <li class="page"><a href="services.html">Services</a></li>
-                    <li class="page"><a href="aboutus.html">About</a></li>
-                    <li class="page hidden-xs"><a href="home.html"><img id="nav-brand" src="images/nav-logo1.png" width="120" alt="Two-Headed Seal Logo"></a></li>
-                    <li class="page"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="page"><a href="contact.html">Contact</a></li>
-                    <li class="page"><a href="sixth.html">Sixth</a></li>
-                </ul>
-            </nav>
+    <nav class="navbar navbar-full navbar-dark" style="background-color:#984B43;">
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2"
+            aria-expanded="false" aria-label="Toggle navigation">
+        &#9776;
+        </button>
+        <a class="navbar-brand hidden-sm-up"><img src="images/nav-logo-pure.png" width="60" alt="Two-Headed Seal Logo"></a>
+        <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+            <ul class="nav navbar-nav pages">
+                <li class="nav-item page">
+                    <a class="nav-link page" href="home.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item page">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item page">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item page hidden-sm-down">
+                    <a class="navbar-brand">
+                        <a href="home.html"><img id="nav-brand" src="images/nav-logo1.png" width="120" alt="Two-Headed Seal Logo"></a>
+                </li>
+                <li class="nav-item page">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item page">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item page">
+                    <a class="nav-link" href="tools.html">Tools</a>
+                </li>
+            </ul>
         </div>
-    </header>
+    </nav>
     <!--PAGE CONTENT BEGINS-->
     <div id="tools-main-container">
         <div id="tools-title">
@@ -74,7 +84,7 @@
                     <img src="images/nav-logo.png">
                 </div>
             </div>
-            <div class="col-md-2 hidden-xs">
+            <div class="col-md-2 hidden-sm-down">
                 <div class="footer-links">
                     <ul>
                         <li><a href="home.html">Home</li>
@@ -83,7 +93,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 hidden-xs">
+            <div class="col-md-2 hidden-sm-down">
                 <div class="footer-links">
                     <ul>
                         <li><a href="aboutus.html">About</a></li>

@@ -465,3 +465,56 @@ div#about-main-container #jess-container #jess-info {
     margin: 0 .75em 2em .75em;
   }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {
+  #tools-main-container {
+    width: 60%;
+    margin: auto;
+    padding-top: 5em;
+    padding-bottom: 4em;
+  }
+  #tools-main-container #tools-title h1 {
+    font-size: 40px;
+    font-family: "Abolon", sans-serif;
+    width: 100%;
+    display: inline-block;
+  }
+  #tools-main-container .tool-list li {
+    font-family: "Oswald-Light", sans-serif;
+    font-size: 28px;
+    list-style: none;
+    width: 50%;
+  }
+  #tools-main-container .tool-list li.left {
+    float: left;
+  }
+  #tools-main-container .tool-list li.right {
+    float: right;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #tools-main-container {
+    text-align: center;
+  }
+  #tools-main-container #tools-title h1 {
+    font-size: 40px;
+    font-family: "Abolon", sans-serif;
+    width: 100%;
+    display: inline-block;
+  }
+  #tools-main-container ul.tool-list {
+    padding-left: 0;
+    width: 100%;
+  }
+  #tools-main-container ul.tool-list .left,
+  #tools-main-container ul.tool-list .right {
+    float: none;
+    width: 100%;
+  }
+  #tools-main-container ul.tool-list li {
+    font-family: "Oswald-Light", sans-serif;
+    font-size: 28px;
+    list-style-type: none;
+    width: 100%;
+    padding-left: none;
+  }
+}

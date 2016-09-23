@@ -484,6 +484,8 @@ div#about-main-container #jess-container #jess-info {
 @media only screen and (max-width: 480px) {
   div.services-main-container {
     text-align: center;
+    padding-top: 6em;
+    padding-bottom: 2em;
   }
   div.services-main-container .title h1 {
     font-family: "Abolon", sans-serif;
@@ -494,10 +496,6 @@ div#about-main-container #jess-container #jess-info {
   }
   div.services-main-container #webdesign-container {
     width: 100%;
-    background-image: url(../images/web-design-services.jpg);
-    background-size: cover;
-    opacity: 0.4;
-    z-index: -1;
   }
   div.services-main-container #webdesign-container .services-para {
     font-size: 16px;
@@ -510,6 +508,10 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container #seo-container {
     width: 100%;
     background-color: #e7e9ec;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
   div.services-main-container #seo-container h1 {
     float: none;
@@ -801,6 +803,18 @@ div#about-main-container #jess-container #jess-info {
     margin-right: auto;
   }
 }
+@media only screen and (max-width: 480px) {
+  #main-portfolio-container {
+    text-align: center;
+    padding-top: 6em;
+    padding-bottom: 2em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .spacer {
+    margin-bottom: 5em;
+  }
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {
   div#tools-main-container {
     width: 60%;
@@ -832,7 +846,7 @@ div#about-main-container #jess-container #jess-info {
 @media only screen and (max-width: 480px) {
   #tools-main-container {
     text-align: center;
-    padding-top: 2em;
+    padding-top: 6em;
     padding-bottom: 2em;
   }
   #tools-main-container #tools-title h1 {

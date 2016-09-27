@@ -854,12 +854,16 @@ div#about-main-container #jess-container #jess-info {
     font-family: "Abolon", sans-serif;
     width: 100%;
     display: inline-block;
+    text-align: center;
+  }
+  div#tools-main-container .tool-list {
+    text-align: center;
   }
   div#tools-main-container .tool-list li {
     font-family: "Oswald-Light", sans-serif;
     font-size: 28px;
     list-style: none;
-    width: 50%;
+    width: 49%;
   }
   div#tools-main-container .tool-list li.left {
     float: left;
@@ -868,8 +872,14 @@ div#about-main-container #jess-container #jess-info {
     float: right;
   }
 }
+@media only screen and (max-width: 540px) {
+  #tools-main-container {
+    margin-top: 3em;
+  }
+}
 @media only screen and (max-width: 480px) {
   #tools-main-container {
+    margin-top: 3em;
     text-align: center;
     padding-top: 6em;
     padding-bottom: 2em;

@@ -1042,14 +1042,16 @@ div#about-main-container {
                 font-family: @abolon, sans-serif;
                 width: 100%;
                 display: inline-block;
+                text-align: center;
             }
 
             .tool-list {
+                text-align: center;
                 li {
                     font-family: @oswaldLight, sans-serif;
                     font-size: 28px;
                     list-style: none;
-                    width: 50%;
+                    width: 49%;
                 }
 
                 li.left {
@@ -1064,10 +1066,15 @@ div#about-main-container {
 }
 
 // MOBILE TOOLS STYLING
-
+@media only screen and (max-width: 540px){
+    #tools-main-container{
+        margin-top: 3em;
+    }
+}
 @media only screen and (max-width : 480px)  {
 
     #tools-main-container {
+        margin-top: 3em;
         text-align: center;
         padding-top: 6em;
         padding-bottom: 2em;

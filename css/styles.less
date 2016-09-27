@@ -90,6 +90,11 @@
         font-size: 4em;
         font-family: @oswaldBold, @abolon, sans-serif;
     }
+    @media screen and (max-width: 993px){
+        .welcome{
+            font-size: 3.5em;
+        }
+    }
     .constrain-contain{
         margin-top: -2em;
     .slide-container{
@@ -107,7 +112,7 @@
             text-align:justify;
             cursor: pointer; cursor: hand;
             }
-            @media (min-width: 540px) and (max-width: 900px){
+            @media (min-width: 540px) and (max-width: 1200px){
                 .slide{
                     width:300px;
                     height:400px;
@@ -144,9 +149,9 @@
             transition: all 1.5s ease-in-out;
         }
     }
-    @media (min-width: 540px) and (max-width: 900px){
+    @media (min-width: 540px) and (max-width: 1200px){
         .slide-container{
-            margin-right: 1em;
+            margin-left: -3em;
         }
     }
         .slide-container2{
@@ -165,7 +170,7 @@
             text-align:justify;
             cursor: pointer; cursor: hand;
             }
-            @media (min-width: 540px) and (max-width: 900px){
+            @media (min-width: 540px) and (max-width: 1200px){
                 .slide2{
                     width:300px;
                     height:400px;
@@ -255,6 +260,7 @@
         @media (max-width: 700px){
             p{
                 font-size: 1.65em;
+                text-align: center;
             }
         }
         .btn{

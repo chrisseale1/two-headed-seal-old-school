@@ -82,6 +82,11 @@
   font-size: 4em;
   font-family: "Oswald-Bold", "Abolon", sans-serif;
 }
+@media screen and (max-width: 993px) {
+  .splash .welcome {
+    font-size: 3.5em;
+  }
+}
 .splash .constrain-contain {
   margin-top: -2em;
 }
@@ -102,7 +107,7 @@
   cursor: pointer;
   cursor: hand;
 }
-@media (min-width: 540px) and (max-width: 900px) {
+@media (min-width: 540px) and (max-width: 1200px) {
   .splash .constrain-contain .slide-container .slide {
     width: 300px;
     height: 400px;
@@ -134,9 +139,9 @@
   -ms-transition: all 1.5s ease-in-out;
   transition: all 1.5s ease-in-out;
 }
-@media (min-width: 540px) and (max-width: 900px) {
+@media (min-width: 540px) and (max-width: 1200px) {
   .splash .constrain-contain .slide-container {
-    margin-right: 1em;
+    margin-left: -3em;
   }
 }
 .splash .constrain-contain .slide-container2 {
@@ -156,7 +161,7 @@
   cursor: pointer;
   cursor: hand;
 }
-@media (min-width: 540px) and (max-width: 900px) {
+@media (min-width: 540px) and (max-width: 1200px) {
   .splash .constrain-contain .slide-container2 .slide2 {
     width: 300px;
     height: 400px;
@@ -237,6 +242,7 @@
 @media (max-width: 700px) {
   .container .mini-container p {
     font-size: 1.65em;
+    text-align: center;
   }
 }
 .container .mini-container .btn {

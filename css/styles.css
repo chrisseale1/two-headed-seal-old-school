@@ -467,7 +467,6 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container #webdesign-container #webdesign-image {
     background-image: url(../images/web-design-services.jpg);
     background-size: cover;
-    background-color: #8eaec7;
     height: 11em;
     width: 100%;
     top: 0;
@@ -494,7 +493,6 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container #seo-container #seo-image {
     background-image: url(../images/seo-services.jpg);
     background-size: cover;
-    background-color: #8eaec7;
     height: 11em;
     width: 100%;
   }
@@ -505,7 +503,6 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container #graphicdesign-container #graphicdesign-image {
     background-image: url(../images/graphicdesign-services.jpg);
     background-size: cover;
-    background-color: #8eaec7;
     height: 11em;
     width: 100%;
     top: 0;
@@ -528,10 +525,14 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container #webdesign-container {
     width: 100%;
   }
-  div.services-main-container #webdesign-container .services-para {
-    font-size: 16px;
-    font-family: "Oswald-Light", sans-serif;
-    z-index: 1;
+  div.services-main-container #webdesign-container #webdesign-image-mobile {
+    background-image: url(../images/web-design-services-mobile.jpg);
+    background-size: cover;
+    height: 6em;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: .5em;
   }
   div.services-main-container #webdesign-container #webdesign-info {
     margin: 0 .75em 0 .75em;
@@ -539,10 +540,10 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container #seo-container {
     width: 100%;
     background-color: #e7e9ec;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
   }
   div.services-main-container #seo-container h1 {
     float: none;
@@ -551,8 +552,26 @@ div#about-main-container #jess-container #jess-info {
     margin: 0 .75em 0 .75em;
     float: none;
   }
+  div.services-main-container #seo-container #seo-image-mobile {
+    background-image: url(../images/seo-services-mobile.jpg);
+    background-size: cover;
+    height: 6em;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: .5em;
+  }
   div.services-main-container #graphicdesign-container {
     width: 100%;
+  }
+  div.services-main-container #graphicdesign-container #graphicdesign-image-mobile {
+    background-image: url(../images/graphicdesign-services-mobile.jpg);
+    background-size: cover;
+    height: 6em;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: .5em;
   }
   div.services-main-container #graphicdesign-container #graphicdesign-info {
     margin: 0 .75em 2em .75em;
@@ -839,6 +858,19 @@ div#about-main-container #jess-container #jess-info {
     text-align: center;
     padding-top: 6em;
     padding-bottom: 2em;
+  }
+  #main-portfolio-container h1 {
+    font-family: "Abolon", sans-serif;
+    margin-top: 0;
+  }
+  #main-portfolio-container button.web-thumb-one {
+    background-image: url(../images/portfolio-web/mouthfeel-desktop1.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 16em;
+    width: 90%;
+    margin-bottom: 2em;
   }
 }
 @media only screen and (max-width: 480px) {

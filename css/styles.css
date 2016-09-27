@@ -49,7 +49,7 @@
   }
 }
 .navbar ul.pages li.page a:hover {
-  color: #c1bca8;
+  color: #c2bba8;
   background-color: transparent;
 }
 @media (max-width: 544px) {
@@ -97,7 +97,7 @@
   display: inline-block;
   vertical-align: top;
   border: 1px solid lightgrey;
-  color: #c1bca8;
+  color: #c2bba8;
   text-align: justify;
   cursor: pointer;
   cursor: hand;
@@ -240,7 +240,7 @@
   }
 }
 .container .mini-container .btn {
-  background-color: #c1bca8;
+  background-color: #c2bba8;
   color: #9ba0a4;
   font-family: "Abolon";
 }
@@ -252,7 +252,7 @@
 div.footer-container {
   background-color: #233237;
   clear: both;
-  color: #c1bca8;
+  color: #c2bba8;
   width: 100%;
 }
 div.footer-container #footer-contents {
@@ -265,7 +265,7 @@ div.footer-container #footer-logo {
   line-height: 15em;
 }
 div.footer-container #footer-logo img {
-  color: #c1bca8;
+  color: #c2bba8;
   padding-top: .15em;
   width: 12em;
 }
@@ -287,7 +287,7 @@ div.footer-container .footer-links li {
   font-weight: 400;
 }
 div.footer-container .footer-links a {
-  color: #c1bca8;
+  color: #c2bba8;
 }
 div.footer-container .footer-links a:hover {
   color: #F4F4F4;
@@ -299,13 +299,13 @@ div.footer-container #footer-social {
   float: right;
 }
 div.footer-container #footer-social .btn {
-  background-color: #c1bca8;
+  background-color: #c2bba8;
   color: #233237;
   border-radius: 0.5em;
   margin-bottom: 0.5em;
 }
 div.footer-container #footer-social a {
-  color: #c1bca8;
+  color: #c2bba8;
   text-decoration: none;
 }
 div.footer-container #footer-social a:hover {

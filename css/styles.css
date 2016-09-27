@@ -20,7 +20,7 @@
 }
 .navbar {
   color: #F4F4F4;
-  background-color: #984B43;
+  background-color: #9ba0a4;
   height: 5em;
   text-align: center;
 }
@@ -45,21 +45,21 @@
 }
 @media (max-width: 544px) {
   .navbar ul.pages li.page a {
-    background-color: #984B43;
+    background-color: #9ba0a4;
   }
 }
 .navbar ul.pages li.page a:hover {
-  color: #EAC67A;
+  color: #c1bca8;
   background-color: transparent;
 }
 @media (max-width: 544px) {
   .navbar ul.pages li.page a:hover {
-    background-color: #984B43;
+    background-color: #9ba0a4;
   }
 }
 @media (max-width: 544px) {
   .navbar ul.pages li.page {
-    color: #984B43;
+    color: #9ba0a4;
   }
 }
 .navbar ul.pages #nav-brand {
@@ -97,7 +97,7 @@
   display: inline-block;
   vertical-align: top;
   border: 1px solid lightgrey;
-  color: #EAC67A;
+  color: #c1bca8;
   text-align: justify;
   cursor: pointer;
   cursor: hand;
@@ -125,7 +125,7 @@
 .splash .constrain-contain .slide-container .multi {
   background-image: url(../images/headshot.png);
   background-repeat: no-repeat;
-  background-color: #984B43;
+  background-color: #9ba0a4;
   background-size: cover;
   background-position: top center;
   -webkit-transition: all 1.5s ease-in-out;
@@ -179,7 +179,7 @@
 .splash .constrain-contain .slide-container2 .multi2 {
   background-image: url(../images/jess.png);
   background-repeat: no-repeat;
-  background-color: #984B43;
+  background-color: #9ba0a4;
   background-size: cover;
   background-position: top center;
   -webkit-transition: all 1.5s ease-in-out;
@@ -213,21 +213,21 @@
   width: 100%;
   background-image: url(../images/computer-study.jpg);
   background-size: cover;
-  background-color: #984B43;
+  background-color: #9ba0a4;
 }
 .container .mini-container .mini-image2 {
   height: 10em;
   width: 100%;
   background-image: url(../images/responsive-design.jpg);
   background-size: cover;
-  background-color: #984B43;
+  background-color: #9ba0a4;
 }
 .container .mini-container .mini-image3 {
   height: 10em;
   width: 100%;
   background-image: url(../images/colors-wheel.jpg);
   background-size: cover;
-  background-color: #984B43;
+  background-color: #9ba0a4;
 }
 .container .mini-container p {
   font-family: "Oswald-Light";
@@ -240,8 +240,8 @@
   }
 }
 .container .mini-container .btn {
-  background-color: #EAC67A;
-  color: #984B43;
+  background-color: #c1bca8;
+  color: #9ba0a4;
   font-family: "Abolon";
 }
 @media (max-width: 700px) {
@@ -252,7 +252,7 @@
 div.footer-container {
   background-color: #233237;
   clear: both;
-  color: #EAC67A;
+  color: #c1bca8;
   width: 100%;
 }
 div.footer-container #footer-contents {
@@ -265,7 +265,7 @@ div.footer-container #footer-logo {
   line-height: 15em;
 }
 div.footer-container #footer-logo img {
-  color: #EAC67A;
+  color: #c1bca8;
   padding-top: .15em;
   width: 12em;
 }
@@ -287,7 +287,7 @@ div.footer-container .footer-links li {
   font-weight: 400;
 }
 div.footer-container .footer-links a {
-  color: #EAC67A;
+  color: #c1bca8;
 }
 div.footer-container .footer-links a:hover {
   color: #F4F4F4;
@@ -299,13 +299,13 @@ div.footer-container #footer-social {
   float: right;
 }
 div.footer-container #footer-social .btn {
-  background-color: #EAC67A;
+  background-color: #c1bca8;
   color: #233237;
   border-radius: 0.5em;
   margin-bottom: 0.5em;
 }
 div.footer-container #footer-social a {
-  color: #EAC67A;
+  color: #c1bca8;
   text-decoration: none;
 }
 div.footer-container #footer-social a:hover {
@@ -362,7 +362,7 @@ div#about-main-container .contact-info a {
   color: black;
 }
 div#about-main-container .contact-info a a:hover {
-  color: #984B43;
+  color: #9ba0a4;
 }
 div#about-main-container .email-address {
   margin-right: 1em;
@@ -461,7 +461,7 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container #webdesign-container #webdesign-image {
     background-image: url(../images/web-design-services.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     height: 11em;
     width: 100%;
     top: 0;
@@ -488,7 +488,7 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container #seo-container #seo-image {
     background-image: url(../images/seo-services.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     height: 11em;
     width: 100%;
   }
@@ -499,7 +499,7 @@ div#about-main-container #jess-container #jess-info {
   div.services-main-container #graphicdesign-container #graphicdesign-image {
     background-image: url(../images/graphicdesign-services.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     height: 11em;
     width: 100%;
     top: 0;
@@ -560,7 +560,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-one {
     background-image: url(../images/portfolio-web/mouthfeel-desktop1.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -570,7 +570,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-two {
     background-image: url(../images/portfolio-web/mouthfeel-desktop2.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -580,7 +580,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-three {
     background-image: url(../images/portfolio-web/mouthfeel-desktop3.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -590,7 +590,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-four {
     background-image: url(../images/portfolio-web/mouthfeel-desktop4.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -600,7 +600,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-five {
     background-image: url(../images/portfolio-web/mouthfeel-mobile1.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -610,7 +610,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-six {
     background-image: url(../images/portfolio-web/mouthfeel-mobile2.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -620,7 +620,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-seven {
     background-image: url(../images/portfolio-web/mouthfeel-mobile3.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -630,7 +630,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-eight {
     background-image: url(../images/portfolio-web/mouthfeel-mobile4.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -640,7 +640,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-nine {
     background-image: url(../images/portfolio-web/pet-home-desk.png);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -650,7 +650,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-ten {
     background-image: url(../images/portfolio-web/pet-search-desk.png);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -660,7 +660,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-eleven {
     background-image: url(../images/portfolio-web/pet-resources-desk.png);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -670,7 +670,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-twelve {
     background-image: url(../images/portfolio-web/pet-resources-modal.png);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -680,7 +680,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-thirteen {
     background-image: url(../images/portfolio-web/pet-resources-mobile.png);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -690,7 +690,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-fourteen {
     background-image: url(../images/portfolio-web/pet-vetfinder-desk.png);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -700,7 +700,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-fifteen {
     background-image: url(../images/portfolio-web/pet-namegen-desk.png);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -710,7 +710,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.web-thumb-sixteen {
     background-image: url(../images/portfolio-web/pet-name-gen-mobile.png);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -720,7 +720,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.graphic-thumb-one {
     background-image: url(../images/portfolio-graphic/wikitherapy.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -730,7 +730,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.graphic-thumb-two {
     background-image: url(../images/portfolio-graphic/MaryPhotoshop.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -740,7 +740,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.graphic-thumb-three {
     background-image: url(../images/portfolio-graphic/fightclubyaya1.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -750,7 +750,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.graphic-thumb-four {
     background-image: url(../images/portfolio-graphic/GrouchoYang.png);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -760,7 +760,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.graphic-thumb-five {
     background-image: url(../images/portfolio-graphic/Mattsincity.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -770,7 +770,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.graphic-thumb-six {
     background-image: url(../images/portfolio-graphic/Shirapatch.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -780,7 +780,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.graphic-thumb-seven {
     background-image: url(../images/portfolio-graphic/capturedgargoyle.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -790,7 +790,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container button.graphic-thumb-eight {
     background-image: url(../images/portfolio-graphic/windowthinking.jpg);
     background-size: cover;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     top: 0;
     left: 0;
     height: 200px;
@@ -815,7 +815,7 @@ div#about-main-container #jess-container #jess-info {
   div#main-portfolio-container .thumbnail {
     height: 200px;
     width: 100%;
-    background-color: #984B43;
+    background-color: #9ba0a4;
     margin-bottom: 3em;
   }
   div#main-portfolio-container h1 {

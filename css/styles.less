@@ -557,7 +557,6 @@ div#about-main-container {
             #webdesign-image {
                 background-image: url(../images/web-design-services.jpg);
                 background-size: cover;
-                background-color: @rustyRed;
                 height: 11em;
                 width: 100%;
                 top: 0;
@@ -590,7 +589,6 @@ div#about-main-container {
             #seo-image {
                 background-image: url(../images/seo-services.jpg);
                 background-size: cover;
-                background-color: @rustyRed;
                 height: 11em;
                 width: 100%;
             }
@@ -606,12 +604,14 @@ div#about-main-container {
             #graphicdesign-image {
                 background-image: url(../images/graphicdesign-services.jpg);
                 background-size: cover;
-                background-color: @rustyRed;
                 height: 11em;
                 width: 100%;
                 top: 0;
                 left: 0;
             }
+            // #graphicdesign-info {
+            //     display: inline-block;
+            // }
         }
     }
 }
@@ -638,15 +638,15 @@ div#about-main-container {
 
             #webdesign-container {
                 width: 100%;
-                // background-image: url(../images/web-design-services.jpg);
-                // background-size: cover;
-                // opacity: 0.4;
-                // z-index: -1;
 
-                .services-para {
-                    font-size: 16px;
-                    font-family: @oswaldLight, sans-serif;
-                    z-index: 1;
+                #webdesign-image-mobile {
+                    background-image: url(../images/web-design-services-mobile.jpg);
+                    background-size: cover;
+                    height: 6em;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    margin-bottom: .5em;
                 }
 
                 #webdesign-info {
@@ -657,10 +657,10 @@ div#about-main-container {
             #seo-container {
                 width: 100%;
                 background-color: #e7e9ec;
-                margin-top: 2em;
-                margin-bottom: 2em;
-                padding-top: 1em;
-                padding-bottom: 1em;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                padding-top: 2.5em;
+                padding-bottom: 2.5em;
 
                 h1 {
                     float: none;
@@ -670,10 +670,30 @@ div#about-main-container {
                     margin: 0 .75em 0 .75em;
                     float: none;
                 }   
+
+                #seo-image-mobile {
+                    background-image: url(../images/seo-services-mobile.jpg);
+                    background-size: cover;
+                    height: 6em;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    margin-bottom: .5em;
+                }
             }
 
             #graphicdesign-container {
                 width: 100%;
+
+                #graphicdesign-image-mobile {
+                    background-image: url(../images/graphicdesign-services-mobile.jpg);
+                    background-size: cover;
+                    height: 6em;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    margin-bottom: .5em;
+                }
 
                 #graphicdesign-info {
                     margin: 0 .75em 2em .75em;

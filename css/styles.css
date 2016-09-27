@@ -853,6 +853,19 @@ div#about-main-container #jess-container #jess-info {
     padding-top: 6em;
     padding-bottom: 2em;
   }
+  #main-portfolio-container h1 {
+    font-family: "Abolon", sans-serif;
+    margin-top: 0;
+  }
+  #main-portfolio-container button.web-thumb-one {
+    background-image: url(../images/portfolio-web/mouthfeel-desktop1.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 16em;
+    width: 90%;
+    margin-bottom: 2em;
+  }
 }
 @media only screen and (max-width: 480px) {
   .spacer {

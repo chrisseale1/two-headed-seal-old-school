@@ -855,13 +855,29 @@ div#about-main-container #jess-container #jess-info {
 }
 @media only screen and (max-width: 480px) {
   #main-portfolio-container {
-    text-align: center;
     padding-top: 6em;
     padding-bottom: 2em;
+  }
+  #main-portfolio-container #modal-label {
+    font-size: 1.2em;
+    font-family: "Oswald-Bold", sans-serif;
+  }
+  #main-portfolio-container .close {
+    color: black;
+    opacity: 1;
+  }
+  #main-portfolio-container img {
+    height: 313px;
+  }
+  #main-portfolio-container .modal-content {
+    display: inline-block;
+    text-align: center;
   }
   #main-portfolio-container h1 {
     font-family: "Abolon", sans-serif;
     margin-top: 0;
+    font-size: 1.5em;
+    text-align: center;
   }
   #main-portfolio-container button.web-thumb-one {
     background-image: url(../images/portfolio-web/mouthfeel-desktop1.jpg);
@@ -871,6 +887,7 @@ div#about-main-container #jess-container #jess-info {
     height: 16em;
     width: 90%;
     margin-bottom: 2em;
+    margin-left: .5em;
   }
 }
 @media only screen and (max-width: 480px) {

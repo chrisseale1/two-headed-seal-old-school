@@ -1031,20 +1031,39 @@ div#about-main-container {
 @media only screen and (max-width : 480px)    {
 
     #main-portfolio-container {
-        text-align: center;
+        // text-align: center;
         padding-top: 6em;
         padding-bottom: 2em;
 
-        // .thumbnail {
-        //     height: 16em;
-        //     width: 90%;
-        //     margin-bottom: 2em;
+        .col-xs-12 {
+            // padding-right: 0;
+            // padding-left: 0;
+        }
 
-        // }
+        #modal-label {
+            font-size: 1.2em;
+            font-family: @oswaldBold, sans-serif;
+        }
+
+        .close {
+            color: black;
+            opacity: 1;
+        }
+
+        img {
+            height: 313px;
+        }
+    
+        .modal-content {
+            display: inline-block;
+            text-align: center;
+        }
 
         h1 {
             font-family: @abolon, sans-serif;
             margin-top: 0;
+            font-size: 1.5em;
+            text-align: center;
         }
 
 
@@ -1056,6 +1075,7 @@ div#about-main-container {
             height: 16em;
             width: 90%;
             margin-bottom: 2em;
+            margin-left: .5em;
         }
 
 

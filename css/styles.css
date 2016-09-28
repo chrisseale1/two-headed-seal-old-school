@@ -20,7 +20,7 @@
 }
 .navbar {
   color: #F4F4F4;
-  background-color: #8eaec7;
+  background-color: #a0adb7;
   height: 5em;
   text-align: center;
 }
@@ -45,7 +45,7 @@
 }
 @media (max-width: 544px) {
   .navbar ul.pages li.page a {
-    background-color: #8eaec7;
+    background-color: #a0adb7;
   }
 }
 .navbar ul.pages li.page a:hover {
@@ -54,12 +54,12 @@
 }
 @media (max-width: 544px) {
   .navbar ul.pages li.page a:hover {
-    background-color: #8eaec7;
+    background-color: #a0adb7;
   }
 }
 @media (max-width: 544px) {
   .navbar ul.pages li.page {
-    color: #8eaec7;
+    color: #a0adb7;
   }
 }
 .navbar ul.pages #nav-brand {
@@ -130,7 +130,7 @@
 .splash .constrain-contain .slide-container .multi {
   background-image: url(../images/headshot.png);
   background-repeat: no-repeat;
-  background-color: #8eaec7;
+  background-color: #a0adb7;
   background-size: cover;
   background-position: top center;
   -webkit-transition: all 1.5s ease-in-out;
@@ -184,7 +184,7 @@
 .splash .constrain-contain .slide-container2 .multi2 {
   background-image: url(../images/jess.png);
   background-repeat: no-repeat;
-  background-color: #8eaec7;
+  background-color: #a0adb7;
   background-size: cover;
   background-position: top center;
   -webkit-transition: all 1.5s ease-in-out;
@@ -218,21 +218,21 @@
   width: 100%;
   background-image: url(../images/computer-study.jpg);
   background-size: cover;
-  background-color: #8eaec7;
+  background-color: #a0adb7;
 }
 .container .mini-container .mini-image2 {
   height: 10em;
   width: 100%;
   background-image: url(../images/responsive-design.jpg);
   background-size: cover;
-  background-color: #8eaec7;
+  background-color: #a0adb7;
 }
 .container .mini-container .mini-image3 {
   height: 10em;
   width: 100%;
   background-image: url(../images/colors-wheel.jpg);
   background-size: cover;
-  background-color: #8eaec7;
+  background-color: #a0adb7;
 }
 .container .mini-container p {
   font-family: "Oswald-Light";
@@ -386,7 +386,7 @@ div#about-main-container .contact-info a {
   color: black;
 }
 div#about-main-container .contact-info a a:hover {
-  color: #8eaec7;
+  color: #a0adb7;
 }
 div#about-main-container .email-address {
   margin-right: 1em;

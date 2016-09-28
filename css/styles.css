@@ -577,280 +577,117 @@ div#about-main-container #jess-container #jess-info {
     margin: 0 .75em 2em .75em;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {
+@media only screen and (min-device-width: 768px) {
   div#main-portfolio-container {
     padding-top: 4em;
     padding-bottom: 4em;
-  }
-  div#main-portfolio-container button.web-thumb-one {
-    background-image: url(../images/portfolio-web/mouthfeel-desktop1.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-two {
-    background-image: url(../images/portfolio-web/mouthfeel-desktop2.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-three {
-    background-image: url(../images/portfolio-web/mouthfeel-desktop3.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-four {
-    background-image: url(../images/portfolio-web/mouthfeel-desktop4.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-five {
-    background-image: url(../images/portfolio-web/mouthfeel-mobile1.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-six {
-    background-image: url(../images/portfolio-web/mouthfeel-mobile2.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-seven {
-    background-image: url(../images/portfolio-web/mouthfeel-mobile3.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-eight {
-    background-image: url(../images/portfolio-web/mouthfeel-mobile4.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-nine {
-    background-image: url(../images/portfolio-web/pet-home-desk.png);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-ten {
-    background-image: url(../images/portfolio-web/pet-search-desk.png);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-eleven {
-    background-image: url(../images/portfolio-web/pet-resources-desk.png);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-twelve {
-    background-image: url(../images/portfolio-web/pet-resources-modal.png);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-thirteen {
-    background-image: url(../images/portfolio-web/pet-resources-mobile.png);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-fourteen {
-    background-image: url(../images/portfolio-web/pet-vetfinder-desk.png);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-fifteen {
-    background-image: url(../images/portfolio-web/pet-namegen-desk.png);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.web-thumb-sixteen {
-    background-image: url(../images/portfolio-web/pet-name-gen-mobile.png);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.graphic-thumb-one {
-    background-image: url(../images/portfolio-graphic/wikitherapy.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.graphic-thumb-two {
-    background-image: url(../images/portfolio-graphic/MaryPhotoshop.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.graphic-thumb-three {
-    background-image: url(../images/portfolio-graphic/fightclubyaya1.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.graphic-thumb-four {
-    background-image: url(../images/portfolio-graphic/GrouchoYang.png);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.graphic-thumb-five {
-    background-image: url(../images/portfolio-graphic/Mattsincity.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.graphic-thumb-six {
-    background-image: url(../images/portfolio-graphic/Shirapatch.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.graphic-thumb-seven {
-    background-image: url(../images/portfolio-graphic/capturedgargoyle.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container button.graphic-thumb-eight {
-    background-image: url(../images/portfolio-graphic/windowthinking.jpg);
-    background-size: cover;
-    background-color: #8eaec7;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-  div#main-portfolio-container #modal-label {
-    font-size: 30px;
-    font-family: "Oswald-Bold", sans-serif;
-  }
-  div#main-portfolio-container .close {
-    color: black;
-    opacity: 1;
-  }
-  div#main-portfolio-container img {
-    height: 500px;
-  }
-  div#main-portfolio-container .modal-content {
-    display: inline-block;
-    text-align: center;
-  }
-  div#main-portfolio-container .thumbnail {
-    height: 200px;
-    width: 100%;
-    background-color: #8eaec7;
-    margin-bottom: 3em;
   }
   div#main-portfolio-container h1 {
     font-family: "Abolon", sans-serif;
     margin-top: 0;
   }
-  div#main-portfolio-container #webdesign-port-container {
+  div#main-portfolio-container .port-container {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+  }
+  div#main-portfolio-container .thumbnail {
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  div#main-portfolio-container .close {
+    color: black;
+    opacity: 1;
+  }
+  div#main-portfolio-container .modal-dialog img {
+    width: 100%;
+  }
+  div#main-portfolio-container .modal-content {
+    display: inline-block;
+    text-align: center;
+  }
+  div#main-portfolio-container #modal-label {
+    font-size: 30px;
+    font-family: "Oswald-Bold", sans-serif;
+  }
+  div#main-portfolio-container #mary-modal {
+    margin-left: 11.5%;
+  }
+  div#main-portfolio-container #web-thumb-one {
+    background-image: url(../images/portfolio-web/mouthfeel-desktop1.jpg);
+  }
+  div#main-portfolio-container #web-thumb-two {
+    background-image: url(../images/portfolio-web/mouthfeel-desktop2.jpg);
+  }
+  div#main-portfolio-container #web-thumb-three {
+    background-image: url(../images/portfolio-web/mouthfeel-desktop3.jpg);
+  }
+  div#main-portfolio-container #web-thumb-four {
+    background-image: url(../images/portfolio-web/mouthfeel-desktop4.jpg);
+  }
+  div#main-portfolio-container #web-thumb-five {
+    background-image: url(../images/portfolio-web/mouthfeel-mobile1.jpg);
+  }
+  div#main-portfolio-container #web-thumb-six {
+    background-image: url(../images/portfolio-web/mouthfeel-mobile2.jpg);
+  }
+  div#main-portfolio-container #web-thumb-seven {
+    background-image: url(../images/portfolio-web/mouthfeel-mobile3.jpg);
+  }
+  div#main-portfolio-container #web-thumb-eight {
+    background-image: url(../images/portfolio-web/mouthfeel-mobile4.jpg);
+  }
+  div#main-portfolio-container #web-thumb-nine {
+    background-image: url(../images/portfolio-web/pet-home-desk.png);
+  }
+  div#main-portfolio-container #web-thumb-ten {
+    background-image: url(../images/portfolio-web/pet-search-desk.png);
+  }
+  div#main-portfolio-container #web-thumb-eleven {
+    background-image: url(../images/portfolio-web/pet-resources-desk.png);
+  }
+  div#main-portfolio-container #web-thumb-twelve {
+    background-image: url(../images/portfolio-web/pet-resources-modal.png);
+  }
+  div#main-portfolio-container #web-thumb-thirteen {
+    background-image: url(../images/portfolio-web/pet-resources-mobile.png);
+  }
+  div#main-portfolio-container #web-thumb-fourteen {
+    background-image: url(../images/portfolio-web/pet-vetfinder-desk.png);
+  }
+  div#main-portfolio-container #web-thumb-fifteen {
+    background-image: url(../images/portfolio-web/pet-namegen-desk.png);
+  }
+  div#main-portfolio-container #web-thumb-sixteen {
+    background-image: url(../images/portfolio-web/pet-name-gen-mobile.png);
+  }
+  div#main-portfolio-container #graphic-thumb-one {
+    background-image: url(../images/portfolio-graphic/wikitherapy.jpg);
+  }
+  div#main-portfolio-container #graphic-thumb-two {
+    background-image: url(../images/portfolio-graphic/MaryPhotoshop.jpg);
+  }
+  div#main-portfolio-container #graphic-thumb-three {
+    background-image: url(../images/portfolio-graphic/fightclubyaya1.jpg);
+  }
+  div#main-portfolio-container #graphic-thumb-four {
+    background-image: url(../images/portfolio-graphic/GrouchoYang.png);
+  }
+  div#main-portfolio-container #graphic-thumb-five {
+    background-image: url(../images/portfolio-graphic/Mattsincity.jpg);
+  }
+  div#main-portfolio-container #graphic-thumb-six {
+    background-image: url(../images/portfolio-graphic/Shirapatch.jpg);
+  }
+  div#main-portfolio-container #graphic-thumb-seven {
+    background-image: url(../images/portfolio-graphic/capturedgargoyle.jpg);
+  }
+  div#main-portfolio-container #graphic-thumb-eight {
+    background-image: url(../images/portfolio-graphic/windowthinking.jpg);
   }
 }
 @media only screen and (max-width: 480px) {
@@ -867,7 +704,7 @@ div#about-main-container #jess-container #jess-info {
     opacity: 1;
   }
   #main-portfolio-container img {
-    height: 313px;
+    width: 97%;
   }
   #main-portfolio-container .modal-content {
     display: inline-block;
@@ -879,15 +716,86 @@ div#about-main-container #jess-container #jess-info {
     font-size: 1.5em;
     text-align: center;
   }
-  #main-portfolio-container button.web-thumb-one {
-    background-image: url(../images/portfolio-web/mouthfeel-desktop1.jpg);
+  #main-portfolio-container .thumbnail {
     background-size: cover;
     top: 0;
     left: 0;
     height: 16em;
     width: 90%;
     margin-bottom: 2em;
-    margin-left: .5em;
+    margin-left: 1.2em;
+  }
+  #main-portfolio-container #web-thumb-one {
+    background-image: url(../images/portfolio-web/mouthfeel-desktop1.jpg);
+  }
+  #main-portfolio-container #web-thumb-two {
+    background-image: url(../images/portfolio-web/mouthfeel-desktop2.jpg);
+  }
+  #main-portfolio-container #web-thumb-three {
+    background-image: url(../images/portfolio-web/mouthfeel-desktop3.jpg);
+  }
+  #main-portfolio-container #web-thumb-four {
+    background-image: url(../images/portfolio-web/mouthfeel-desktop4.jpg);
+  }
+  #main-portfolio-container #web-thumb-five {
+    background-image: url(../images/portfolio-web/mouthfeel-mobile1.jpg);
+  }
+  #main-portfolio-container #web-thumb-six {
+    background-image: url(../images/portfolio-web/mouthfeel-mobile2.jpg);
+  }
+  #main-portfolio-container #web-thumb-seven {
+    background-image: url(../images/portfolio-web/mouthfeel-mobile3.jpg);
+  }
+  #main-portfolio-container #web-thumb-eight {
+    background-image: url(../images/portfolio-web/mouthfeel-mobile4.jpg);
+  }
+  #main-portfolio-container #web-thumb-nine {
+    background-image: url(../images/portfolio-web/pet-home-desk.png);
+  }
+  #main-portfolio-container #web-thumb-ten {
+    background-image: url(../images/portfolio-web/pet-search-desk.png);
+  }
+  #main-portfolio-container #web-thumb-eleven {
+    background-image: url(../images/portfolio-web/pet-resources-desk.png);
+  }
+  #main-portfolio-container #web-thumb-twelve {
+    background-image: url(../images/portfolio-web/pet-resources-modal.png);
+  }
+  #main-portfolio-container #web-thumb-thirteen {
+    background-image: url(../images/portfolio-web/pet-resources-mobile.png);
+  }
+  #main-portfolio-container #web-thumb-fourteen {
+    background-image: url(../images/portfolio-web/pet-vetfinder-desk.png);
+  }
+  #main-portfolio-container #web-thumb-fifteen {
+    background-image: url(../images/portfolio-web/pet-namegen-desk.png);
+  }
+  #main-portfolio-container #web-thumb-sixteen {
+    background-image: url(../images/portfolio-web/pet-name-gen-mobile.png);
+  }
+  #main-portfolio-container #graphic-thumb-one {
+    background-image: url(../images/portfolio-graphic/wikitherapy.jpg);
+  }
+  #main-portfolio-container #graphic-thumb-two {
+    background-image: url(../images/portfolio-graphic/MaryPhotoshop.jpg);
+  }
+  #main-portfolio-container #graphic-thumb-three {
+    background-image: url(../images/portfolio-graphic/fightclubyaya1.jpg);
+  }
+  #main-portfolio-container #graphic-thumb-four {
+    background-image: url(../images/portfolio-graphic/GrouchoYang.png);
+  }
+  #main-portfolio-container #graphic-thumb-five {
+    background-image: url(../images/portfolio-graphic/Mattsincity.jpg);
+  }
+  #main-portfolio-container #graphic-thumb-six {
+    background-image: url(../images/portfolio-graphic/Shirapatch.jpg);
+  }
+  #main-portfolio-container #graphic-thumb-seven {
+    background-image: url(../images/portfolio-graphic/capturedgargoyle.jpg);
+  }
+  #main-portfolio-container #graphic-thumb-eight {
+    background-image: url(../images/portfolio-graphic/windowthinking.jpg);
   }
 }
 @media only screen and (max-width: 480px) {

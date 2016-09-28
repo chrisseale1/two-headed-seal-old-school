@@ -78,12 +78,15 @@
 .splash {
   margin-top: 2em;
 }
-.splash .welcome {
+.splash .brand-holder {
+  margin-bottom: -1.5em;
+}
+.splash .brand-holder .welcome {
   font-size: 4em;
   font-family: "Oswald-Bold", "Abolon", sans-serif;
 }
 @media screen and (max-width: 993px) {
-  .splash .welcome {
+  .splash .brand-holder .welcome {
     font-size: 3.5em;
   }
 }

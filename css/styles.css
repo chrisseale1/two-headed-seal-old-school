@@ -349,6 +349,24 @@ div#about-main-container {
   padding-top: 4em;
   padding-bottom: 4em;
 }
+div#about-main-container .mobile-portrait {
+  margin-left: 25%;
+  margin-top: 2em;
+  height: 20em;
+  width: 15em;
+  background-color: #c2bba8;
+  background-image: url('../images/chrishead-square.jpg');
+  background-size: cover;
+}
+div#about-main-container .mobile-portrait-jess {
+  margin-left: 25%;
+  margin-top: 2em;
+  height: 20em;
+  width: 15em;
+  background-color: #c2bba8;
+  background-image: url('../images/jesshead-square.jpg');
+  background-size: cover;
+}
 div#about-main-container #chris-image {
   text-decoration: none;
 }
@@ -396,11 +414,6 @@ div#about-main-container #chris-container h3 {
 }
 div#about-main-container #chris-container #chris-image img {
   height: 300px;
-}
-@media (max-width: 768px) {
-  div#about-main-container #chris-container #chris-image {
-    text-align: center;
-  }
 }
 div#about-main-container #chris-container #chris-info {
   margin-left: 2em;

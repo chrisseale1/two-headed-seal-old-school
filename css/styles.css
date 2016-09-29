@@ -401,15 +401,35 @@ div#about-main-container .contact-info a a:hover {
 div#about-main-container .email-address {
   margin-right: 1em;
   font-family: "Oswald-Bold";
-  font-size: 2em;
+  font-size: 1.5em;
   vertical-align: middle;
 }
 div#about-main-container .linkedin-logo img {
-  height: 2em;
+  height: 1.7em;
 }
 div#about-main-container .github-logo img {
-  height: 2.8em;
+  height: 2.2em;
   margin-right: 2em;
+}
+div#about-main-container .close {
+  color: black;
+  opacity: 1;
+}
+div#about-main-container .modal-content {
+  display: inline-block;
+  text-align: center;
+}
+div#about-main-container #modal-label {
+  font-size: 30px;
+  font-family: "Oswald-Bold", sans-serif;
+}
+div#about-main-container .resume-button {
+  margin-left: 1.3em;
+  font-family: "Oswald-Bold";
+  font-size: 1.5em;
+  vertical-align: middle;
+  border: none;
+  background: none;
 }
 div#about-main-container #chris-container {
   width: 75%;
@@ -464,6 +484,12 @@ div#about-main-container #jess-container #jess-info {
   div#about-main-container #jess-container #jess-info {
     margin-right: 4em;
   }
+}
+div#about-main-container #jess-container .modal-body h3 {
+  float: left;
+}
+div#about-main-container #jess-container .modal-body p {
+  float: left;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {
   div.services-main-container {

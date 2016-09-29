@@ -280,7 +280,13 @@
                 background-color: @warmYellow;
                 color: @gunMetal;
                 font-family: @abolon;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
             }
+        .btn:hover{
+                background-color: @gunMetal;
+                color: @warmYellow;
+        }
             @media (max-width: 700px){
                 .btn{
                     font-size: 1.5em;
@@ -357,6 +363,11 @@ div.footer-container {
                 color: @gunMetal;
                 border-radius: 0.5em;
                 margin-bottom: 0.5em;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+            }
+            .btn:hover{
+                background-color: @paper;
             }
 
             a {

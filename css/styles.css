@@ -259,6 +259,13 @@
   background-color: #c2bba8;
   color: #233237;
   font-family: "Abolon";
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+.container .mini-container .btn:hover {
+  background-color: #233237;
+  color: #c2bba8;
 }
 @media (max-width: 700px) {
   .container .mini-container .btn {
@@ -319,6 +326,12 @@ div.footer-container #footer-social .btn {
   color: #233237;
   border-radius: 0.5em;
   margin-bottom: 0.5em;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+div.footer-container #footer-social .btn:hover {
+  background-color: #F4F4F4;
 }
 div.footer-container #footer-social a {
   color: #c2bba8;

@@ -374,27 +374,6 @@ div#about-main-container {
   padding-top: 4em;
   padding-bottom: 4em;
 }
-div#about-main-container .mobile-portrait {
-  margin-left: 25%;
-  margin-top: 2em;
-  height: 20em;
-  width: 15em;
-  background-color: #c2bba8;
-  background-image: url('../images/chrishead-square.jpg');
-  background-size: cover;
-}
-div#about-main-container .mobile-portrait-jess {
-  margin-left: 25%;
-  margin-top: 2em;
-  height: 20em;
-  width: 15em;
-  background-color: #c2bba8;
-  background-image: url('../images/jesshead-square.jpg');
-  background-size: cover;
-}
-div#about-main-container #chris-image {
-  text-decoration: none;
-}
 div#about-main-container h2 {
   font-family: "Oswald-Bold", sans-serif;
   margin-top: 0;
@@ -405,6 +384,7 @@ div#about-main-container h3 {
 div#about-main-container .about-para {
   font-family: "Oswald-Light", sans-serif;
   font-size: 1.25em;
+  display: inline-block;
 }
 div#about-main-container .contact-info a {
   text-decoration: none;
@@ -426,6 +406,14 @@ div#about-main-container .github-logo img {
   height: 2.2em;
   margin-right: 2em;
 }
+div#about-main-container .resume-button {
+  margin-left: 1.3em;
+  font-family: "Oswald-Bold";
+  font-size: 1.5em;
+  vertical-align: middle;
+  border: none;
+  background: none;
+}
 div#about-main-container .close {
   color: black;
   opacity: 1;
@@ -438,13 +426,11 @@ div#about-main-container #modal-label {
   font-size: 30px;
   font-family: "Oswald-Bold", sans-serif;
 }
-div#about-main-container .resume-button {
-  margin-left: 1.3em;
-  font-family: "Oswald-Bold";
-  font-size: 1.5em;
-  vertical-align: middle;
-  border: none;
-  background: none;
+div#about-main-container .modal-body h3 {
+  float: left;
+}
+div#about-main-container .modal-body p {
+  float: left;
 }
 div#about-main-container #chris-container {
   width: 75%;
@@ -460,6 +446,11 @@ div#about-main-container #chris-container h3 {
 div#about-main-container #chris-container #chris-image img {
   height: 300px;
 }
+@media (max-width: 768px) {
+  div#about-main-container #chris-container #chris-image {
+    text-align: center;
+  }
+}
 div#about-main-container #chris-container #chris-info {
   margin-left: 2em;
 }
@@ -467,9 +458,6 @@ div#about-main-container #chris-container #chris-info {
   div#about-main-container #chris-container #chris-info {
     margin-left: 4em;
   }
-}
-div#about-main-container .jess-image-mobile {
-  text-align: center;
 }
 div#about-main-container #jess-container {
   width: 75%;
@@ -487,32 +475,80 @@ div#about-main-container #jess-container h3 {
   float: right;
   margin-top: 0;
 }
+div#about-main-container #jess-container #jess-image {
+  display: inline-block;
+}
 div#about-main-container #jess-container #jess-image img {
-  height: 300px;
-  float: right;
+  height: 20em;
+  width: 9em;
 }
 div#about-main-container #jess-container #jess-info {
-  margin-right: 2em;
-  float: right;
+  float: left;
 }
-@media (max-width: 950px) {
-  div#about-main-container #jess-container #jess-info {
-    margin-right: 4em;
+@media (max-width: 768px) {
+  div#about-main-container #jess-container #jess-image {
+    text-align: center;
   }
 }
-div#about-main-container #jess-container .modal-body h3 {
-  float: left;
-}
-div#about-main-container #jess-container .modal-body p {
-  float: left;
+div#about-main-container #jess-container .about-para {
+  display: inline-block;
 }
 @media only screen and (max-width: 480px) {
   div#about-main-container {
+    width: 100%;
     text-align: center;
   }
   div#about-main-container .about-para {
     font-family: "Oswald-Light", sans-serif;
     font-size: 21px;
+  }
+  div#about-main-container .mobile-portrait {
+    margin-left: 25%;
+    margin-top: 2em;
+    height: 15em;
+    width: 10em;
+    background-color: #c2bba8;
+    background-image: url('../images/chrishead-square.jpg');
+    background-size: cover;
+  }
+  div#about-main-container #chris-container {
+    width: 90%;
+    padding-top: 1em;
+  }
+  div#about-main-container #chris-container h2 {
+    float: none;
+    margin-bottom: .5em;
+  }
+  div#about-main-container #chris-container h5 {
+    font-family: "Abolon", sans-serif;
+  }
+  div#about-main-container #chris-container #chris-info {
+    margin: 0;
+    float: none;
+  }
+  div#about-main-container .mobile-portrait-jess {
+    margin-left: 25%;
+    margin-top: 2em;
+    height: 15em;
+    width: 10em;
+    background-color: #c2bba8;
+    background-image: url('../images/jesshead-square.jpg');
+    background-size: cover;
+  }
+  div#about-main-container #jess-container {
+    width: 90%;
+    padding-top: 1em;
+  }
+  div#about-main-container #jess-container h2 {
+    float: none;
+    margin-bottom: .5em;
+  }
+  div#about-main-container #jess-container h5 {
+    font-family: "Abolon", sans-serif;
+  }
+  div#about-main-container #jess-container #jess-info {
+    margin: 0;
+    float: none;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {

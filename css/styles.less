@@ -424,28 +424,6 @@ div#about-main-container {
     padding-top: 4em;
     padding-bottom: 4em;
 
-    .mobile-portrait{
-        margin-left: 25%;
-        margin-top: 2em;
-        height: 20em;
-        width: 15em;
-        background-color: @warmYellow;
-        background-image: url('../images/chrishead-square.jpg');
-        background-size: cover;
-    }
-    .mobile-portrait-jess{
-        margin-left: 25%;
-        margin-top: 2em;
-        height: 20em;
-        width: 15em;
-        background-color: @warmYellow;
-        background-image: url('../images/jesshead-square.jpg');
-        background-size: cover;
-    }
-    
-    #chris-image{
-        text-decoration: none;
-    }
     h2 {
         font-family: @oswaldBold, sans-serif;
         margin-top: 0;
@@ -458,6 +436,8 @@ div#about-main-container {
     .about-para {
         font-family: @oswaldLight, sans-serif;
         font-size: 1.25em;
+            display: inline-block;
+
     }
 
     .contact-info {
@@ -492,31 +472,40 @@ div#about-main-container {
             }
     }
 
-        .close {
-            color: black;
-            opacity: 1;
-        }
+    .resume-button {
+        margin-left: 1.3em;
+        font-family: @oswaldBold;
+        font-size: 1.5em;
+        vertical-align: middle;
+        border: none;
+        background: none;
+    }
 
-        .modal-content {
-            display: inline-block;
-            text-align: center;
-        }
+    .close {
+        color: black;
+        opacity: 1;
+    }
 
-        #modal-label {
-            font-size: 30px;
-            font-family: @oswaldBold, sans-serif;
-        }
+    .modal-content {
+        display: inline-block;
+        text-align: center;
+    }
 
-        .resume-button {
-            margin-left: 1.3em;
-            font-family: @oswaldBold;
-            font-size: 1.5em;
-            vertical-align: middle;
-            border: none;
-            background: none;
-        }
+    #modal-label {
+        font-size: 30px;
+        font-family: @oswaldBold, sans-serif;
+    }
 
-    
+    .modal-body {
+        h3 {
+            float: left;
+    }
+
+        p {
+            float:left;
+        }
+    }
+   
 //-----CHRIS STYLING-----
 
     #chris-container {
@@ -539,11 +528,11 @@ div#about-main-container {
             }
         }
 
-        // @media(max-width: 768px){
-        //     #chris-image{
-        //         text-align: center;
-        //     }
-        // }
+        @media(max-width: 768px){
+            #chris-image{
+                text-align: center;
+            }
+        }
         #chris-info {
             margin-left: 2em;
         }
@@ -553,9 +542,6 @@ div#about-main-container {
             }
         }
      
-    }
-.jess-image-mobile{
-        text-align: center;
     }
 
 //-----JESS STYLING-----
@@ -579,51 +565,26 @@ div#about-main-container {
             margin-top: 0;
         }
 
-    #jess-image {
-        img {
-            height: 300px;
-            float: right;
+        #jess-image {
+            display: inline-block;
+
+            img {
+                height: 20em;
+                width: 9em;
+            }
         }
-    }
 
         #jess-info {
-            margin-right: 2em;
-            float: right;
+            float: left;
         }
-        @media(max-width:950px){
-            #jess-info{
-                margin-right: 4em;
+        
+        @media(max-width: 768px){
+            #jess-image{
+                text-align: center;
             }
         }
-    //             .close {
-    //         color: black;
-    //         opacity: 1;
-    //     }
-
-    //     .modal-content {
-    //         display: inline-block;
-    //         text-align: center;
-    //     }
-
-    //     #modal-label {
-    //         font-size: 30px;
-    //         font-family: @oswaldBold, sans-serif;
-    //     }
-
-    // #jessica-resume-modal {
-    //     width: 200px;
-    //     height: 200px;
-    //     background-color: white;
-    // }
-
-        .modal-body {
-            h3 {
-                float: left;
-            }
-
-            p {
-                float:left;
-            }
+        .about-para {
+            display: inline-block;
         }
     }
 }
@@ -632,16 +593,78 @@ div#about-main-container {
 
 @media only screen and (max-width : 480px)    {
     div#about-main-container {
+        width: 100%;
         text-align: center;
 
         .about-para {
             font-family: @oswaldLight, sans-serif;
             font-size: 21px;
         }
-        
+
+    // MOBILE CHRIS
+
+        .mobile-portrait{
+            margin-left: 25%;
+            margin-top: 2em;
+            height: 15em;
+            width: 10em;
+            background-color: @warmYellow;
+            background-image: url('../images/chrishead-square.jpg');
+            background-size: cover;
+        }
+
+        #chris-container {
+            width: 90%;
+            padding-top: 1em;
+
+            h2 {
+                float: none;
+                margin-bottom: .5em;
+            }
+
+            h5 {
+                font-family: @abolon, sans-serif;
+            }
+
+            #chris-info {
+                margin: 0;
+                float: none;
+            }
+
+        }
+
+    // MOBILE JESS
+
+        .mobile-portrait-jess {
+            margin-left: 25%;
+            margin-top: 2em;
+            height: 15em;
+            width: 10em;
+            background-color: @warmYellow;
+            background-image: url('../images/jesshead-square.jpg');
+            background-size: cover;
+        }
+
+        #jess-container {
+            width: 90%;
+            padding-top: 1em;
+
+            h2 {
+                float: none;
+                margin-bottom: .5em;
+            }
+
+            h5 {
+                font-family: @abolon, sans-serif;
+            }
+
+            #jess-info {
+                margin: 0;
+                float: none;
+            }
+
+        }
     }
-
-
 }
 
 

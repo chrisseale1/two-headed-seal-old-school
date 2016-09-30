@@ -653,6 +653,7 @@ div.footer-container #copyright {
   div.services-main-container .services-para {
     font-size: 21px;
     font-family: "Oswald-Light", sans-serif;
+    width: 97%;
   }
   div.services-main-container #webdesign-container {
     width: 100%;

@@ -600,6 +600,38 @@ div#about-main-container {
         width: 100%;
         text-align: center;
 
+        .linkedin-logo {
+            img {
+                height: 1.5em;
+            }
+        }
+
+        .github-logo {
+            img {
+                height: 1.5em;
+                margin-right: .5em;
+            }
+        }
+
+        .email-address {
+            margin-right: .5em;
+            font-family: @oswaldBold;
+            font-size: 1.25em;
+            vertical-align: middle;
+        }
+
+        .contact-info {
+
+            a {
+                text-decoration: none;
+                color: black;
+
+                a:hover {
+                    color: @rustyRed;
+                }
+            }
+        }
+
         .about-para {
             font-family: @oswaldLight, sans-serif;
             font-size: 21px;
@@ -610,7 +642,7 @@ div#about-main-container {
         .mobile-portrait {
             margin-left: auto;
             margin-right: auto;
-            margin-top: 2em;
+            margin-top: 6em;
             height: 15em;
             width: 10em;
             background-color: @warmYellow;
@@ -621,6 +653,7 @@ div#about-main-container {
         #chris-container {
             width: 90%;
             padding-top: 1em;
+            margin: auto;
 
             h2 {
                 float: none;

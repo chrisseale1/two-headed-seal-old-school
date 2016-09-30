@@ -551,7 +551,7 @@ div#about-main-container #jess-container .about-para {
     float: none;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {
+@media only screen and (min-device-width: 768px) {
   div.services-main-container {
     padding-top: 5em;
     padding-bottom: 4em;
@@ -618,7 +618,7 @@ div#about-main-container #jess-container .about-para {
     left: 0;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   div.services-main-container {
     text-align: center;
     padding-top: 6em;

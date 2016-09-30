@@ -83,6 +83,9 @@
     right: 0;
   }
 }
+.navbar-toggler {
+  font-size: 2.5em;
+}
 .splash {
   margin-top: 2em;
 }

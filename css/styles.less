@@ -420,6 +420,9 @@ div.footer-container {
 
 //-----BEGIN ABOUT US STYLING-----
 
+@media only screen 
+  and (min-device-width: 768px) {
+
 div#about-main-container {
     padding-top: 4em;
     padding-bottom: 4em;
@@ -527,15 +530,11 @@ div#about-main-container {
                 height: 300px;
             }
         }
-
-        @media(max-width: 768px){
-            #chris-image{
-                text-align: center;
-            }
-        }
+       
         #chris-info {
             margin-left: 2em;
         }
+
         @media(max-width:950px){
             #chris-info{
                 margin-left: 4em;
@@ -588,10 +587,10 @@ div#about-main-container {
         }
     }
 }
-
+  }
 // MOBILE ABOUT US STYLING
 
-@media only screen and (max-width : 480px)    {
+@media only screen and (max-width : 768px)    {
     div#about-main-container {
         width: 100%;
         text-align: center;
@@ -603,8 +602,9 @@ div#about-main-container {
 
     // MOBILE CHRIS
 
-        .mobile-portrait{
-            margin-left: 25%;
+        .mobile-portrait {
+            margin-left: auto;
+            margin-right: auto;
             margin-top: 2em;
             height: 15em;
             width: 10em;
@@ -612,7 +612,7 @@ div#about-main-container {
             background-image: url('../images/chrishead-square.jpg');
             background-size: cover;
         }
-
+    
         #chris-container {
             width: 90%;
             padding-top: 1em;
@@ -636,7 +636,8 @@ div#about-main-container {
     // MOBILE JESS
 
         .mobile-portrait-jess {
-            margin-left: 25%;
+            margin-left: auto;
+            margin-right: auto;
             margin-top: 2em;
             height: 15em;
             width: 10em;
@@ -853,7 +854,7 @@ div#about-main-container {
   and (min-device-width: 768px) {
 
       div#main-portfolio-container {
-        padding-top: 4em;
+        padding-top: 5em;
         padding-bottom: 4em;
 
         h1 {
@@ -999,7 +1000,7 @@ div#about-main-container {
 
   // MOBILE PORTFOLIO STYLING
 
-@media only screen and (max-width : 480px)    {
+@media only screen and (max-width : 768px)    {
 
     #main-portfolio-container {
         padding-top: 6em;

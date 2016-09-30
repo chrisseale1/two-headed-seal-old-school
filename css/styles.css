@@ -51,7 +51,7 @@
   color: #233237;
   text-decoration: none;
 }
-@media (max-width: 544px) {
+@media (max-width: 768px) {
   .navbar ul.pages li.page a {
     background-color: #a0adb7;
   }
@@ -60,12 +60,12 @@
   color: #c2bba8;
   background-color: transparent;
 }
-@media (max-width: 544px) {
+@media (max-width: 768px) {
   .navbar ul.pages li.page a:hover {
     background-color: #a0adb7;
   }
 }
-@media (max-width: 544px) {
+@media (max-width: 768px) {
   .navbar ul.pages li.page {
     color: #a0adb7;
   }
@@ -74,7 +74,7 @@
   margin-top: -1.5em;
   z-index: 999999;
 }
-@media (max-width: 544px) {
+@media (max-width: 768px) {
   .navbar {
     text-align: right;
     position: fixed;
@@ -210,9 +210,9 @@
     margin-left: 2em;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 768px) {
   .splash {
-    margin-top: 5em;
+    margin-top: 6em;
   }
 }
 .container {

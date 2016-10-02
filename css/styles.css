@@ -678,6 +678,12 @@ div.footer-container #copyright {
     padding-top: 2.5em;
     padding-bottom: 2.5em;
   }
+  div.services-main-container #seo-container .image-right {
+    margin-right: -5.5em;
+    margin-left: -5em;
+    margin-top: -1em;
+    margin-bottom: -1em;
+  }
   div.services-main-container #seo-container h1 {
     float: none;
   }
@@ -692,7 +698,7 @@ div.footer-container #copyright {
     width: 100%;
     top: 0;
     left: 0;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   div.services-main-container #graphicdesign-container {
     width: 100%;

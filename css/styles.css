@@ -505,7 +505,7 @@ div.footer-container #copyright {
     text-align: center;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   div#about-main-container {
     width: 100%;
     text-align: center;
@@ -537,7 +537,7 @@ div.footer-container #copyright {
   div#about-main-container .mobile-portrait {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 6em;
+    margin-top: 3em;
     height: 15em;
     width: 10em;
     background-color: #c2bba8;
@@ -572,7 +572,9 @@ div.footer-container #copyright {
   }
   div#about-main-container #jess-container {
     width: 90%;
+    margin: auto;
     padding-top: 1em;
+    padding-bottom: 1em;
   }
   div#about-main-container #jess-container h2 {
     float: none;
@@ -724,7 +726,7 @@ div.footer-container #copyright {
 }
 @media only screen and (min-device-width: 768px) {
   div#main-portfolio-container {
-    padding-top: 5em;
+    padding-top: 3em;
     padding-bottom: 4em;
   }
   div#main-portfolio-container h1 {
@@ -835,9 +837,9 @@ div.footer-container #copyright {
     background-image: url(../images/portfolio-graphic/windowthinking.jpg);
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   #main-portfolio-container {
-    padding-top: 6em;
+    margin-top: 6em;
     padding-bottom: 2em;
   }
   #main-portfolio-container #modal-label {
@@ -858,7 +860,7 @@ div.footer-container #copyright {
   #main-portfolio-container h1 {
     font-family: "Abolon", sans-serif;
     margin-top: 0;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
   }
   #main-portfolio-container .thumbnail {
@@ -943,7 +945,7 @@ div.footer-container #copyright {
     background-image: url(../images/portfolio-graphic/windowthinking.jpg);
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   .spacer {
     margin-bottom: 5em;
   }
@@ -963,14 +965,11 @@ div#tools-main-container #tools-title h1 {
   display: inline-block;
   text-align: center;
 }
-div#tools-main-container .tool-list {
-  text-align: center;
-}
 div#tools-main-container .tool-list li {
   font-family: "Oswald-Light", sans-serif;
   font-size: 28px;
   list-style: none;
-  width: 49%;
+  width: 41%;
 }
 div#tools-main-container .tool-list li.left {
   float: left;

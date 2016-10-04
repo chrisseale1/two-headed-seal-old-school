@@ -23,7 +23,7 @@
 }
 
 //navbar
-.navbar{
+.navbar {
    color: @paper;
    background-color: @rustyRed;
    height: 5em;
@@ -32,7 +32,11 @@
    // width: 100%;
    // left: 0;
    // right: 0;
-   
+
+   .active a {
+       color: @paper !important;
+   }
+
    ul.pages{
        display: inline-block;
        color: @gunMetal;
@@ -46,57 +50,67 @@
            top: 0.8em;
            color: @gunMetal;
            display: inline;
+
            a{
                color: @gunMetal;
                text-decoration: none;
            }
-           @media (max-width: 768px){
-               a{
-                   background-color: @rustyRed;
-               }
-           }
+
            a:hover{
                color: @warmYellow;
                background-color: transparent;
            }
-           @media (max-width: 768px){
-               a:hover{
-                   background-color: @rustyRed;
-               }
-           }
        }
-       @media (max-width: 768px){
-           li.page{
-               color: @rustyRed;
-           }
-       }
+
        #nav-brand{
        margin-top: -1.5em;
        z-index: 999999;
        }
-       // #nav-brand:hover{
-       //     background-color: transparent;
-       // }
    }
-   // #nav-brand{
-   //     margin-top: -1.5em;
-   //     z-index: 9999;
-   // }
-   
 }
-@media (max-width: 768px){
-   .navbar{
-       text-align: right;
+
+@media (max-width: 767px) {
+   .navbar {
+       text-align: center;
        position: fixed;
        top: 0;
        left: 0; 
        right: 0;
-       // height: null;
+
+        .active a {
+            color: @paper !important;
+        }
+
+        a:hover {
+            background-color: @rustyRed;
+        }
    }
+
+    #mobile-menu {
+        background-color: #859099;
+        margin-top: 4.5em;
+        padding-bottom: 2em;
+
+        ul {
+            display: inline-block;
+            color: @gunMetal;
+            height: 0em;
+            font-family: @abolon, @oswaldBold, sans-serif;
+            font-size: 2em;
+            margin: 0;
+
+            li.page{
+                margin: 0;
+                top: 0em;
+            }
+        }
+
+    }
 }
 
 .navbar-toggler {
     font-size: 2.5em;
+    float: right;
 }
 
 //--------------------HOMEPAGE STYLING--------------------
@@ -847,12 +861,12 @@ div#about-main-container {
                 padding-top: 2.5em;
                 padding-bottom: 2.5em;
                 
-                .image-right{
-                    margin-right: -5.5em;
-                    margin-left: -5em;
-                    margin-top: -1em;
-                    margin-bottom: -1em;
-                }
+                // .image-right{
+                //     margin-right: -5.5em;
+                //     margin-left: -5em;
+                //     margin-top: -1em;
+                //     margin-bottom: -1em;
+                // }
                 h1 {
                     float: none;
                 }
@@ -1199,9 +1213,7 @@ div#about-main-container {
 
 //-----BEGIN TOOLS STYLING-----
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1600px) {
+
 
     div#tools-main-container {
         width: 60%;
@@ -1237,43 +1249,36 @@ div#about-main-container {
                 }
             }
     }
-}
 
-@media only screen and (max-width : 768px)  {
+@media only screen 
+and (min-width: 767px)
+and (max-width: 991px)  {
 
-    #tools-main-container {
-        margin-top: 3em;
-        text-align: center;
-        padding-top: 6em;
-        padding-bottom: 2em;
-        
-            #tools-title h1 {
-                font-size: 40px;
-                font-family: @abolon, sans-serif;
-                width: 100%;
-                display: inline-block;
-            }
-
-            ul.tool-list {
-                padding-left: 0;
-                width: 100%;
-
-                .left, .right {
-                    float: none;
-                    width: 100%;
-                }
-
-                li {
-                    font-family: @oswaldLight, sans-serif;
-                    font-size: 28px;
-                    list-style-type: none;
-                    width: 100%;
-                    padding-left: none;
-
-                }
-            }
+    div#tools-main-container {
+        margin-top: -2.5em;
+        padding-top: none;
     }
 }
 
 
 
+@media only screen and (max-width : 767px)  {
+
+    div#tools-main-container {
+        text-align: center;
+        margin-top: 3em;
+        padding-bottom: 2em;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        
+        ul.tool-list {
+            padding-left: 0;
+
+            .left, .right {
+                float: none;
+                width: 100%;
+            }
+        }
+    }
+}

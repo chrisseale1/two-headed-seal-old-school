@@ -32,6 +32,9 @@
   height: 5em;
   text-align: center;
 }
+.navbar .active a {
+  color: #F4F4F4 !important;
+}
 .navbar ul.pages {
   display: inline-block;
   color: #233237;
@@ -51,40 +54,49 @@
   color: #233237;
   text-decoration: none;
 }
-@media (max-width: 768px) {
-  .navbar ul.pages li.page a {
-    background-color: #a0adb7;
-  }
-}
 .navbar ul.pages li.page a:hover {
   color: #c2bba8;
   background-color: transparent;
-}
-@media (max-width: 768px) {
-  .navbar ul.pages li.page a:hover {
-    background-color: #a0adb7;
-  }
-}
-@media (max-width: 768px) {
-  .navbar ul.pages li.page {
-    color: #a0adb7;
-  }
 }
 .navbar ul.pages #nav-brand {
   margin-top: -1.5em;
   z-index: 999999;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navbar {
-    text-align: right;
+    text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
   }
+  .navbar .active a {
+    color: #F4F4F4 !important;
+  }
+  .navbar a:hover {
+    background-color: #a0adb7;
+  }
+  #mobile-menu {
+    background-color: #859099;
+    margin-top: 4.5em;
+    padding-bottom: 2em;
+  }
+  #mobile-menu ul {
+    display: inline-block;
+    color: #233237;
+    height: 0em;
+    font-family: "Abolon", "Oswald-Bold", sans-serif;
+    font-size: 2em;
+    margin: 0;
+  }
+  #mobile-menu ul li.page {
+    margin: 0;
+    top: 0em;
+  }
 }
 .navbar-toggler {
   font-size: 2.5em;
+  float: right;
 }
 .splash {
   margin-top: 2em;
@@ -678,12 +690,6 @@ div.footer-container #copyright {
     padding-top: 2.5em;
     padding-bottom: 2.5em;
   }
-  div.services-main-container #seo-container .image-right {
-    margin-right: -5.5em;
-    margin-left: -5em;
-    margin-top: -1em;
-    margin-bottom: -1em;
-  }
   div.services-main-container #seo-container h1 {
     float: none;
   }
@@ -942,65 +948,57 @@ div.footer-container #copyright {
     margin-bottom: 5em;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {
+div#tools-main-container {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 4em;
+  margin-bottom: 4em;
+  display: inline-block;
+}
+div#tools-main-container #tools-title h1 {
+  font-size: 40px;
+  font-family: "Abolon", sans-serif;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+div#tools-main-container .tool-list {
+  text-align: center;
+}
+div#tools-main-container .tool-list li {
+  font-family: "Oswald-Light", sans-serif;
+  font-size: 28px;
+  list-style: none;
+  width: 49%;
+}
+div#tools-main-container .tool-list li.left {
+  float: left;
+}
+div#tools-main-container .tool-list li.right {
+  float: right;
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
   div#tools-main-container {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 4em;
-    margin-bottom: 4em;
-    display: inline-block;
-  }
-  div#tools-main-container #tools-title h1 {
-    font-size: 40px;
-    font-family: "Abolon", sans-serif;
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-  }
-  div#tools-main-container .tool-list {
-    text-align: center;
-  }
-  div#tools-main-container .tool-list li {
-    font-family: "Oswald-Light", sans-serif;
-    font-size: 28px;
-    list-style: none;
-    width: 49%;
-  }
-  div#tools-main-container .tool-list li.left {
-    float: left;
-  }
-  div#tools-main-container .tool-list li.right {
-    float: right;
+    margin-top: -2.5em;
+    padding-top: none;
   }
 }
-@media only screen and (max-width: 768px) {
-  #tools-main-container {
-    margin-top: 3em;
+@media only screen and (max-width: 767px) {
+  div#tools-main-container {
     text-align: center;
-    padding-top: 6em;
+    margin-top: 3em;
     padding-bottom: 2em;
-  }
-  #tools-main-container #tools-title h1 {
-    font-size: 40px;
-    font-family: "Abolon", sans-serif;
     width: 100%;
-    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
   }
-  #tools-main-container ul.tool-list {
+  div#tools-main-container ul.tool-list {
     padding-left: 0;
-    width: 100%;
   }
-  #tools-main-container ul.tool-list .left,
-  #tools-main-container ul.tool-list .right {
+  div#tools-main-container ul.tool-list .left,
+  div#tools-main-container ul.tool-list .right {
     float: none;
     width: 100%;
-  }
-  #tools-main-container ul.tool-list li {
-    font-family: "Oswald-Light", sans-serif;
-    font-size: 28px;
-    list-style-type: none;
-    width: 100%;
-    padding-left: none;
   }
 }

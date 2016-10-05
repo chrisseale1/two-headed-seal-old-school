@@ -458,7 +458,7 @@ div#about-main-container {
     .about-para {
         font-family: @oswaldLight, sans-serif;
         font-size: 1.25em;
-            display: inline-block;
+        display: inline-block;
 
     }
 
@@ -468,9 +468,9 @@ div#about-main-container {
             text-decoration: none;
             color: black;
 
-                a:hover {
-                    color: @rustyRed;
-                }
+            a:hover {
+                color: @rustyRed;
+            }
         }
     }
 
@@ -498,21 +498,23 @@ div#about-main-container {
     }
 
     .linkedin-logo {
-            img {
-                height: 1.7em;
-            }
+        img {
+            height: 1.7em;
+        }
     }
 
     .github-logo {
-            img {
-                height: 2.2em;
-                margin-right: 2em;
-            }
+        img {
+            height: 2.2em;
+            margin-right: 2em;
+        }
     }
 
-    .close {
-        color: black;
-        opacity: 1;
+    .modal-header {
+        .close {
+            color: black;
+            opacity: 1;
+        }
     }
 
     .modal-content {
@@ -526,14 +528,44 @@ div#about-main-container {
     }
 
     .modal-body {
+
         h3 {
             float: left;
+            font-family: @oswaldBold, sans-serif;
     }
 
         p {
-            float:left;
+            text-align:left;
+            clear: both;
+            font-family: @oswaldLight, sans-serif;
+            font-size: 20px;
+        }
+
+        h5 {
+            text-align: left;
+            float: left;
+            font-family: @oswaldBold, sans-serif;
+            clear: both;
+        }
+
+        li {
+            float: left;
+            text-align: left;
+            clear: both;
+            font-family: @oswaldLight, sans-serif;
+            font-size: 20px;
+
         }
     }
+
+    .modal-footer {
+        clear:both;
+    }
+
+    .spacer {
+        margin-bottom: 1em;
+    }
+    
    
 //-----CHRIS STYLING-----
 
@@ -544,10 +576,10 @@ div#about-main-container {
         .chris-titles {
             width: 100%;
             display: inline-block;
-        }
 
-        h3 {
-            margin-top: 0;
+            h3 {
+                margin-top: 0;
+            }
         }
 
         #chris-image {
@@ -579,15 +611,15 @@ div#about-main-container {
         .jess-titles {
             width: 100%;
             display: inline-block;
-        }
+        
+            h2 {
+                float: right;
+            }
 
-        h2 {
-            float: right;
-        }
-
-        h3 {
-            float: right;
-            margin-top: 0;
+            h3 {
+                float: right;
+                margin-top: 0;
+            }
         }
 
         #jess-image {
@@ -615,7 +647,7 @@ div#about-main-container {
 }
   }
 
-
+// MOBILE ABOUT US BEGINS
 @media only screen and (max-width : 767px)    {
     div#about-main-container {
         width: 100%;
@@ -669,6 +701,62 @@ div#about-main-container {
             font-size: 21px;
         }
 
+        .modal-header {
+            .close {
+                color: black;
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            display: inline-block;
+            text-align: center;
+        }
+
+        #modal-label {
+            font-size: 30px;
+            font-family: @oswaldBold, sans-serif;
+        }
+
+        .modal-body {
+
+            h3 {
+                float: left;
+                font-family: @oswaldBold, sans-serif;
+            }
+
+            p {
+                text-align:left;
+                clear: both;
+                font-family: @oswaldLight, sans-serif;
+                font-size: 20px;
+            }
+
+            h5 {
+                text-align: left;
+                float: left;
+                font-family: @oswaldBold, sans-serif;
+                font-size: 20px;
+                clear: both;
+            }
+
+            li {
+                float: left;
+                text-align: left;
+                clear: both;
+                font-family: @oswaldLight, sans-serif;
+                font-size: 20px;
+            }
+        }
+
+        .modal-footer {
+            clear:both;
+        }
+
+        .spacer {
+            margin-bottom: 1em;
+        }
+
     // MOBILE CHRIS
 
         .mobile-portrait {
@@ -687,13 +775,15 @@ div#about-main-container {
             padding-top: 1em;
             margin: auto;
 
-            h2 {
-                float: none;
-                margin-bottom: .5em;
-            }
+            .chris-titles {
+                h2 {
+                    float: none;
+                    margin-bottom: .5em;
+                }
 
-            h5 {
-                font-family: @abolon, sans-serif;
+                h5 {
+                    font-family: @abolon, sans-serif;
+                }
             }
 
             #chris-info {
@@ -722,6 +812,14 @@ div#about-main-container {
             padding-top: 1em;
             padding-bottom: 1em;
 
+            #jess-info {
+                margin: 0;
+                float: none;
+            }
+
+        }
+
+        .jess-titles {
             h2 {
                 float: none;
                 margin-bottom: .5em;
@@ -730,12 +828,6 @@ div#about-main-container {
             h5 {
                 font-family: @abolon, sans-serif;
             }
-
-            #jess-info {
-                margin: 0;
-                float: none;
-            }
-
         }
     }
 }

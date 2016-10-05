@@ -436,7 +436,7 @@ div.footer-container #copyright {
     height: 2.2em;
     margin-right: 2em;
   }
-  div#about-main-container .close {
+  div#about-main-container .modal-header .close {
     color: black;
     opacity: 1;
   }
@@ -450,9 +450,32 @@ div.footer-container #copyright {
   }
   div#about-main-container .modal-body h3 {
     float: left;
+    font-family: "Oswald-Bold", sans-serif;
   }
   div#about-main-container .modal-body p {
+    text-align: left;
+    clear: both;
+    font-family: "Oswald-Light", sans-serif;
+    font-size: 20px;
+  }
+  div#about-main-container .modal-body h5 {
+    text-align: left;
     float: left;
+    font-family: "Oswald-Bold", sans-serif;
+    clear: both;
+  }
+  div#about-main-container .modal-body li {
+    float: left;
+    text-align: left;
+    clear: both;
+    font-family: "Oswald-Light", sans-serif;
+    font-size: 20px;
+  }
+  div#about-main-container .modal-footer {
+    clear: both;
+  }
+  div#about-main-container .spacer {
+    margin-bottom: 1em;
   }
   div#about-main-container #chris-container {
     width: 75%;
@@ -462,7 +485,7 @@ div.footer-container #copyright {
     width: 100%;
     display: inline-block;
   }
-  div#about-main-container #chris-container h3 {
+  div#about-main-container #chris-container .chris-titles h3 {
     margin-top: 0;
   }
   div#about-main-container #chris-container #chris-image img {
@@ -480,10 +503,10 @@ div.footer-container #copyright {
     width: 100%;
     display: inline-block;
   }
-  div#about-main-container #jess-container h2 {
+  div#about-main-container #jess-container .jess-titles h2 {
     float: right;
   }
-  div#about-main-container #jess-container h3 {
+  div#about-main-container #jess-container .jess-titles h3 {
     float: right;
     margin-top: 0;
   }
@@ -552,6 +575,48 @@ div.footer-container #copyright {
     font-family: "Oswald-Light", sans-serif;
     font-size: 21px;
   }
+  div#about-main-container .modal-header .close {
+    color: black;
+    opacity: 1;
+  }
+  div#about-main-container .modal-content {
+    display: inline-block;
+    text-align: center;
+  }
+  div#about-main-container #modal-label {
+    font-size: 30px;
+    font-family: "Oswald-Bold", sans-serif;
+  }
+  div#about-main-container .modal-body h3 {
+    float: left;
+    font-family: "Oswald-Bold", sans-serif;
+  }
+  div#about-main-container .modal-body p {
+    text-align: left;
+    clear: both;
+    font-family: "Oswald-Light", sans-serif;
+    font-size: 20px;
+  }
+  div#about-main-container .modal-body h5 {
+    text-align: left;
+    float: left;
+    font-family: "Oswald-Bold", sans-serif;
+    font-size: 20px;
+    clear: both;
+  }
+  div#about-main-container .modal-body li {
+    float: left;
+    text-align: left;
+    clear: both;
+    font-family: "Oswald-Light", sans-serif;
+    font-size: 20px;
+  }
+  div#about-main-container .modal-footer {
+    clear: both;
+  }
+  div#about-main-container .spacer {
+    margin-bottom: 1em;
+  }
   div#about-main-container .mobile-portrait {
     margin-left: auto;
     margin-right: auto;
@@ -567,11 +632,11 @@ div.footer-container #copyright {
     padding-top: 1em;
     margin: auto;
   }
-  div#about-main-container #chris-container h2 {
+  div#about-main-container #chris-container .chris-titles h2 {
     float: none;
     margin-bottom: .5em;
   }
-  div#about-main-container #chris-container h5 {
+  div#about-main-container #chris-container .chris-titles h5 {
     font-family: "Abolon", sans-serif;
   }
   div#about-main-container #chris-container #chris-info {
@@ -594,16 +659,16 @@ div.footer-container #copyright {
     padding-top: 1em;
     padding-bottom: 1em;
   }
-  div#about-main-container #jess-container h2 {
-    float: none;
-    margin-bottom: .5em;
-  }
-  div#about-main-container #jess-container h5 {
-    font-family: "Abolon", sans-serif;
-  }
   div#about-main-container #jess-container #jess-info {
     margin: 0;
     float: none;
+  }
+  div#about-main-container .jess-titles h2 {
+    float: none;
+    margin-bottom: .5em;
+  }
+  div#about-main-container .jess-titles h5 {
+    font-family: "Abolon", sans-serif;
   }
 }
 @media only screen and (min-device-width: 768px) {

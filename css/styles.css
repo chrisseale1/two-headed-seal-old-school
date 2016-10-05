@@ -635,6 +635,7 @@ div.footer-container #copyright {
   div#about-main-container #chris-container .chris-titles h2 {
     float: none;
     margin-bottom: .5em;
+    font-family: "Oswald-Bold", sans-serif;
   }
   div#about-main-container #chris-container .chris-titles h5 {
     font-family: "Abolon", sans-serif;
@@ -663,11 +664,12 @@ div.footer-container #copyright {
     margin: 0;
     float: none;
   }
-  div#about-main-container .jess-titles h2 {
+  div#about-main-container #jess-container .jess-titles h2 {
     float: none;
     margin-bottom: .5em;
+    font-family: "Oswald-Bold", sans-serif;
   }
-  div#about-main-container .jess-titles h5 {
+  div#about-main-container #jess-container .jess-titles h5 {
     font-family: "Abolon", sans-serif;
   }
 }

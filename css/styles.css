@@ -415,20 +415,26 @@ div.footer-container #copyright {
     font-size: 1.5em;
     vertical-align: middle;
   }
+  div#about-main-container .portfolio-link {
+    margin-right: 1em;
+    font-family: "Oswald-Bold";
+    font-size: 1.5em;
+    vertical-align: middle;
+  }
+  div#about-main-container .resume-button {
+    margin-right: 1.3em;
+    font-family: "Oswald-Bold";
+    font-size: 1.5em;
+    vertical-align: middle;
+    border: none;
+    background: none;
+  }
   div#about-main-container .linkedin-logo img {
     height: 1.7em;
   }
   div#about-main-container .github-logo img {
     height: 2.2em;
     margin-right: 2em;
-  }
-  div#about-main-container .resume-button {
-    margin-left: 1.3em;
-    font-family: "Oswald-Bold";
-    font-size: 1.5em;
-    vertical-align: middle;
-    border: none;
-    background: none;
   }
   div#about-main-container .close {
     color: black;
@@ -510,18 +516,30 @@ div.footer-container #copyright {
     width: 100%;
     text-align: center;
   }
+  div#about-main-container .resume-button {
+    margin-left: 0;
+    font-family: "Oswald-Bold";
+    font-size: 1.4em;
+    vertical-align: middle;
+    border: none;
+    background: none;
+  }
   div#about-main-container .linkedin-logo img {
     height: 1.5em;
+    margin-right: 0;
   }
   div#about-main-container .github-logo img {
-    height: 1.5em;
+    height: 2em;
     margin-right: .5em;
   }
   div#about-main-container .email-address {
     margin-right: .5em;
     font-family: "Oswald-Bold";
-    font-size: 1.25em;
+    font-size: 1.4em;
     vertical-align: middle;
+  }
+  div#about-main-container .contact-info {
+    text-align: center;
   }
   div#about-main-container .contact-info a {
     text-decoration: none;
@@ -537,7 +555,7 @@ div.footer-container #copyright {
   div#about-main-container .mobile-portrait {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3em;
+    margin-top: 6em;
     height: 15em;
     width: 10em;
     background-color: #c2bba8;

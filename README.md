@@ -4,7 +4,16 @@ This is a personal site done for two-headed seal, our (Chris Seale & Jessica Lar
 
 
 
-Current Version: Release 1.2
+Current Version: Release 1.3
+
+1.  Change default site image for linked in display 
+2.  Change default site image for rest of pages - Jessica
+3.  navbar drop down
+4.  format resumes within modals - Jessica/Chris
+5.  Add portfolio link to about page - Jessica
+
+
+Release 1.2
 
 updated issues:
 1 .Services tablet SEO margins are wrong

@@ -28,10 +28,6 @@
    background-color: @rustyRed;
    height: 5em;
    text-align: center;
-   // margin-bottom: 1em;
-   // width: 100%;
-   // left: 0;
-   // right: 0;
 
    .active a {
        color: @paper !important;
@@ -104,7 +100,6 @@
                 top: 0em;
             }
         }
-
     }
 }
 
@@ -154,15 +149,15 @@
             }
 
             .transform {
-            overflow:hidden;
+                overflow:hidden;
             }
 
             .transform img {
-            -webkit-transition: all 1s ease-in-out;
-            -moz-transition: all 1s ease-in-out;
-            -o-transition: all 1s ease-in-out;
-            -ms-transition: all 1s ease-in-out;
-            transition: all 1s ease-in-out;
+                -webkit-transition: all 1s ease-in-out;
+                -moz-transition: all 1s ease-in-out;
+                -o-transition: all 1s ease-in-out;
+                -ms-transition: all 1s ease-in-out;
+                transition: all 1s ease-in-out;
             }
 
         .transform:hover img {
@@ -192,54 +187,54 @@
             display: inline;
             font-family: @abolon;
     
-        .slide2 {
-            width:350px;
-            height:450px;
-            margin:0px;
-            margin-right:0;
-            display:inline-block;
-            vertical-align:top;
-            border: 1px solid lightgrey;
-            color:white;
-            text-align:justify;
-            cursor: pointer; cursor: hand;
-            }
-            @media (min-width: 540px) and (max-width: 1200px){
-                .slide2{
-                    width:300px;
-                    height:400px;
+            .slide2 {
+                width:350px;
+                height:450px;
+                margin:0px;
+                margin-right:0;
+                display:inline-block;
+                vertical-align:top;
+                border: 1px solid lightgrey;
+                color:white;
+                text-align:justify;
+                cursor: pointer; cursor: hand;
                 }
+                @media (min-width: 540px) and (max-width: 1200px){
+                    .slide2{
+                        width:300px;
+                        height:400px;
+                    }
+                }
+
+                .transform2 {
+                    overflow:hidden;
+                }
+
+                .transform2 img {
+                    -webkit-transition: all 1s ease-in-out;
+                    -moz-transition: all 1s ease-in-out;
+                    -o-transition: all 1s ease-in-out;
+                    -ms-transition: all 1s ease-in-out;
+                    transition: all 1s ease-in-out;
+                }
+
+            .transform2:hover img {
+                transform: translateX(350px);
             }
 
-            .transform2 {
-            overflow:hidden;
+            .background,
+            .multi2{
+                background-image: url(../images/jess.png);
+                background-repeat:no-repeat;
+                background-color: @rustyRed;
+                background-size: cover;
+                background-position: top center;
+                -webkit-transition: all 1.5s ease-in-out;
+                -moz-transition: all 1.5s ease-in-out;
+                -o-transition: all 1.5s ease-in-out;
+                -ms-transition: all 1.5s ease-in-out;
+                transition: all 1.5s ease-in-out;
             }
-
-            .transform2 img {
-            -webkit-transition: all 1s ease-in-out;
-            -moz-transition: all 1s ease-in-out;
-            -o-transition: all 1s ease-in-out;
-            -ms-transition: all 1s ease-in-out;
-            transition: all 1s ease-in-out;
-            }
-
-        .transform2:hover img {
-            transform: translateX(350px);
-        }
-
-        .background,
-        .multi2{
-            background-image: url(../images/jess.png);
-            background-repeat:no-repeat;
-            background-color: @rustyRed;
-            background-size: cover;
-            background-position: top center;
-            -webkit-transition: all 1.5s ease-in-out;
-            -moz-transition: all 1.5s ease-in-out;
-            -o-transition: all 1.5s ease-in-out;
-            -ms-transition: all 1.5s ease-in-out;
-            transition: all 1.5s ease-in-out;
-        }
     }
     @media (min-width: 540px) and (max-width: 1200px){
                 .slide-container2{
@@ -315,12 +310,7 @@
             }
         }
 }
-// @media (max-width: 700px){
-//     .container{
-//         margin-left: 1em;
-//         margin-right: 1em;
-//     }
-// }
+
 //---------- footer styling---------
 div.footer-container {
     background-color: @gunMetal;
@@ -423,10 +413,8 @@ div.footer-container {
             text-align: center;
             margin-top: -2em;
             font-size: 1.2em;
-            // font-family: @oswaldLight;
             font-family: @abolon, @oswaldLight, sans-serif;
             font-weight: 300;
-            // font-size: 2em;
         }
         @media (max-width: 700px){
             #copyright{
@@ -442,210 +430,208 @@ div.footer-container {
 @media only screen 
   and (min-device-width: 768px) {
 
-div#about-main-container {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    div#about-main-container {
+        padding-top: 4em;
+        padding-bottom: 4em;
 
-    h2 {
-        font-family: @oswaldBold, sans-serif;
-        margin-top: 0;
-    }
-
-    h3 {
-        font-family: @abolon, sans-serif;
-    }
-
-    .about-para {
-        font-family: @oswaldLight, sans-serif;
-        font-size: 1.25em;
-        display: inline-block;
-
-    }
-
-    .contact-info {
-
-        a {
-            text-decoration: none;
-            color: black;
-
-            a:hover {
-                color: @rustyRed;
-            }
+        h2 {
+            font-family: @oswaldBold, sans-serif;
+            margin-top: 0;
         }
-    }
-
-    .email-address {
-        margin-right: 1em;
-        font-family: @oswaldBold;
-        font-size: 1.5em;
-        vertical-align: middle;
-    }
-
-    .portfolio-link {
-        margin-right: 1em;
-        font-family: @oswaldBold;
-        font-size: 1.5em;
-        vertical-align: middle;
-    }
-
-    .resume-button {
-        margin-right: 1.3em;
-        font-family: @oswaldBold;
-        font-size: 1.5em;
-        vertical-align: middle;
-        border: none;
-        background: none;
-    }
-
-    .linkedin-logo {
-        img {
-            height: 1.7em;
-        }
-    }
-
-    .github-logo {
-        img {
-            height: 2.2em;
-            margin-right: 2em;
-        }
-    }
-
-    .modal-header {
-        .close {
-            color: black;
-            opacity: 1;
-        }
-    }
-
-    .modal-content {
-        display: inline-block;
-        text-align: center;
-    }
-
-    #modal-label {
-        font-size: 30px;
-        font-family: @oswaldBold, sans-serif;
-    }
-
-    .modal-body {
 
         h3 {
-            float: left;
-            font-family: @oswaldBold, sans-serif;
-    }
-
-        p {
-            text-align:left;
-            clear: both;
-            font-family: @oswaldLight, sans-serif;
-            font-size: 20px;
+            font-family: @abolon, sans-serif;
         }
 
-        h5 {
-            text-align: left;
-            float: left;
-            font-family: @oswaldBold, sans-serif;
-            clear: both;
-        }
-
-        li {
-            float: left;
-            text-align: left;
-            clear: both;
-            font-family: @oswaldLight, sans-serif;
-            font-size: 20px;
-
-        }
-    }
-
-    .modal-footer {
-        clear:both;
-    }
-
-    .spacer {
-        margin-bottom: 1em;
-    }
-    
-   
-//-----CHRIS STYLING-----
-
-    #chris-container {
-        width: 75%;
-        margin: auto;
-
-        .chris-titles {
-            width: 100%;
-            display: inline-block;
-
-            h3 {
-                margin-top: 0;
-            }
-        }
-
-        #chris-image {
-
-            img {
-                height: 300px;
-            }
-        }
-       
-        #chris-info {
-            margin-left: 2em;
-        }
-
-        @media(max-width:950px){
-            #chris-info{
-                margin-left: 4em;
-            }
-        }
-     
-    }
-
-//-----JESS STYLING-----
-
-    #jess-container {
-        width: 75%;
-        margin: auto;
-        padding-top: 3em;
-    
-        .jess-titles {
-            width: 100%;
-            display: inline-block;
-        
-            h2 {
-                float: right;
-            }
-
-            h3 {
-                float: right;
-                margin-top: 0;
-            }
-        }
-
-        #jess-image {
-            display: inline-block;
-
-            img {
-                height: 20em;
-                width: 9em;
-            }
-        }
-
-        #jess-info {
-            float: left;
-        }
-        
-        @media(max-width: 768px){
-            #jess-image{
-                text-align: center;
-            }
-        }
         .about-para {
+            font-family: @oswaldLight, sans-serif;
+            font-size: 1.25em;
             display: inline-block;
+        }
+
+        .contact-info {
+
+            a {
+                text-decoration: none;
+                color: black;
+
+                a:hover {
+                    color: @rustyRed;
+                }
+            }
+        }
+
+        .email-address {
+            margin-right: 1em;
+            font-family: @oswaldBold;
+            font-size: 1.5em;
+            vertical-align: middle;
+        }
+
+        .portfolio-link {
+            margin-right: 1em;
+            font-family: @oswaldBold;
+            font-size: 1.5em;
+            vertical-align: middle;
+        }
+
+        .resume-button {
+            margin-right: 1.3em;
+            font-family: @oswaldBold;
+            font-size: 1.5em;
+            vertical-align: middle;
+            border: none;
+            background: none;
+        }
+
+        .linkedin-logo {
+            img {
+                height: 1.7em;
+            }
+        }
+
+        .github-logo {
+            img {
+                height: 2.2em;
+                margin-right: 2em;
+            }
+        }
+
+        .modal-header {
+            .close {
+                color: black;
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            display: inline-block;
+            text-align: center;
+        }
+
+        #modal-label {
+            font-size: 30px;
+            font-family: @oswaldBold, sans-serif;
+        }
+
+        .modal-body {
+
+            h3 {
+                float: left;
+                font-family: @oswaldBold, sans-serif;
+            }
+
+            p {
+                text-align:left;
+                clear: both;
+                font-family: @oswaldLight, sans-serif;
+                font-size: 20px;
+            }
+
+            h5 {
+                text-align: left;
+                float: left;
+                font-family: @oswaldBold, sans-serif;
+                clear: both;
+            }
+
+            li {
+                float: left;
+                text-align: left;
+                clear: both;
+                font-family: @oswaldLight, sans-serif;
+                font-size: 20px;
+
+            }
+        }
+
+        .modal-footer {
+            clear:both;
+        }
+
+        .spacer {
+            margin-bottom: 1em;
+        }
+        
+    //-----CHRIS STYLING-----
+
+        #chris-container {
+            width: 75%;
+            margin: auto;
+
+            .chris-titles {
+                width: 100%;
+                display: inline-block;
+
+                h3 {
+                    margin-top: 0;
+                }
+            }
+
+            #chris-image {
+
+                img {
+                    height: 300px;
+                }
+            }
+        
+            #chris-info {
+                margin-left: 2em;
+            }
+
+            @media(max-width:950px) {
+                #chris-info {
+                    margin-left: 4em;
+                }
+            }
+        }
+
+    //-----JESS STYLING-----
+
+        #jess-container {
+            width: 75%;
+            margin: auto;
+            padding-top: 3em;
+        
+            .jess-titles {
+                width: 100%;
+                display: inline-block;
+            
+                h2 {
+                    float: right;
+                }
+
+                h3 {
+                    float: right;
+                    margin-top: 0;
+                }
+            }
+
+            #jess-image {
+                display: inline-block;
+
+                img {
+                    height: 20em;
+                    width: 9em;
+                }
+            }
+
+            #jess-info {
+                float: left;
+            }
+            
+            @media(max-width: 768px){
+                #jess-image{
+                    text-align: center;
+                }
+            }
+
+            .about-para {
+                display: inline-block;
+            }
         }
     }
 }
-  }
 
 // MOBILE ABOUT US BEGINS
 @media only screen and (max-width : 767px)    {
@@ -838,7 +824,6 @@ div#about-main-container {
   and (min-device-width: 768px) {
 
     div.services-main-container {
-
         padding-top: 5em;
         padding-bottom: 4em;
 
@@ -919,9 +904,6 @@ div#about-main-container {
                 top: 0;
                 left: 0;
             }
-            // #graphicdesign-info {
-            //     display: inline-block;
-            // }
         }
     }
 }
@@ -937,7 +919,7 @@ div#about-main-container {
 
             .title {
                 h1 {
-                font-family: @abolon, sans-serif;
+                    font-family: @abolon, sans-serif;
                 }
             }
 
@@ -973,12 +955,6 @@ div#about-main-container {
                 padding-top: 2.5em;
                 padding-bottom: 2.5em;
                 
-                // .image-right{
-                //     margin-right: -5.5em;
-                //     margin-left: -5em;
-                //     margin-top: -1em;
-                //     margin-bottom: -1em;
-                // }
                 h1 {
                     float: none;
                 }
@@ -1320,12 +1296,9 @@ div#about-main-container {
         margin-bottom: 5em;
     }
 
-
 }
 
 //-----BEGIN TOOLS STYLING-----
-
-
 
     div#tools-main-container {
         width: 60%;

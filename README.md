@@ -4,53 +4,70 @@ This is a personal site done for two-headed seal, our (Chris Seale & Jessica Lar
 
 
 
-Current Version: Release 1.4
+Current Version: Release 1.5 
+updated issues
+
+1. Redo default image(s)
+2. Fix SEO description tag
+3. Removed non-used JS tag
+4. Optimized all problematic images
+5. Removed unused font-awesome tag
+
+
+
+Release 1.4
+updated issues
 
 1. SEO head tags
 2. SEO for images
 
+
 Release 1.3
+updated issues
 
 1.  Change default site image for linked in display 
-2.  Change default site image for rest of pages - Jessica
+2.  Change default site image for rest of pages
 3.  navbar drop down
-4.  format resumes within modals - Jessica/Chris
-5.  Add portfolio link to about page - Jessica
+4.  format resumes within modals
+5.  Add portfolio link to about page
+
 
 
 Release 1.2
+updated issues
 
-updated issues:
-1 .Services tablet SEO margins are wrong
+1. Services tablet SEO margins are wrong
 2. About - resume modals
 3.  add pages for separate portfolio pages
 4.  add fix list to readME
 5.  Tools page layout updated
 
-Release 1.1
 
-updated issues:
-1.Get rid of nav logo and switch to hamburger mode when “tools” drops down
-2.Replace hash mark with a fading central gradient line, maybe reduce white space
-3.Hamburger bigger
-4.Navbar mobile menu
-5.Increase fonts size on services mobile     
-6.Increase font size on about mobile
-7.add gradient lines between mini-image sections on mobile
-8.Desktop homepage hover effect on buttons (learn more and contact)
-9.Services page has a double image on mobile
-10.Services tablet formatting
-11.About mobile layout - responsive design
-12.Portfolio : put names in front of each modal title
-13.Portfolio content needs to be bumped down when resizing and jumps up
-14.Contact: contact us title turned to sand color
-15.Contact: placeholder examples in each field
-16.image resizing for faster loading
-17.possible background images for body (textures)
-18.homepage mini image resizing issues
-19.On Read Me, do a blurb about the site
-20.About page Github/LinkedIn images resize on mobileServices tablet view off center
-21.Jess  image retouching
-22.Reword blurbs on mini-images on homepage-
-23.mini-image middle blurb should be different for mobile (can’t resize)
-24.tools page layout
+
+Release 1.1
+updated issues
+
+1. Get rid of nav logo and switch to hamburger mode when “tools” drops down
+2. Replace hash mark with a fading central gradient line, maybe reduce white space
+3. Hamburger bigger
+4. Navbar mobile menu
+5. Increase fonts size on services mobile     
+6. Increase font size on about mobile
+7. add gradient lines between mini-image sections on mobile
+8. Desktop homepage hover effect on buttons (learn more and contact)
+9. Services page has a double image on mobile
+10. Services tablet formatting
+11. About mobile layout - responsive design
+12. Portfolio : put names in front of each modal title
+13. Portfolio content needs to be bumped down when resizing and jumps up
+14. Contact: contact us title turned to sand color
+15. Contact: placeholder examples in each field
+16. image resizing for faster loading
+17. possible background images for body (textures)
+18. homepage mini image resizing issues
+19. On Read Me, do a blurb about the site
+20. About page Github/LinkedIn images resize on mobileServices tablet view off center
+21. Jess  image retouching
+22. Reword blurbs on mini-images on homepage-
+23. mini-image middle blurb should be different for mobile (can’t resize)
+24. tools page layout

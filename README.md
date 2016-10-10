@@ -4,7 +4,13 @@ This is a personal site done for two-headed seal, our (Chris Seale & Jessica Lar
 
 
 
-Current Version: Release 1.5 
+Current Version: Release 1.6
+
+1. Updated Chris resume
+2. Updated/resized mobile logo, Jessica image
+
+
+Release 1.5 
 updated issues
 
 1. Redo default image(s)

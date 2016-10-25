@@ -4,7 +4,14 @@ This is a personal site done for two-headed seal, our (Chris Seale & Jessica Lar
 
 
 
-Current Version: Release 1.6
+Current Version: Release 1.7
+updated issues
+
+1.  Changed last modal in graphics portfolio for a picture of statue illustrations.
+2.  Minor text change on 'responsive design' minitron.
+
+Release 1.6
+updated issues
 
 1. Updated Chris resume
 2. Updated/resized mobile logo, Jessica image

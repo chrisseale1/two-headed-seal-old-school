@@ -4,7 +4,14 @@ This is a personal site done for two-headed seal, our (Chris Seale & Jessica Lar
 
 
 
-Current Version: Release 1.7
+Current Version: Release 1.8
+updated issues
+
+1. Added php and Balsamiq to toolbox.
+2. Removed Blue outline from hamburger (denoted important).
+3. Minor text tweaks.
+
+Release 1.7
 updated issues
 
 1.  Changed last modal in graphics portfolio for a picture of statue illustrations.

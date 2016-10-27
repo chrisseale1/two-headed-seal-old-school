@@ -97,6 +97,10 @@
 .navbar-toggler {
   font-size: 2.5em;
   float: right;
+  outline: 0 !important;
+}
+.navbar-toggler .navbar-toggler:focus:active {
+  outline: 0 !important;
 }
 .splash {
   margin-top: 2em;

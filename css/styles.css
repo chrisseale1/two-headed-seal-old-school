@@ -228,6 +228,7 @@
 @media (max-width: 768px) {
   .splash {
     margin-top: 6em;
+    width: 100%;
   }
 }
 .container {

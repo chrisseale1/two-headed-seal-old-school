@@ -1,4 +1,6 @@
 const javascriptExample = document.getElementById("javascriptExample");
+let toolListLeft = document.getElementsByClassName("left");
+let toolListRight = document.getElementsByClassName("right");
 
 javascriptExample.addEventListener("click", function(){
     const answer = prompt("This prompt was created using Javascript. Are you now satisfied we know Javascript? Y/n: ");
@@ -16,3 +18,20 @@ javascriptExample.addEventListener("click", function(){
         alert("Thanks for the vote of confidence.  You're a real mensch!");
     }
 });
+
+for (let i = 0; i < toolListLeft.length; i++){
+    toolListLeft[i].addEventListener('mouseover',() => {
+        toolListLeft[i].style.color = "#EAC67A";
+    })
+    toolListLeft[i].addEventListener('mouseout',() => {
+        toolListLeft[i].style.color = "#233237";
+    })
+};
+for (let i = 0; i < toolListRight.length; i++){
+    toolListRight[i].addEventListener('mouseover',() => {
+        toolListRight[i].style.color = "#EAC67A";
+    })
+    toolListRight[i].addEventListener('mouseout',() => {
+        toolListRight[i].style.color = "#233237";
+    })
+};

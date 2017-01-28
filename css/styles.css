@@ -11,6 +11,10 @@
   src: url('../fonts/Oswald-Regular.ttf') format('truetype');
 }
 @font-face {
+  font-family: 'Seale-font';
+  src: url('../fonts/Seale-font.ttf') format('truetype');
+}
+@font-face {
   font-family: 'Abolon';
   src: url('../fonts/Abolon.otf') format('opentype');
   src: url('../fonts/Abolon.ttf') format('truetype');
@@ -1054,6 +1058,14 @@ div#tools-main-container #tools-title h1 {
   width: 100%;
   display: inline-block;
   text-align: center;
+}
+div#tools-main-container .noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 div#tools-main-container .tool-list li {
   font-family: "Oswald-Light", sans-serif;

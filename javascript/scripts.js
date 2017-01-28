@@ -21,17 +21,22 @@ javascriptExample.addEventListener("click", function(){
 
 for (let i = 0; i < toolListLeft.length; i++){
     toolListLeft[i].addEventListener('mouseover',() => {
-        toolListLeft[i].style.color = "#EAC67A";
+        toolListLeft[i].style.color = "#c2bba8";
+        toolListLeft[i].style.fontWeight = "bold";
+
     })
     toolListLeft[i].addEventListener('mouseout',() => {
         toolListLeft[i].style.color = "#233237";
+        toolListLeft[i].style.fontWeight = "normal";
     })
 };
 for (let i = 0; i < toolListRight.length; i++){
     toolListRight[i].addEventListener('mouseover',() => {
-        toolListRight[i].style.color = "#EAC67A";
+        toolListRight[i].style.color = "#c2bba8";
+        toolListRight[i].style.fontWeight = "bold";
     })
     toolListRight[i].addEventListener('mouseout',() => {
         toolListRight[i].style.color = "#233237";
+        toolListRight[i].style.fontWeight = "normal";
     })
 };

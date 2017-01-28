@@ -2,6 +2,20 @@ const javascriptExample = document.getElementById("javascriptExample");
 const fontExample = document.getElementById("fontExample");
 let toolListLeft = document.getElementsByClassName("left");
 let toolListRight = document.getElementsByClassName("right");
+const htmlExample = document.getElementById("htmlExample");
+const adobeXD = document.getElementById("adobeXDExample");
+const cssExample = document.getElementById("cssExample");
+const angularExample = document.getElementById("angularExample");
+const platypusExample = document.getElementById("platypusExample");
+const sqlExample = document.getElementById("sqlExample");
+const jqueryExample = document.getElementById("jqueryExample");
+const bootsrapExample = document.getElementById("bootsrapExample");
+const nodeExample = document.getElementById("nodeExample");
+const photoshopExample = document.getElementById("photoshopExample");
+const illustratorExample = document.getElementById("illustratorExample");
+const phpExample = document.getElementById("phpExample");
+
+
 
 javascriptExample.addEventListener("click", function(){
     const answer = prompt("This prompt was created using Javascript. Are you now satisfied we know Javascript? Y/n: ");
@@ -56,5 +70,20 @@ fontExample.addEventListener("click", function(){
     }
 });
 
-
-  
+htmlExample.addEventListener("click", showSource);
+function showSource(){;
+    var source = "<html>";
+    source += document.getElementsByTagName('html')[0].innerHTML;
+    source += "</html>";
+    //now we need to escape the html special chars, javascript has escape
+    //but this does not do what we want
+    source = source.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    //now we add <pre> tags to preserve whitespace
+    source = "<pre>"+source+"</pre>";
+    //now open the window and set the source as the content
+    sourceWindow = window.open('','Source of page','height=800,width=800,scrollbars=1,resizable=1');
+    sourceWindow.document.write(source);
+    sourceWindow.document.close(); //close the document for writing, not the window
+    //give source window focus
+    if(window.focus) sourceWindow.focus();
+}  

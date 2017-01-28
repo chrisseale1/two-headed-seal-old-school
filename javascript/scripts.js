@@ -1,4 +1,5 @@
 const javascriptExample = document.getElementById("javascriptExample");
+const fontExample = document.getElementById("fontExample");
 let toolListLeft = document.getElementsByClassName("left");
 let toolListRight = document.getElementsByClassName("right");
 
@@ -40,3 +41,20 @@ for (let i = 0; i < toolListRight.length; i++){
         toolListRight[i].style.fontWeight = "normal";
     })
 };
+
+let clickCount = 0;
+fontExample.addEventListener("click", function(){
+    clickCount++
+    if (clickCount % 2 !== 0){
+        fontExample.style.fontFamily = "Seale-font";
+        fontExample.style.fontSize = "15px";
+        fontExample.style.marginTop = "18px";
+    } else {
+        fontExample.style.fontFamily = "Oswald-Light";
+        fontExample.style.fontSize = "28px";
+        fontExample.style.marginTop = "0px";
+    }
+});
+
+
+  

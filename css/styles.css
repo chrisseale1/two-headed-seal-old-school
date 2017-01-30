@@ -1082,6 +1082,10 @@ div#tools-main-container .tool-list li {
   list-style: none;
   width: 41%;
 }
+div#tools-main-container .tool-list li a {
+  color: inherit;
+  text-decoration: none;
+}
 div#tools-main-container .tool-list li.left {
   float: left;
 }

@@ -75,6 +75,7 @@ fontExample.addEventListener("click", function(){
 
 //html pop up element
 htmlExample.addEventListener("click", showSource);
+bootstrapExample.addEventListener("click", showSource);
 function showSource(){;
     var source = "<html>";
     source += document.getElementsByTagName('html')[0].innerHTML;

@@ -1102,10 +1102,10 @@ div#tools-main-container .tool-list li.right {
   text-align: center;
   z-index: 1;
 }
-#overlay #overlay img {
+#overlay img {
   margin-top: 10%;
 }
-#overlay #overlay img #overlay p {
+#overlay p {
   color: white;
 }
 /* 100% Image Width on Smaller Screens */

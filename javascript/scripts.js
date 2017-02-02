@@ -20,13 +20,13 @@ const phpExample = document.getElementById("phpExample");
 //Javascript element
 javascriptExample.addEventListener("click", function(){
     const answer = prompt("This prompt was created using Javascript. Are you now satisfied we know Javascript? Y/n: ");
-    if (answer.toLowerCase() == "n" || answer.toLocaleLowerCase() == "no") {
+    if (answer.toLowerCase() == "n" || answer.toLowerCase() == "no") {
         let answerTwo = prompt("Sigh.  Fine.  What about now?  Y/n: ");
-        if (answerTwo.toLowerCase() == "n" || answerTwo.toLocaleLowerCase() == "no") {
+        if (answerTwo.toLowerCase() == "n" || answerTwo.toLowerCase() == "no") {
             let answerThree;
             do {
                 answerThree = prompt("Look, I can do this all day long.  So, why don't you knock it off and just go ahead and say yes already, okay?  Y/n: ");
-            } while (answerThree.toLowerCase() == "n" || answerThree.toLocaleLowerCase() == "no") alert("And I thank you for your support");
+            } while (answerThree.toLowerCase() == "n" || answerThree.toLowerCase() == "no") alert("And I thank you for your support");
         } else {
             alert("About time. Thank you for your cooperation and vote of confidence. I'm wasn't sure I could've kept it up forever.");
         }
@@ -87,3 +87,25 @@ function showSource(){;
     sourceWindow.document.close(); 
     if(window.focus) sourceWindow.focus();
 }  
+
+//lightbox modal image popup
+var $overlay = $('<div id="overlay"></div>');
+var $image = $("<img>");
+var $caption = $("<p></p>");
+
+
+$overlay.append($image);
+$overlay.append($caption);
+$("#tools-main-container").append($overlay);
+$(".tool-list a").click(function(event){
+    event.preventDefault();
+    var imageLocation = $(this).attr("href");
+    $image.attr("src", imageLocation);
+    $overlay.show();
+    var captionText = $(this).children("img").attr("alt");
+    $caption.text(captionText);
+});
+
+$overlay.click(function(){
+    $overlay.hide();
+});

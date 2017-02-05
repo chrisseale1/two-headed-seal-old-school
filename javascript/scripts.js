@@ -7,7 +7,7 @@ const htmlExample = document.getElementById("htmlExample");
 const adobeXD = document.getElementById("adobeXDExample");
 const cssExample = document.getElementById("cssExample");
 const angularExample = document.getElementById("angularExample");
-const platypusExample = document.getElementById("platypusExample");
+const pythonExample = document.getElementById("pythonExample");
 const sqlExample = document.getElementById("sqlExample");
 const jqueryExample = document.getElementById("jqueryExample");
 const bootsrapExample = document.getElementById("bootsrapExample");
@@ -92,20 +92,33 @@ function showSource(){;
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
 var $caption = $("<p></p>");
+var $jqueryExample = $("#jqueryExample");
+var $pythonExample = $("#pythonExample");
 
 
 $overlay.append($image);
 $overlay.append($caption);
 $("#tools-main-container").append($overlay);
 $(".tool-list a").click(function(event){
-    event.preventDefault();
-    var imageLocation = $(this).attr("href");
-    $image.attr("src", imageLocation);
-    $overlay.show();
-    var captionText = $(this).children("img").attr("alt");
-    $caption.text(captionText);
+    if (".tools-list li" !== $pythonExample){
+        event.preventDefault();
+        var imageLocation = $(this).attr("href");
+        $image.attr("src", imageLocation);
+        $overlay.show();
+        var captionText = $(this).children("img").attr("alt");
+        $caption.text(captionText);
+    }
 });
 
 $overlay.click(function(){
     $overlay.hide();
+});
+
+//python link open in new window
+let strWindowFeatures = "location=yes,height=570,width=520,scrollbars=yes,status=yes";
+let URL = "https://trinket.io/python/e84a12f777";
+
+
+pythonExample.addEventListener('click', function(){
+    return window.open(URL, "_blank", strWindowFeatures);
 });

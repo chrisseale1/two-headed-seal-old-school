@@ -5,7 +5,9 @@ This is a personal site done for two-headed seal, our (Chris Seale & Jessica Lar
 
 
 Current Version: Release 2.0
+
 updated issues
+
 1. added JS file
 2. added scrollable and clickable links for each "tool"
 3. added Javascript joke when click on "Javascript"

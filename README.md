@@ -4,7 +4,25 @@ This is a personal site done for two-headed seal, our (Chris Seale & Jessica Lar
 
 
 
-Current Version: Release 1.8
+Current Version: Release 2.0
+updated issues
+1. added JS file
+2. added scrollable and clickable links for each "tool"
+3. added Javascript joke when click on "Javascript"
+4. Included seal font so font-construction switches to seal font when clicked.
+5. Created Jquery modal to highlight a simple modal.
+6. Created a lightbox modal to show images of some tools at work (Photoshop, Illustrator, etc).
+7. HTML and Bootstrap click opens a window that shows the html with bootstrap integrated
+8. Coming soon image added for other clicks.
+9. Added Python game in popup from Trinkeo when clicked.
+10. Added "hover and click" to alert user of possible functionality.
+
+
+Release 1.9
+1. Modified Chris Headshot to match Jessica
+2. Modified 2nd seal on front page to be centered in toolbox
+
+Release 1.8
 updated issues
 
 1. Added php and Balsamiq to toolbox.

@@ -28,7 +28,7 @@ javascriptExample.addEventListener("click", function(){
                 answerThree = prompt("Look, I can do this all day long.  So, why don't you knock it off and just go ahead and say yes already, okay?  Y/n: ");
             } while (answerThree.toLowerCase() == "n" || answerThree.toLowerCase() == "no") alert("And I thank you for your support");
         } else {
-            alert("About time. Thank you for your cooperation and vote of confidence. I'm wasn't sure I could've kept it up forever.");
+            alert("About time. Thank you for your cooperation and vote of confidence. I wasn't sure I could've kept it up forever.");
         }
     } else {
         alert("Thanks for the vote of confidence.  You're a real trooper!");

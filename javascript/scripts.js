@@ -19,8 +19,8 @@ const phpExample = document.getElementById("phpExample");
 
 //Javascript element
 javascriptExample.addEventListener("click", function(){
-    const answer = prompt("This prompt was created using Javascript. Are you now satisfied we know Javascript? Y/n: ");
-    if (answer.toLowerCase() == "n" || answer.toLowerCase() == "no") {
+    let answer = prompt("This prompt was created using Javascript. Are you now satisfied we know Javascript? Y/n: ");
+    if(answer.toLowerCase() == "n" || answer.toLowerCase() == "no") {
         let answerTwo = prompt("Sigh.  Fine.  What about now?  Y/n: ");
         if (answerTwo.toLowerCase() == "n" || answerTwo.toLowerCase() == "no") {
             let answerThree;

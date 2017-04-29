@@ -19,7 +19,8 @@
   src: url('../fonts/Abolon.otf') format('opentype');
   src: url('../fonts/Abolon.ttf') format('truetype');
 }
-* body {
+* html,
+body {
   background-color: #F4F4F4;
   background-image: url(../images/water-background.jpg);
   background-size: cover;
